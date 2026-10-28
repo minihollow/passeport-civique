@@ -114,7 +114,7 @@ export function setHelpLocale(locale) { helpLocale = locale || 'tr-TR'; }
 const FR_WORDS = new Set('le la les l un une des du de d au aux et ou est sont été être a ont avoir en dans sur sous avec pour par pas ne que qui quoi ce cette ces il elle ils elles on nous vous je tu son sa ses leur leurs mais donc car comme très plus tout tous être fait faire république français française france loi droit droits'.split(' '));
 const MARKERS = {
   fr: { chars: /[éèêëàâîïôûùœæ]/g, words: FR_WORDS },
-  tr: { chars: /[ğışİĞŞıöüÖÜ]/g, ends: /(lar|ları|leri|lık|lik|luk|lük|dır|dir|dur|dür|tır|tir|mek|mak|mez|maz|yor|sın|siniz|ndan|nden|mız|miz)$/, words: new Set('ve bir bu şu o için ile ama çok daha en gibi olarak olan değil var yok mı mi mu mü ne neden nasıl hangi her ya veya ki da de sen siz ben biz onlar kelime yani evet hayır fransa fransız türkçe'.split(' ')) },
+  tr: { chars: /[ğışİĞŞıöüÖÜ]/g, ends: /(lar|ları|leri|lık|lik|luk|lük|dır|dir|dur|dür|tır|tir|mek|mak|mez|maz|yor|sın|siniz|ndan|nden|mız|miz)$/, words: new Set('ve bir bu şu o için ile ama çok daha en gibi olarak olan değil var yok mı mi mu mü ne neden nasıl hangi her ya veya ki da de sen siz ben biz onlar kelime yani evet hayır tamam hadi şimdi peki merhaba selam güzel örnek soru cevap fransa fransız türkçe'.split(' ')) },
 };
 function score(text, code) {
   const m = MARKERS[code];
@@ -145,7 +145,10 @@ export function segments(text, primary = 'fr', help = helpLocale.slice(0, 2)) {
     const re = /«([^»]*)»|"([^"\n]*)"|“([^”\n]*)”|\(([^)\n]*)\)/g;
     let last = 0;
     const addPlain = (s) => {
-      for (const sent of s.split(/(?<=[.!?…:;])\s+|\n+|\s[-–—]\s/)) pieces.push({ text: sent, kind: 'plain' });
+      // dashed: the piece is followed by " - " (a term in a vocabulary list: "Devise - Şiar")
+      s.split(/((?<=[.!?…:;])\s+|\n+|\s[-–—]\s)/).forEach((x, i, arr) => {
+        if (i % 2 === 0) pieces.push({ text: x, kind: 'plain', dashed: /[-–—]/.test(arr[i + 1] || '') });
+      });
     };
     for (const m of t.matchAll(re)) {
       addPlain(t.slice(last, m.index));
@@ -173,9 +176,11 @@ export function segments(text, primary = 'fr', help = helpLocale.slice(0, 2)) {
   }
   for (let i = 0; i + 1 < out.length; i++) {
     const [a, b] = [out[i], out[i + 1]];
-    if (!a.tie || b.kind !== 'paren') continue;
-    if (b.tie) { a.lang = 'fr'; b.lang = help; } // Coco's vocabulary format: French word (translation)
-    else a.lang = b.lang === 'fr' ? help : 'fr';
+    if (!a.tie) continue;
+    if (b.kind === 'paren') {
+      if (b.tie) { a.lang = 'fr'; b.lang = help; } // Coco's vocabulary format: French word (translation)
+      else a.lang = b.lang === 'fr' ? help : 'fr';
+    } else if (a.dashed && !b.tie && b.lang === help && wordCount(a.text) <= 3) a.lang = 'fr'; // "Devise - Şiar": term, then translation
   }
   // short neighbouring pieces of the same language are merged (fewer cuts)
   const merged = [];

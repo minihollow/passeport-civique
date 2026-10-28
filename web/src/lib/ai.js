@@ -186,6 +186,7 @@ export function systemPrompt({ name, mode }) {
     "- N'utilise pas de tableaux. Tu peux utiliser **gras** et des listes à puces.",
     // Read aloud with two voices: « » tells which parts are French (see lib/tts.js).
     `- Mets tout ce qui est en français entre « », et rien d'autre : jamais de ${L} entre « ». N'utilise pas de guillemets droits (").`,
+    `- N'écris que dans ces deux langues, le français et le ${L} : jamais d'anglais, même pour une traduction entre parenthèses.`,
   ].join('\n');
 }
 
