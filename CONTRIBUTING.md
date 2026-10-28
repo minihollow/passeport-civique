@@ -6,16 +6,16 @@ By contributing, you agree that your contribution is published under the project
 
 ## Fix a question
 
-Questions live in `content/`: one file per theme (`pv`, `sip`, `dd`, `hgc`, `vsf`) and `situ.json` for the scenarios. Every text is a `[French, Turkish]` pair.
+Questions live in `content/`, in French: one file per theme (`pv`, `sip`, `dd`, `hgc`, `vsf`) and `situ.json` for the scenarios. Their translations live in the language packs (see below).
 
 ```json
 {"id":"pv01","s":"symboles",
- "q":["À quoi correspond la date du 14 juillet ?","14 Temmuz tarihi neye karşılık gelir?"],
- "o":[["À la fête nationale française","…"],["À la fin de la Seconde Guerre mondiale","…"],["À la naissance de Napoléon","…"],["Au jour de l'An","…"]],
- "oc":[["À l'anniversaire de la prise de la Bastille (1789)","…"]],
- "od":[["À la fête du Travail","…"]],
- "x":["Le 14 juillet est la fête nationale…","…"],
- "v":[["la fête nationale","ulusal bayram"]]}
+ "q":"À quoi correspond la date du 14 juillet ?",
+ "o":["À la fête nationale française","À la fin de la Seconde Guerre mondiale","À la naissance de Napoléon","Au jour de l'An"],
+ "oc":["À l'anniversaire de la prise de la Bastille (1789)"],
+ "od":["À la fête du Travail"],
+ "x":"Le 14 juillet est la fête nationale…",
+ "v":["la fête nationale","la prise de la Bastille"]}
 ```
 
 | Field | Content |
@@ -32,11 +32,12 @@ Questions live in `content/`: one file per theme (`pv`, `sip`, `dd`, `hgc`, `vsf
 Rules:
 - Do not reorder or remove the 4 choices in `o`: add to `oc` or `od` instead, at the end.
 - Every answer must be checkable on an official source (service-public.fr, formation-civique.interieur.gouv.fr, legifrance.gouv.fr). Give the source in the pull request.
-- `cd web && npm run build` checks the files: 4 choices, no duplicates, complete variants.
+- `cd web && npm run build` checks the files: 4 choices, no duplicates, no empty text.
+- After changing or adding French text, update the translations: run `node scripts/lang-template.mjs <code>` for each language (`tr`, `en`…). Texts whose French changed are emptied in the pack, ready to be translated again; until then they are shown in French.
 
 ## Add a help language
 
-Every text in the app is a `[French, help language]` pair. Turkish is built in; another language is a **pack** that replaces the second slot.
+The app's texts are written in French and shown as `[French, help language]` pairs. Each help language is a **pack**, a JSON file in `web/src/lang/packs/` (`tr.json`, `en.json`…), that fills the second slot. Only the profile's language is loaded.
 
 1. Create the pack (example for Arabic):
    ```sh
@@ -45,9 +46,9 @@ Every text in the app is a `[French, help language]` pair. Turkish is built in; 
    ```
    (code, name in the language, name in French, locale.) This creates `web/src/lang/packs/ar.json`, where each text looks like:
    ```json
-   "q.pv01.q": { "fr": "À quoi correspond la date du 14 juillet ?", "tr": "14 Temmuz…", "ar": "" }
+   "q.pv01.q": { "fr": "À quoi correspond la date du 14 juillet ?", "ar": "" }
    ```
-2. Fill in your language's slot (`"ar"`). Empty texts are shown in French. Do not change the keys or the `fr` / `tr` slots. About 3,600 texts: the interface first (`ui.*`), then the questions.
+2. Fill in your language's slot (`"ar"`). Empty texts are shown in French. Do not change the keys or the `fr` slot. You can look at `tr.json` or `en.json` for an example. About 3,600 texts: the interface first (`ui.*`), then the questions.
 3. Add the line printed by the script to `ALL` in `web/src/lang/langs.js`. For a right-to-left language, set `dir: 'rtl'`: the interface is then mirrored when shown in that language.
 4. Optional, in `web/src/lib/tts.js`:
    - **Voice**: add a Piper voice to `PIPER_VOICES` (pick one in [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices) and check the license in its `MODEL_CARD`).

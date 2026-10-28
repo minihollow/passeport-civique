@@ -16,6 +16,7 @@ export function ttsAvailable() { return typeof window !== 'undefined' && !!windo
 export const PIPER_VOICES = {
   fr: { id: 'fr_FR-siwis-medium', name: 'Siwis', size: 63, license: 'CC BY 4.0' },
   tr: { id: 'tr_TR-dfki-medium', name: 'DFKI', size: 63, license: 'CC BY-NC-SA 4.0' },
+  en: { id: 'en_GB-cori-medium', name: 'Cori', size: 63, license: 'public domain' },
 };
 
 let engine = 'natural'; // 'natural': Piper when the voice is installed; 'system': always the browser voice
@@ -115,6 +116,7 @@ const FR_WORDS = new Set('le la les l un une des du de d au aux et ou est sont �
 const MARKERS = {
   fr: { chars: /[éèêëàâîïôûùœæ]/g, words: FR_WORDS },
   tr: { chars: /[ğışİĞŞıöüÖÜ]/g, ends: /(lar|ları|leri|lık|lik|luk|lük|dır|dir|dur|dür|tır|tir|mek|mak|mez|maz|yor|sın|siniz|ndan|nden|mız|miz)$/, words: new Set('ve bir bu şu o için ile ama çok daha en gibi olarak olan değil var yok mı mi mu mü ne neden nasıl hangi her ya veya ki da de sen siz ben biz onlar kelime yani evet hayır tamam hadi şimdi peki merhaba selam güzel örnek soru cevap fransa fransız türkçe'.split(' ')) },
+  en: { chars: /(?!)/g, ends: /(ing)$/, words: new Set("the a an and or but is are was were be been it its this that these those of to in on at for with from by as you your we our they their he his she her i my me what which who how why when where there here not no yes can will would should must have has do does means meaning word words example right wrong answer question french english because so also very".split(' ')) },
 };
 function score(text, code) {
   const m = MARKERS[code];
@@ -174,14 +176,19 @@ export function segments(text, primary = 'fr', help = helpLocale.slice(0, 2)) {
     p.lang = p.tie ? (p.kind === 'quote' ? 'fr' : primary) : detect(p.text, primary, help);
     out.push(p);
   }
+  // Coco's vocabulary formats: Word (translation), Word: "translation", Word - translation.
+  // The two sides are in opposite languages; an undecided side takes the other one's opposite,
+  // and when both are undecided the term is French. A short translation only (not a date, not a sentence).
+  const other = (l) => (l === 'fr' ? help : 'fr');
   for (let i = 0; i + 1 < out.length; i++) {
     const [a, b] = [out[i], out[i + 1]];
-    if (!a.tie) continue;
-    // Coco's vocabulary formats: French word (translation), Word: "translation", Word - "translation"
-    if (b.kind === 'paren' || (b.kind === 'quote' && (a.dashed || /:$/.test(a.text)))) {
-      if (b.tie) { a.lang = 'fr'; b.lang = help; }
-      else a.lang = b.lang === 'fr' ? help : 'fr';
-    } else if (a.dashed && !b.tie && b.lang === help && wordCount(a.text) <= 3) a.lang = 'fr'; // "Devise - Şiar": term, then translation
+    const shortB = !/\d/.test(b.text) && wordCount(b.text) <= 4;
+    const linked = b.kind === 'paren' || (b.kind === 'quote' && (a.dashed || /:$/.test(a.text)))
+      || (a.dashed && b.kind === 'plain' && wordCount(a.text) <= 3);
+    if (!linked) continue;
+    if (a.tie && b.tie && shortB) { a.lang = 'fr'; b.lang = help; }
+    else if (a.tie && !b.tie) a.lang = other(b.lang);
+    else if (!a.tie && b.tie && shortB) b.lang = other(a.lang);
   }
   // short neighbouring pieces of the same language are merged (fewer cuts)
   const merged = [];

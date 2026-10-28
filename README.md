@@ -21,7 +21,7 @@ The civic exam (*examen civique*) is required for the French multi-year residenc
 - **Profiles**: several people on the same device, each with their own progress.
 - **Coco, the AI tutor (optional)**: explains questions and answers in your language, and keeps your conversations. It runs on your own computer with [Ollama](https://ollama.com): nothing is sent online. The app works fully without AI.
 
-Help language available today: **Turkish**. The app is built so that other languages can be added (see [CONTRIBUTING.md](CONTRIBUTING.md)): Arabic, Dari, Persian, English, Russian…
+Help languages available today: **Turkish** and **English**. Each language is a separate file, so others can be added (see [CONTRIBUTING.md](CONTRIBUTING.md)): Arabic, Dari, Persian, Russian…
 
 ## Use the app
 
@@ -46,11 +46,11 @@ The wording of the 190 knowledge questions comes from the official questions pub
 ## License
 
 - Code: [MIT](LICENSE).
-- Content (choices, explanations, vocabulary, scenarios, translations): [CC BY-SA 4.0](content/LICENSE.md).
+- Content (choices, explanations, vocabulary, scenarios, translations): [CC BY-SA 4.0](content/LICENSE.md). The English translation was produced with AI assistance and reviewed for consistency; corrections are welcome.
 
 ## Credits
 
-- Voices: [Piper](https://github.com/rhasspy/piper) (MIT), through [piper-tts-web](https://github.com/Mintplex-Labs/piper-tts-web) (MIT) and [ONNX Runtime Web](https://onnxruntime.ai) (MIT). Pronunciation: espeak-ng (GPL-3.0), loaded from a CDN on first use. French voice "Siwis" (CC BY 4.0, University of Edinburgh), Turkish voice "DFKI" (CC BY-NC-SA 4.0).
+- Voices: [Piper](https://github.com/rhasspy/piper) (MIT), through [piper-tts-web](https://github.com/Mintplex-Labs/piper-tts-web) (MIT) and [ONNX Runtime Web](https://onnxruntime.ai) (MIT). Pronunciation: espeak-ng (GPL-3.0), loaded from a CDN on first use. French voice "Siwis" (CC BY 4.0, University of Edinburgh), Turkish voice "DFKI" (CC BY-NC-SA 4.0), English voice "Cori" (public domain).
 - AI tutor: [Ollama](https://ollama.com) and Google's Gemma models, installed by those who want them.
 - Font: Lexend (SIL Open Font License).
 
@@ -66,7 +66,7 @@ npm run dev     # http://localhost:5173 (progress in the browser, Coco through a
 ```
 
 - `content/`: questions (one file per theme, plus `situ.json` for the scenarios).
-- `web/`: React interface (Vite). `web/src/lang/`: help languages.
+- `web/`: React interface (Vite). `web/src/lang/packs/`: one file per help language (`tr.json`, `en.json`).
 - `launcher/launcher.ps1`: Windows launcher (small local server, saves to `%APPDATA%\CivicTR`, proxies Ollama).
 - `package/`: Windows installer and guide. `node scripts/build.mjs` builds `out/Passeport-civique-Windows.zip`.
 - `.github/workflows/`: web version published to GitHub Pages on every update of `main`; Windows zip attached to each GitHub Release.
@@ -77,4 +77,4 @@ To contribute (corrections, translations, code): [CONTRIBUTING.md](CONTRIBUTING.
 
 ### En français
 
-Passeport civique est une application gratuite pour préparer l'examen civique français (carte de séjour pluriannuelle, carte de résident, naturalisation), avec l'aide de sa langue (le turc pour l'instant). Version web : **https://minihollow.github.io/passeport-civique/**. Version Windows : `Passeport-civique-Windows.zip` dans les [Releases](https://github.com/minihollow/passeport-civique/releases). Application non officielle : vérifiez toujours sur [service-public.fr](https://www.service-public.fr).
+Passeport civique est une application gratuite pour préparer l'examen civique français (carte de séjour pluriannuelle, carte de résident, naturalisation), avec l'aide de sa langue (turc ou anglais pour l'instant). Version web : **https://minihollow.github.io/passeport-civique/**. Version Windows : `Passeport-civique-Windows.zip` dans les [Releases](https://github.com/minihollow/passeport-civique/releases). Application non officielle : vérifiez toujours sur [service-public.fr](https://www.service-public.fr).
