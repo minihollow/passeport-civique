@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useId, useState } from 'react';
 import { UI } from '../data/i18n.js';
 import { useStore } from '../lib/store.js';
 import { speak } from '../lib/tts.js';
@@ -60,6 +60,23 @@ export function SpeakBtn({ text, lang = 'fr-FR', label }) {
 // Drawn flags (Windows does not show flag emojis).
 export function Flag({ c, h = 14 }) {
   const w = Math.round(h * 1.5);
+  const id = useId().replace(/:/g, '');
+  if (c === 'gb') {
+    // Union Jack (drawn 2:1, shown in the same 3:2 box as the other flags)
+    return (
+      <svg width={w} height={h} viewBox="0 0 60 30" preserveAspectRatio="none" aria-hidden="true" style={{ borderRadius: 3, flex: 'none' }}>
+        <clipPath id={`${id}s`}><path d="M0,0 v30 h60 v-30 z" /></clipPath>
+        <clipPath id={`${id}t`}><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z" /></clipPath>
+        <g clipPath={`url(#${id}s)`}>
+          <path d="M0,0 v30 h60 v-30 z" fill="#012169" />
+          <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" strokeWidth="6" />
+          <path d="M0,0 L60,30 M60,0 L0,30" clipPath={`url(#${id}t)`} stroke="#C8102E" strokeWidth="4" />
+          <path d="M30,0 v30 M0,15 h60" stroke="#fff" strokeWidth="10" />
+          <path d="M30,0 v30 M0,15 h60" stroke="#C8102E" strokeWidth="6" />
+        </g>
+      </svg>
+    );
+  }
   if (c === 'fr') {
     return (
       <svg width={w} height={h} viewBox="0 0 3 2" aria-hidden="true" style={{ borderRadius: 3, boxShadow: '0 0 0 1px rgba(25,35,77,.15)', flex: 'none' }}>

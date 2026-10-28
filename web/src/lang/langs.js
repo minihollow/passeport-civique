@@ -13,7 +13,7 @@ import { MODELS } from '../lib/ai.js';
 //   ar: { name: 'العربية', nameFr: 'arabe', locale: 'ar', dir: 'rtl' },
 const ALL = {
   tr: { name: 'Türkçe', nameFr: 'turc', locale: 'tr-TR', dir: 'ltr', flag: 'tr' },
-  en: { name: 'English', nameFr: 'anglais', locale: 'en-GB', dir: 'ltr' },
+  en: { name: 'English', nameFr: 'anglais', locale: 'en-GB', dir: 'ltr', flag: 'gb' },
 };
 const PACKS = import.meta.glob('./packs/*.json');
 // Languages offered: those that have a pack.
