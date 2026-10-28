@@ -1,0 +1,6 @@
+{
+  "name": "icon",
+  "private": true,
+  "description": "Builds coco.ico from the Coco drawing: node make-icon.cjs (needs the playwright package: npm install playwright)",
+  "license": "MIT"
+}

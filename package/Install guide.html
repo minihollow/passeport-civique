@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Passeport civique – install guide</title>
+<style>
+  :root { --ink:#19234d; --ink2:#4b5584; --line:#dde2f0; --paper:#f3f5fb; --stamp:#5b3cc4; --soft:#ece7fb; --ok:#12945a; --warn:#8a5a00; --warnbg:#fff3d4; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.6 "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 20px 80px; }
+  h1 { font-size: 2rem; margin: 0 0 6px; }
+  h2 { font-size: 1.3rem; margin: 38px 0 12px; }
+  p, li { color: var(--ink); }
+  .lead { color: var(--ink2); font-size: 1.08rem; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:18px; padding:18px 22px; margin:14px 0; }
+  ol.steps { counter-reset: s; list-style:none; padding:0; }
+  ol.steps > li { counter-increment: s; position:relative; padding:14px 18px 14px 64px; background:#fff; border:1px solid var(--line); border-radius:16px; margin:10px 0; }
+  ol.steps > li::before { content: counter(s); position:absolute; left:16px; top:14px; width:32px; height:32px; border-radius:10px; background:var(--stamp); color:#fff; display:grid; place-items:center; font-weight:700; }
+  code, kbd { background: var(--soft); padding: 1px 6px; border-radius: 6px; font-size: .92em; }
+  .note { background: var(--warnbg); color: var(--warn); border-radius: 14px; padding: 12px 16px; margin: 12px 0; }
+  table { border-collapse: collapse; width: 100%; background:#fff; border-radius: 14px; overflow: hidden; border:1px solid var(--line); }
+  th, td { text-align:left; padding:10px 14px; border-bottom:1px solid var(--line); vertical-align: top; }
+  th { color: var(--ink2); font-weight: 600; }
+  tr:last-child td { border-bottom: 0; }
+  .small { font-size: .9rem; color: var(--ink2); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Passeport civique</h1>
+  <p class="lead">A free app to prepare the French civic exam (multi-year residence permit, resident card, naturalisation): questions in French, with help in your own language, and an optional AI tutor that runs on your computer. There is also a web version with nothing to install: see the project page.</p>
+
+  <div class="card">
+    <b>In this folder</b>
+    <ul>
+      <li><code>app</code>: the app (interface, questions, translations) and its small PowerShell launcher.</li>
+      <li><code>Installer.bat</code>: installs the app and its shortcuts, then offers to install Coco, the AI tutor (Ollama and the model that suits your graphics card).</li>
+      <li>This guide.</li>
+    </ul>
+  </div>
+
+  <h2>Installation (once)</h2>
+  <ol class="steps">
+    <li><b>Extract the zip.</b> Right-click the downloaded <code>.zip</code> → <i>Properties</i> → tick <i>Unblock</i> → OK, then <i>Extract All</i>.</li>
+    <li><b>Double-click <code>Installer.bat</code>.</b><br>
+      <span class="small">If Windows shows "Windows protected your PC": <i>More info</i> → <i>Run anyway</i>. The script is not digitally signed, which is normal for a free community project.</span></li>
+    <li><b>Answer the question about Coco.</b> The installer checks your graphics card and suggests yes or no. With Coco, it installs Ollama if needed, then downloads the right model: from <code>gemma3:4b</code> (3.4 GB, no graphics card) to <code>gemma4:26b</code> (19 GB, 24 GB card). Depending on your connection, allow 5 to 30 minutes. Without Coco, the installation is done right away.</li>
+    <li><b>Open "Passeport civique" from the Desktop.</b> On first launch: choose your language and how to study, your first name, with or without Coco, then a short guided tour. Several people can each have their own profile on the same computer.</li>
+  </ol>
+  <div class="note">The app works fully without AI: questions, explanations, mock exams, progress and vocabulary do not need it. Only Coco (the tutor) needs Ollama.</div>
+
+  <h2>How to use it</h2>
+  <table>
+    <tr><th>Mode</th><th>What it is for</th></tr>
+    <tr><td><b>Your language</b> (e.g. Türkçe)</td><td>Everything in your language: to understand the topics at first.</td></tr>
+    <tr><td><b>French + help</b></td><td>Questions in French; tap a line (or the language button, e.g. <b>TR</b>) to see the translation. "Translate all" button at the top.</td></tr>
+    <tr><td><b>French</b></td><td>Everything in French, as on exam day.</td></tr>
+  </table>
+  <ul>
+    <li><b>Daily series</b>: 15 questions picked automatically (new ones + those to review, with spaced repetition).</li>
+    <li><b>Practice</b>: by theme or sub-theme, with immediate correction and explanation.</li>
+    <li><b>Mock exam</b>: 40 questions, 45 minutes, same split as the official exam (28 knowledge + 12 scenarios), corrected at the end, passed at 32/40. Three levels: "Exam day" (original choices), "Medium" and "Hard" (other wordings, close traps). A series or exam can be resumed later.</li>
+    <li><b>My mistakes</b>: missed questions; a question leaves the list after two right answers in a row.</li>
+    <li><b>Progress</b>: history, mock exam chart, study calendar, mastery per theme.</li>
+    <li><b>Vocabulary</b>: useful words from the questions, with pronunciation (🔊) and flash cards.</li>
+    <li><b>Voices</b>: in Settings, download the natural voices (about 63 MB per language, then offline) for much better reading aloud.</li>
+    <li><b>Coco</b> (right-hand panel): sees the question on screen, answers in your language, keeps your conversations (🕘). During a mock exam, it does not see the questions.</li>
+    <li>Keyboard: <kbd>1</kbd>–<kbd>4</kbd> or <kbd>A</kbd>–<kbd>D</kbd> to answer, <kbd>Enter</kbd> for the next question.</li>
+  </ul>
+
+  <h2>Where progress is saved</h2>
+  <p>In <code>%APPDATA%\CivicTR\state.json</code>, with one backup per day in <code>%APPDATA%\CivicTR\backups\</code> (last 30 days). Nothing is sent online.</p>
+  <p><b>Changing computer</b> (or moving to the web version): <i>Settings → Export my progress</i> on one, then <i>Import progress</i> on the other.</p>
+
+  <h2>Changing the AI model</h2>
+  <p><i>Settings → AI tutor</i> lists the installed models and those you can download in one click, with the one advised for your computer. "Test speed" measures Coco on this computer; if it is slow, the app suggests a lighter model or the no-AI mode.</p>
+
+  <h2>Troubleshooting</h2>
+  <table>
+    <tr><th>Problem</th><th>Solution</th></tr>
+    <tr><td>Coco says it is unavailable</td><td>Start "Ollama" from the Start menu (a llama icon appears near the clock), then <i>Settings → Check again</i>.</td></tr>
+    <tr><td>Coco is slow the first time</td><td>The app prepares Coco at launch. If you write in the very first seconds, the model may still be loading (5 to 30 s).</td></tr>
+    <tr><td>The antivirus blocks the launch</td><td>The app is a PowerShell script (<code>launcher.ps1</code>), not an .exe, which avoids most false alarms. If it still happens: allow it in Windows Security → Virus &amp; threat protection → Protection history.</td></tr>
+    <tr><td>The window does not open</td><td>Open <code>http://localhost:47821</code> in a browser. The log is in <code>%APPDATA%\CivicTR\launcher.log</code>.</td></tr>
+  </table>
+
+  <h2>Update or uninstall</h2>
+  <p><b>Update</b>: run <code>Installer.bat</code> from the new folder. Progress is kept.</p>
+  <p><b>Uninstall</b>: delete the folder <code>%LOCALAPPDATA%\Programs\PasseportCivique</code> and both shortcuts. To also delete progress, delete <code>%APPDATA%\CivicTR</code>. Ollama is uninstalled from Settings → Apps.</p>
+
+  <h2>Where the content comes from</h2>
+  <p class="small">The wording of the 190 knowledge questions comes from the official questions published by the French Ministry of the Interior (data.gouv.fr, Licence Ouverte 2.0). The answer choices, explanations, vocabulary, the 60 scenarios and all translations were written for this project, checking the answers against official sources. This app is unofficial: for any personal procedure, the reference is service-public.fr and your prefecture.</p>
+</main>
+</body>
+</html>

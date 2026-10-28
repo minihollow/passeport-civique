@@ -1,0 +1,23 @@
+{
+  "name": "passeport-civique",
+  "version": "2.0.0",
+  "description": "Préparer l'examen civique français avec l'aide de sa langue",
+  "scripts": {
+    "dev": "vite",
+    "build": "node ../scripts/build-content.mjs && vite build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@fontsource-variable/lexend": "^5.3.0",
+    "@mintplex-labs/piper-tts-web": "^1.0.5",
+    "onnxruntime-web": "1.18.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^5.4.10"
+  },
+  "type": "module",
+  "private": true
+}

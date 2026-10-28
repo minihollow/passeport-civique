@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr" translate="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="google" content="notranslate" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passeport civique</title>
+    <meta name="description" content="Préparer l'examen civique français, à son rythme, avec l'aide de sa langue. Gratuit, sans compte, hors ligne." />
+    <meta name="theme-color" content="#5b3cc4" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='34' r='26' fill='white' stroke='%2319234d' stroke-width='4'/><path d='M20 12c2-6 8-6 9 0 2-7 9-7 10 0 3-5 9-3 8 3-1 4-4 6-6 7H22c-3-2-4-6-2-10z' fill='%23d23c3c'/><path d='M27 40l5-3 5 3-5 6z' fill='%23f2ad1f'/></svg>" />
+    <script>
+      // Theme set before the first paint (avoids a light flash in dark mode).
+      (function () {
+        var t = 'auto';
+        try { t = localStorage.getItem('civictr-theme') || 'auto'; } catch (e) {}
+        if (t === 'auto') t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.dataset.theme = t;
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

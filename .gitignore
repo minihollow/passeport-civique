@@ -1,0 +1,8 @@
+node_modules/
+out/
+launcher/dist/
+web/src/data/questions.json
+*.exe
+*.log
+.DS_Store
+site/
