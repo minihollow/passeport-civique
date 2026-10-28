@@ -134,21 +134,48 @@ function detect(text, primary, help) {
   return f > h ? 'fr' : help;
 }
 // Cut into pieces { text, lang }, ready to be read one after another.
+// Boundaries: « », straight or curly quotes, parentheses, sentence ends, line breaks.
+// Coco does not always follow its rules (Turkish between « », quotes "…"), so every piece is checked:
+// - between « » or quotes: French on a tie;
+// - elsewhere: the text's main language on a tie;
+// - "word (translation)": an undecided word followed by a parenthesis takes the other language.
 export function segments(text, primary = 'fr', help = helpLocale.slice(0, 2)) {
-  const out = [];
-  const push = (t, lang) => {
-    const clean = t.replace(/[*#`_]/g, '').replace(/\s+/g, ' ').trim().replace(/^['’:,;.\-\s]+/, '');
-    if (/\p{L}|\d/u.test(clean)) out.push({ text: clean, lang });
-  };
-  const plain = (t) => {
-    // parentheses apart (often a translation), then sentence by sentence
-    for (const [i, p] of t.split(/\(([^)]*)\)/).entries()) {
-      for (const sent of p.split(/(?<=[.!?…:;])\s+|\n+/)) push(sent, detect(sent, primary, help));
+  const pieces = [];
+  const collect = (t) => {
+    const re = /«([^»]*)»|"([^"\n]*)"|“([^”\n]*)”|\(([^)\n]*)\)/g;
+    let last = 0;
+    const addPlain = (s) => {
+      for (const sent of s.split(/(?<=[.!?…:;])\s+|\n+|\s[-–—]\s/)) pieces.push({ text: sent, kind: 'plain' });
+    };
+    for (const m of t.matchAll(re)) {
+      addPlain(t.slice(last, m.index));
+      if (m[4] !== undefined) {
+        const inner = m[4].trim();
+        const onlyQuote = /^(«[^»]*»|"[^"]*"|“[^”]*”)$/.test(inner); // e.g. ("deviz"): just a translation
+        if (!onlyQuote && /[«"“]/.test(inner)) collect(inner); // a parenthesis that itself mixes quotes and text
+        else pieces.push({ text: m[4], kind: 'paren' });
+      } else for (const sent of (m[1] ?? m[2] ?? m[3]).split(/(?<=[.!?…])\s+|\n+/)) pieces.push({ text: sent, kind: 'quote' });
+      last = m.index + m[0].length;
     }
+    addPlain(t.slice(last));
   };
-  for (const [i, part] of text.split(/«\s*([^»]*?)\s*»/).entries()) {
-    if (i % 2) push(part, 'fr'); // between « »: French
-    else plain(part);
+  collect(text);
+
+  const out = [];
+  for (const p of pieces) {
+    p.text = p.text.replace(/[*#`_"“”«»]/g, '').replace(/\s+/g, ' ').trim().replace(/^['’:,;.\-\s]+/, '');
+    if (!/\p{L}|\d/u.test(p.text)) continue;
+    const f = score(p.text, 'fr');
+    const h = /[^\p{Script=Latin}\p{Script=Common}\p{Script=Inherited}]/u.test(p.text) ? 99 : score(p.text, help);
+    p.tie = f === h && !(f === 0 && wordCount(p.text) >= 3);
+    p.lang = p.tie ? (p.kind === 'quote' ? 'fr' : primary) : detect(p.text, primary, help);
+    out.push(p);
+  }
+  for (let i = 0; i + 1 < out.length; i++) {
+    const [a, b] = [out[i], out[i + 1]];
+    if (!a.tie || b.kind !== 'paren') continue;
+    if (b.tie) { a.lang = 'fr'; b.lang = help; } // Coco's vocabulary format: French word (translation)
+    else a.lang = b.lang === 'fr' ? help : 'fr';
   }
   // short neighbouring pieces of the same language are merged (fewer cuts)
   const merged = [];

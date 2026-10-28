@@ -184,6 +184,8 @@ export function systemPrompt({ name, mode }) {
     "- Si la personne n'a pas encore répondu à la question affichée, donne des indices sans révéler la bonne réponse, sauf si elle la demande clairement.",
     "- Pour sa situation administrative personnelle (titre de séjour, préfecture, dates), conseille de vérifier sur service-public.fr ou auprès de la préfecture.",
     "- N'utilise pas de tableaux. Tu peux utiliser **gras** et des listes à puces.",
+    // Read aloud with two voices: « » tells which parts are French (see lib/tts.js).
+    `- Mets tout ce qui est en français entre « », et rien d'autre : jamais de ${L} entre « ». N'utilise pas de guillemets droits (").`,
   ].join('\n');
 }
 
