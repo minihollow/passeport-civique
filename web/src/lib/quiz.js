@@ -1,8 +1,11 @@
-import QUESTIONS from '../data/questions.json';
+import RAW_QUESTIONS from '../data/questions.json';
 import { THEMES, EXAM } from '../data/themes.js';
 import { todayKey, streakDays } from './store.js';
 
-export { QUESTIONS };
+// Questions are stored in French; each text becomes a [French, help language] pair
+// whose 2nd slot is filled from the help language pack (see lang/langs.js).
+const pair = (fr) => [fr, fr];
+export const QUESTIONS = RAW_QUESTIONS.map((q) => ({ ...q, q: pair(q.q), o: q.o.map(pair), x: pair(q.x), v: (q.v || []).map(pair) }));
 export const Q_BY_ID = Object.fromEntries(QUESTIONS.map((q) => [q.id, q]));
 
 const DAY = 86400000;
@@ -156,21 +159,22 @@ export function readiness(state) {
 
 // Stamps (badges)
 const totalAnswered = (st) => Object.values(st.days).reduce((a, d) => a + d.answered, 0);
-const THEME_SHORT = { pv: ['VALEURS', 'DEĞERLER'], sip: ['INSTITUTIONS', 'KURUMLAR'], dd: ['DROITS', 'HAKLAR'], hgc: ['HISTOIRE', 'TARİH'], vsf: ['VIE EN FRANCE', 'FRANSA HAYATI'] };
+const THEME_SHORT = { pv: 'VALEURS', sip: 'INSTITUTIONS', dd: 'DROITS', hgc: 'HISTOIRE', vsf: 'VIE EN FRANCE' };
 // name: full title; short: stamp text; icon: stamp centre; color: ink
-export const BADGES = [
-  { id: 'first', name: ['Première série terminée', 'İlk seri tamamlandı'], short: ['1RE SÉRIE', 'İLK SERİ'], icon: '✏️', color: 'var(--stamp)', test: (st) => st.sessions.some((s) => s.end) },
-  { id: 'streak3', name: ['3 jours de suite', '3 gün üst üste'], short: ['3 JOURS', '3 GÜN'], icon: '🔥', color: 'var(--orange)', test: (st) => streakDays(st.days) >= 3 },
-  { id: 'perfect', name: ['Une série sans faute', 'Hatasız bir seri'], short: ['SANS FAUTE', 'HATASIZ'], icon: '🎯', color: 'var(--tr)', test: (st) => st.sessions.some((s) => s.end && s.total >= 10 && s.correct === s.total) },
-  { id: 'q100', name: ['100 réponses données', '100 cevap verildi'], short: ['100 RÉPONSES', '100 CEVAP'], icon: '💯', color: 'var(--stamp-ink)', test: (st) => totalAnswered(st) >= 100 },
-  { id: 'exam_pass', name: ['Premier examen blanc réussi', 'İlk deneme sınavı geçildi'], short: ['EXAMEN', 'SINAV'], icon: '✅', color: 'var(--ok)', test: (st) => st.sessions.some((s) => s.type === 'exam' && s.passed) },
-  { id: 'streak7', name: ['7 jours de suite', '7 gün üst üste'], short: ['7 JOURS', '7 GÜN'], icon: '🔥', color: 'var(--orange)', test: (st) => streakDays(st.days) >= 7 },
-  ...THEMES.map((t) => ({ id: 'theme_' + t.id, name: [`${t.name[0]} : 80 % maîtrisé`, `${t.name[1]}: %80 öğrenildi`], short: THEME_SHORT[t.id], icon: t.icon, color: 'var(--stamp)', theme: t.id, test: (st) => masteryOf(st, (q) => q.t === t.id).pct >= 0.8 })),
-  { id: 'half', name: ['La moitié des questions maîtrisée', 'Soruların yarısı öğrenildi'], short: ['MOITIÉ', 'YARISI'], icon: '🌓', color: 'var(--stamp-ink)', test: (st) => masteryOf(st).pct >= 0.5 },
-  { id: 'q500', name: ['500 réponses données', '500 cevap verildi'], short: ['500 RÉPONSES', '500 CEVAP'], icon: '🏅', color: 'var(--stamp-ink)', test: (st) => totalAnswered(st) >= 500 },
-  { id: 'exam_fr', name: ['Examen blanc réussi en français', 'Deneme sınavı Fransızca geçildi'], short: ['EN FRANÇAIS', 'FRANSIZCA'], icon: '🗼', color: 'var(--ko)', test: (st) => st.sessions.some((s) => s.type === 'exam' && s.passed && s.mode === 'fr') },
-  { id: 'all', name: ['Toutes les questions maîtrisées', 'Bütün sorular öğrenildi'], short: ['PRÊTE !', 'HAZIR!'], icon: '🎓', color: 'var(--ok)', test: (st) => masteryOf(st).pct >= 0.95 },
+const BADGES_FR = [
+  { id: 'first', name: 'Première série terminée', short: '1RE SÉRIE', icon: '✏️', color: 'var(--stamp)', test: (st) => st.sessions.some((s) => s.end) },
+  { id: 'streak3', name: '3 jours de suite', short: '3 JOURS', icon: '🔥', color: 'var(--orange)', test: (st) => streakDays(st.days) >= 3 },
+  { id: 'perfect', name: 'Une série sans faute', short: 'SANS FAUTE', icon: '🎯', color: 'var(--tr)', test: (st) => st.sessions.some((s) => s.end && s.total >= 10 && s.correct === s.total) },
+  { id: 'q100', name: '100 réponses données', short: '100 RÉPONSES', icon: '💯', color: 'var(--stamp-ink)', test: (st) => totalAnswered(st) >= 100 },
+  { id: 'exam_pass', name: 'Premier examen blanc réussi', short: 'EXAMEN', icon: '✅', color: 'var(--ok)', test: (st) => st.sessions.some((s) => s.type === 'exam' && s.passed) },
+  { id: 'streak7', name: '7 jours de suite', short: '7 JOURS', icon: '🔥', color: 'var(--orange)', test: (st) => streakDays(st.days) >= 7 },
+  ...THEMES.map((t) => ({ id: 'theme_' + t.id, name: `${t.name[0]} : 80 % maîtrisé`, short: THEME_SHORT[t.id], icon: t.icon, color: 'var(--stamp)', theme: t.id, test: (st) => masteryOf(st, (q) => q.t === t.id).pct >= 0.8 })),
+  { id: 'half', name: 'La moitié des questions maîtrisée', short: 'MOITIÉ', icon: '🌓', color: 'var(--stamp-ink)', test: (st) => masteryOf(st).pct >= 0.5 },
+  { id: 'q500', name: '500 réponses données', short: '500 RÉPONSES', icon: '🏅', color: 'var(--stamp-ink)', test: (st) => totalAnswered(st) >= 500 },
+  { id: 'exam_fr', name: 'Examen blanc réussi en français', short: 'EN FRANÇAIS', icon: '🗼', color: 'var(--ko)', test: (st) => st.sessions.some((s) => s.type === 'exam' && s.passed && s.mode === 'fr') },
+  { id: 'all', name: 'Toutes les questions maîtrisées', short: 'BRAVO !', icon: '🎓', color: 'var(--ok)', test: (st) => masteryOf(st).pct >= 0.95 },
 ];
+export const BADGES = BADGES_FR.map((b) => ({ ...b, name: pair(b.name), short: pair(b.short) }));
 
 export function awardBadges(state) {
   const now = Date.now();

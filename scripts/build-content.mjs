@@ -1,4 +1,4 @@
-// Merges the content files into a single JSON for the app.
+// Merges the content files (French) into a single JSON for the app.
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -23,12 +23,13 @@ for (const q of out) {
   // already saved history stays valid.
   const oc = q.oc || [];
   const od = q.od || [];
-  for (const o of [...oc, ...od]) {
-    if (!Array.isArray(o) || o.length !== 2 || !o[0]?.trim() || !o[1]?.trim()) throw new Error('invalid variant ' + q.id + ' : ' + JSON.stringify(o));
+  // Texts are French strings; translations live in the help language packs (web/src/lang/packs/).
+  for (const t of [q.q, q.x, ...q.o, ...oc, ...od, ...(q.v || [])]) {
+    if (typeof t !== 'string' || !t.trim()) throw new Error('empty or invalid text in ' + q.id + ': ' + JSON.stringify(t));
   }
   const all = [...q.o, ...od, ...oc];
   const seen = new Set();
-  for (const [fr] of all) {
+  for (const fr of all) {
     const k = fr.toLowerCase().trim();
     if (seen.has(k)) throw new Error(`duplicate choice ${q.id}: ${fr}`);
     seen.add(k);

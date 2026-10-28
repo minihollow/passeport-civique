@@ -1,7 +1,7 @@
-// Help languages. Every text in the app is a pair [French, help language].
-// Turkish is written directly in the code and content (2nd slot of the pairs).
-// Another language is a JSON pack (packs/xx.json) that replaces the 2nd slot at startup.
-// Create or update a pack: node scripts/lang-template.mjs xx (see CONTRIBUTING.md).
+// Help languages. The app's texts are written in French (content/, data/i18n.js…) and become
+// [French, help language] pairs at runtime. Each help language is a JSON pack (packs/<code>.json)
+// that fills the 2nd slot when a profile uses it; only that pack is loaded.
+// Create or update a pack: node scripts/lang-template.mjs <code> (see CONTRIBUTING.md).
 import { UI } from '../data/i18n.js';
 import { THEMES } from '../data/themes.js';
 import { BADGES, QUESTIONS } from '../lib/quiz.js';
@@ -15,12 +15,18 @@ const ALL = {
   tr: { name: 'Türkçe', nameFr: 'turc', locale: 'tr-TR', dir: 'ltr', flag: 'tr' },
 };
 const PACKS = import.meta.glob('./packs/*.json');
-// Languages offered: Turkish, and those that have a pack.
-export const LANGS = Object.fromEntries(Object.entries(ALL).filter(([c]) => c === 'tr' || PACKS[`./packs/${c}.json`]));
+// Languages offered: those that have a pack.
+export const LANGS = Object.fromEntries(Object.entries(ALL).filter(([c]) => PACKS[`./packs/${c}.json`]));
 
-let help = 'tr';
+let help = null; // help language applied to the texts (null until the first applyLang)
 export const helpLang = () => help;
-export const helpInfo = () => LANGS[help] || LANGS.tr;
+export const helpInfo = () => LANGS[help] || Object.values(LANGS)[0];
+
+// Language for a new visitor: the first browser language we have, otherwise English, otherwise the first one.
+export function defaultLang() {
+  const wanted = (navigator.languages || [navigator.language || '']).map((l) => l.slice(0, 2).toLowerCase());
+  return wanted.find((c) => LANGS[c]) || (LANGS.en ? 'en' : Object.keys(LANGS)[0]);
+}
 
 // All translatable pairs, with a stable key (ui.xxx, themes.pv.symboles, q.pv01.o.2…).
 const isPair = (v) => Array.isArray(v) && v.length === 2 && typeof v[0] === 'string' && typeof v[1] === 'string';
@@ -39,16 +45,11 @@ export function allPairs() {
   return out;
 }
 
-let original = null; // original Turkish texts, to switch back to Turkish
 // Apply a profile's help language. Text missing from the pack: French is kept.
 export async function applyLang(code) {
-  if (!LANGS[code]) code = 'tr';
-  const pairs = allPairs();
-  if (!original) original = new Map(pairs.map(([k, p]) => [k, p[1]]));
-  let pack = null;
-  if (code !== 'tr') pack = (await PACKS[`./packs/${code}.json`]()).default;
-  for (const [k, p] of pairs) {
-    if (!pack) { p[1] = original.get(k) ?? p[1]; continue; }
+  if (!LANGS[code]) code = defaultLang();
+  const pack = (await PACKS[`./packs/${code}.json`]()).default;
+  for (const [k, p] of allPairs()) {
     const e = pack[k];
     const text = typeof e === 'string' ? e : e?.[code];
     p[1] = text?.trim() ? text : p[0];

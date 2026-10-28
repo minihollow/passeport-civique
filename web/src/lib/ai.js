@@ -11,20 +11,18 @@ export const viaProxy = () => storageKind() === 'server' || import.meta.env.DEV;
 const base = () => (viaProxy() ? '/ollama' : OLLAMA_DIRECT);
 
 // From biggest to smallest. minVram: advised video memory (GB).
-export const MODELS = [
+const MODELS_FR = [
   { name: 'gemma4:26b', size: '≈ 19 Go', minVram: 20,
-    desc: ['Le plus précis. Idéal avec 24 Go de mémoire vidéo (RTX 4090). Fonctionne aussi avec 16 Go, plus lentement.',
-      'En doğru olanı. 24 GB ekran belleği (RTX 4090) için ideal. 16 GB ile de çalışır, daha yavaş.'] },
+    desc: 'Le plus précis. Idéal avec 24 Go de mémoire vidéo (RTX 4090). Fonctionne aussi avec 16 Go, plus lentement.' },
   { name: 'gemma3:12b', size: '≈ 8 Go', minVram: 10,
-    desc: ['Rapide et bon dans beaucoup de langues. Idéal avec 16 Go de mémoire vidéo (RTX 5080).',
-      'Hızlı ve birçok dilde iyi. 16 GB ekran belleği (RTX 5080) için ideal.'] },
+    desc: 'Rapide et bon dans beaucoup de langues. Idéal avec 16 Go de mémoire vidéo (RTX 5080).' },
   { name: 'gemma4:e4b', size: '≈ 7 Go', minVram: 6,
-    desc: ['Rapide, réponses plus simples. Pour une carte graphique de 6 à 8 Go.',
-      'Hızlı, daha basit cevaplar. 6-8 GB ekran kartı için.'] },
+    desc: 'Rapide, réponses plus simples. Pour une carte graphique de 6 à 8 Go.' },
   { name: 'gemma3:4b', size: '≈ 3,4 Go', minVram: 0,
-    desc: ["Le plus léger. Pour un ordinateur sans carte graphique (8 Go de mémoire minimum). Plus lent et moins précis : essayez-le, sinon gardez l'app sans IA.",
-      'En hafifi. Ekran kartı olmayan bilgisayar için (en az 8 GB bellek). Daha yavaş ve daha az doğru: deneyin, olmazsa uygulamayı yapay zekâsız kullanın.'] },
+    desc: "Le plus léger. Pour un ordinateur sans carte graphique (8 Go de mémoire minimum). Plus lent et moins précis : essayez-le, sinon gardez l'app sans IA." },
 ];
+// Descriptions become [French, help language] pairs (2nd slot filled from the help language pack).
+export const MODELS = MODELS_FR.map((m) => ({ ...m, desc: [m.desc, m.desc] }));
 
 // Advised model from the video memory (Windows launcher: nvidia-smi).
 // Without it (web version, non-NVIDIA card): use the graphics card reported by the browser.

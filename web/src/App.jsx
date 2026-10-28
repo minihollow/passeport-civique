@@ -17,7 +17,7 @@ import Setup from './pages/Setup.jsx';
 import Profiles from './pages/Profiles.jsx';
 import Tour from './components/Tour.jsx';
 import { refreshInstalled, setHelpLocale, setVoiceEngine } from './lib/tts.js';
-import { applyLang, helpInfo, helpLang } from './lang/langs.js';
+import { applyLang, defaultLang, helpInfo, helpLang } from './lang/langs.js';
 
 const NAV = [
   { id: 'home', k: 'nav_home', ico: '🏠' },
@@ -160,11 +160,12 @@ export default function App() {
   }, [aiOn, model, ai.status.running, warmName, warmMode]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Profile's help language. Checked on every render: the profile creation screen may have changed it.
-  const wantLang = state?.settings.lang || 'tr';
+  // Before a profile is open (profile creation, profile choice): the language already applied, or the browser's.
+  const wantLang = state?.settings.lang || helpLang() || defaultLang();
   useEffect(() => {
-    if (!state || wantLang === helpLang()) return;
+    if (!root || wantLang === helpLang()) return;
     const tick = () => setLangTick((n) => n + 1);
-    applyLang(wantLang).then(tick).catch(() => applyLang('tr').then(tick));
+    applyLang(wantLang).then(tick).catch(() => applyLang(defaultLang()).then(tick));
   });
 
   // Theme: 'auto' follows the system. Kept in the browser for the first paint (see index.html).
@@ -183,7 +184,7 @@ export default function App() {
 
   if (!root) return <div className="setup"><CocoAvatar size={80} /></div>;
   const hasProfiles = Object.keys(root.profiles).length > 0;
-  if (state && wantLang !== helpLang()) return <div className="setup"><CocoAvatar size={80} /></div>;
+  if (wantLang !== helpLang()) return <div className="setup"><CocoAvatar size={80} /></div>;
   if (!state) {
     return (
       <StoreCtx.Provider value={store}>
