@@ -177,8 +177,9 @@ export function segments(text, primary = 'fr', help = helpLocale.slice(0, 2)) {
   for (let i = 0; i + 1 < out.length; i++) {
     const [a, b] = [out[i], out[i + 1]];
     if (!a.tie) continue;
-    if (b.kind === 'paren') {
-      if (b.tie) { a.lang = 'fr'; b.lang = help; } // Coco's vocabulary format: French word (translation)
+    // Coco's vocabulary formats: French word (translation), Word: "translation", Word - "translation"
+    if (b.kind === 'paren' || (b.kind === 'quote' && (a.dashed || /:$/.test(a.text)))) {
+      if (b.tie) { a.lang = 'fr'; b.lang = help; }
       else a.lang = b.lang === 'fr' ? help : 'fr';
     } else if (a.dashed && !b.tie && b.lang === help && wordCount(a.text) <= 3) a.lang = 'fr'; // "Devise - Şiar": term, then translation
   }
