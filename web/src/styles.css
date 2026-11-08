@@ -301,8 +301,20 @@ p { margin: 0; }
   padding: 10px 16px; border-radius: 16px; border: 2px solid var(--line); background: var(--card); text-align: left;
   font-size: 1.08rem; font-weight: 500; transition: border-color 0.12s ease, background 0.12s ease;
 }
-.opt:hover:not(:disabled) { border-color: var(--stamp); background: var(--stamp-tint); }
-.opt:disabled { cursor: default; }
+.opt:hover:not([aria-disabled='true']) { border-color: var(--stamp); background: var(--stamp-tint); }
+.opt[aria-disabled='true'] { cursor: default; }
+/* Word by word (components/common.jsx, Words) */
+.word { cursor: pointer; border-radius: 4px; }
+.word:hover, .word.on { background: var(--tr-soft); box-shadow: 0 2px 0 var(--tr); }
+.word:focus-visible { outline: 2px solid var(--tr); outline-offset: 1px; }
+.word-pop {
+  position: fixed; z-index: 60; width: max-content; max-width: min(260px, calc(100vw - 16px));
+  display: flex; flex-direction: column; gap: 4px; padding: 8px 10px 10px 12px;
+  background: var(--card); color: var(--ink); border: 1px solid var(--tr-edge); border-radius: 12px;
+  box-shadow: 0 12px 30px -12px var(--shadow); font-size: 1rem; line-height: 1.35; font-weight: 400; letter-spacing: 0;
+}
+.word-pop-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.word-pop-head .icon-btn { width: 30px; height: 30px; font-size: 0.9rem; }
 .opt .letter {
   width: 38px; height: 38px; border-radius: 11px; display: grid; place-items: center; font-weight: 700;
   background: var(--paper); color: var(--ink-2); border: 1px solid var(--line);

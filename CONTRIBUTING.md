@@ -34,6 +34,7 @@ Rules:
 - Every answer must be checkable on an official source (service-public.fr, formation-civique.interieur.gouv.fr, legifrance.gouv.fr). Give the source in the pull request.
 - `cd web && npm run build` checks the files: 4 choices, no duplicates, no empty text.
 - After changing or adding French text, update the translations: run `node scripts/lang-template.mjs <code>` for each language (`tr`, `en`…). Texts whose French changed are emptied in the pack, ready to be translated again; until then they are shown in French.
+- New words in a question or a choice: run `node scripts/word-list.mjs <code>` for each language. It updates the word by word glossary (`web/src/lang/words/<code>.json`, shown when a word is tapped in bilingual mode); fill in the empty translations. A word without a translation is still read aloud.
 
 ## Add a help language
 

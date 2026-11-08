@@ -16,6 +16,10 @@ const ALL = {
   en: { name: 'English', nameFr: 'anglais', locale: 'en-GB', dir: 'ltr', flag: 'gb' },
 };
 const PACKS = import.meta.glob('./packs/*.json');
+// Word by word glossaries (words/<code>.json, see scripts/word-list.mjs), loaded with the pack.
+const WORDS = import.meta.glob('./words/*.json');
+let words = {};
+export const wordTr = (key) => words[key] || '';
 // Languages offered: those that have a pack.
 export const LANGS = Object.fromEntries(Object.entries(ALL).filter(([c]) => PACKS[`./packs/${c}.json`]));
 
@@ -50,6 +54,8 @@ export function allPairs() {
 export async function applyLang(code) {
   if (!LANGS[code]) code = defaultLang();
   const pack = (await PACKS[`./packs/${code}.json`]()).default;
+  const glossary = WORDS[`./words/${code}.json`];
+  words = glossary ? (await glossary()).default : {};
   for (const [k, p] of allPairs()) {
     const e = pack[k];
     const text = typeof e === 'string' ? e : e?.[code];

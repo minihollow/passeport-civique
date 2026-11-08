@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Tx, U, useLang, SpeakBtn } from './common.jsx';
+import { Tx, U, useLang, SpeakBtn, Words } from './common.jsx';
 import { THEME_BY_ID, subName } from '../data/themes.js';
 import { speak } from '../lib/tts.js';
 import { isRight, rightIn } from '../lib/quiz.js';
@@ -41,7 +41,12 @@ export default function QuestionCard({ q, order, chosen, onChoose, reveal, index
 
       <div className="q-text-row">
         <div className="q-text">
-          <Tx v={q.q} revealed={qOpen} onToggle={() => setTrQ((o) => !o)} block />
+          {mode === 'bi' ? (
+            <>
+              <Words text={q.q[0]} />
+              {qOpen && <span className="tr-line" lang={help} dir="auto">{q.q[1]}</span>}
+            </>
+          ) : <Tx v={q.q} block />}
         </div>
         <div className="q-tools">
           {mode !== 'tr' && <SpeakBtn text={q.q[0]} />}
@@ -63,13 +68,16 @@ export default function QuestionCard({ q, order, chosen, onChoose, reveal, index
           const optOpen = trOpts[oi] || showAllTr;
           return (
             <div className="opt-row" key={oi}>
-              <button type="button" className={cls} disabled={reveal && answered} onClick={() => onChoose(oi)} aria-pressed={isChosen}>
+              <button type="button" className={cls} aria-disabled={reveal && answered}
+                onClick={() => { if (!(reveal && answered)) onChoose(oi); }} aria-pressed={isChosen}>
                 <span className="letter">{LETTERS[k]}</span>
                 <span>
-                  {mode === 'tr' ? <span lang={help} dir="auto">{q.o[oi][1]}</span> : <span lang="fr">{q.o[oi][0]}</span>}
+                  {mode === 'tr' ? <span lang={help} dir="auto">{q.o[oi][1]}</span>
+                    : mode === 'bi' ? <Words text={q.o[oi][0]} focusable={false} /> : <span lang="fr">{q.o[oi][0]}</span>}
                   {mode === 'bi' && optOpen && <span className="tr-line" lang={help} dir="auto">{q.o[oi][1]}</span>}
                 </span>
               </button>
+              {mode !== 'tr' && <SpeakBtn text={q.o[oi][0]} style={{ height: 'auto' }} />}
               {mode === 'bi' && (
                 <button type="button" className="icon-btn tr-btn" style={{ height: 'auto' }} aria-pressed={!!optOpen}
                   onClick={() => setTrOpts((s) => ({ ...s, [oi]: !s[oi] }))} title={helpTag}>{helpTag}</button>

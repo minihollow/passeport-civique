@@ -1,8 +1,10 @@
-import { useId, useState } from 'react';
+import { useEffect, useId, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { UI } from '../data/i18n.js';
 import { useStore } from '../lib/store.js';
 import { speak } from '../lib/tts.js';
-import { helpLang, helpInfo } from '../lang/langs.js';
+import { tokenize, wordKey } from '../lib/words.js';
+import { helpLang, helpInfo, wordTr } from '../lang/langs.js';
 
 // Interface language: the help language in 'tr' mode, French otherwise.
 // help: help language code (lang attribute); helpTag: short label of the translate buttons.
@@ -46,11 +48,76 @@ export function Tx({ v, block = false, revealed, onToggle }) {
   );
 }
 
-export function SpeakBtn({ text, lang = 'fr-FR', label }) {
+// French text where each word can be tapped: reads the word aloud and shows its translation
+// (help language glossary). Clicks stop here, so a word inside a choice does not pick the choice.
+// focusable: false inside a button (keyboard users reach the whole choice instead).
+let closeOpenWord = null; // one word bubble open at a time, in the whole app
+export function Words({ text, focusable = true }) {
+  const { rate } = useLang();
+  const [open, setOpen] = useState(null); // { i, x, y }
+  const bubble = useRef(null);
+  useEffect(() => {
+    if (!open) return undefined;
+    const close = () => setOpen(null);
+    closeOpenWord = close;
+    const onDown = (e) => { if (!bubble.current?.contains(e.target) && !e.target.closest?.('.word')) close(); };
+    const onKey = (e) => { if (e.key === 'Escape') close(); };
+    document.addEventListener('pointerdown', onDown);
+    document.addEventListener('keydown', onKey);
+    window.addEventListener('scroll', close, true);
+    window.addEventListener('resize', close);
+    return () => {
+      if (closeOpenWord === close) closeOpenWord = null;
+      document.removeEventListener('pointerdown', onDown);
+      document.removeEventListener('keydown', onKey);
+      window.removeEventListener('scroll', close, true);
+      window.removeEventListener('resize', close);
+    };
+  }, [open]);
+  if (!text) return null;
+  const tokens = tokenize(text);
+  const tap = (e, i, word) => {
+    e.stopPropagation();
+    e.preventDefault();
+    speak(word, { rate });
+    if (open?.i === i) return; // same word again: just read it again
+    closeOpenWord?.();
+    const r = e.currentTarget.getBoundingClientRect();
+    setOpen({ i, x: Math.max(8, Math.min(r.left, window.innerWidth - 268)), y: r.bottom + 6 });
+  };
+  const cur = open && tokens[open.i];
+  const tr = cur ? wordTr(wordKey(cur.text)) : '';
+  return (
+    <>
+      {tokens.map((t, i) => (t.word ? (
+        <span key={i} className={`word${open?.i === i ? ' on' : ''}`} lang="fr"
+          role={focusable ? 'button' : undefined} tabIndex={focusable ? 0 : undefined}
+          onClick={(e) => tap(e, i, t.text)}
+          onKeyDown={focusable ? (e) => { if (e.key === 'Enter' || e.key === ' ') tap(e, i, t.text); } : undefined}>
+          {t.text}
+        </span>
+      ) : <span key={i}>{t.text}</span>))}
+      {cur && createPortal(
+        <span ref={bubble} className="word-pop" role="dialog" style={{ left: open.x, top: open.y }}
+          onClick={(e) => e.stopPropagation()}>
+          <span className="word-pop-head">
+            <b lang="fr">{cur.text}</b>
+            <button type="button" className="icon-btn" aria-label={`${UI.listen?.[0] || 'Écouter'} ${cur.text}`}
+              onClick={() => speak(cur.text, { rate })}>🔊</button>
+          </span>
+          {tr && <span className="tr-line" lang={helpLang()} dir="auto">{tr}</span>}
+        </span>,
+        document.body,
+      )}
+    </>
+  );
+}
+
+export function SpeakBtn({ text, lang = 'fr-FR', label, style }) {
   const { rate } = useLang();
   if (!text) return null;
   return (
-    <button type="button" className="icon-btn" title={label || 'Écouter / Dinle'} aria-label={label || 'Écouter'}
+    <button type="button" className="icon-btn" style={style} title={label || 'Écouter / Dinle'} aria-label={label || 'Écouter'}
       onClick={(e) => { e.stopPropagation(); speak(text, { lang, rate }); }}>
       🔊
     </button>
