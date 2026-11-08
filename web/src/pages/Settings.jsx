@@ -126,6 +126,9 @@ export default function Settings({ ai, aiOn, refreshAi, notify }) {
           <li><a href="https://www.service-public.fr/" target="_blank" rel="noreferrer">service-public.fr</a></li>
           <li><a href="https://formation-civique.interieur.gouv.fr/" target="_blank" rel="noreferrer">formation-civique.interieur.gouv.fr</a></li>
         </ul>
+        <p className="small">
+          ☕ {ui('about_support')} <a href="https://ko-fi.com/minihollow" target="_blank" rel="noreferrer">ko-fi.com/minihollow</a>
+        </p>
         <p className="muted small">
           {ui('about_license')} · <a href="https://github.com/minihollow/passeport-civique" target="_blank" rel="noreferrer">github.com/minihollow/passeport-civique</a>
         </p>

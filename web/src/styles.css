@@ -134,6 +134,14 @@ p { margin: 0; }
 .nav-btn .sub { display: block; font-size: 0.74rem; font-weight: 400; color: var(--tr); }
 .nav-btn .badge { margin-left: auto; background: var(--ko); color: var(--on-fill); border-radius: 999px; font-size: 0.72rem; padding: 1px 7px; font-weight: 600; }
 .side-foot { margin-top: auto; padding: 12px 8px 0; font-size: 0.78rem; color: var(--ink-3); }
+.side-thanks {
+  margin-top: auto; display: flex; flex-direction: column; gap: 4px;
+  padding: 12px; border-radius: 14px; background: var(--paper); font-size: 0.8rem; line-height: 1.35; color: var(--ink-2);
+}
+.side-thanks b { color: var(--ink); font-size: 0.86rem; }
+.side-thanks a { color: var(--stamp); font-weight: 600; text-decoration: none; }
+.side-thanks a:hover { text-decoration: underline; }
+.side-thanks + .side-foot { margin-top: 0; }
 
 .main { display: flex; flex-direction: column; min-width: 0; height: 100%; }
 .topbar {
@@ -513,7 +521,7 @@ table.hist tr.clickable:hover td { background: var(--paper); }
 @media (max-width: 860px) {
   .app, .app.chat-open { grid-template-columns: 1fr; grid-template-rows: minmax(0, 1fr) auto; }
   .side { order: 2; flex-direction: row; overflow-x: auto; padding: 6px; border-right: 0; border-top: 1px solid var(--line); }
-  .brand, .side-foot, .nav-btn .sub { display: none; }
+  .brand, .side-foot, .side-thanks, .nav-btn .sub { display: none; }
   .nav-btn { flex-direction: column; gap: 2px; font-size: 0.7rem; padding: 6px 8px; min-width: 64px; align-items: center; text-align: center; }
   .content { padding: 16px; }
   .topbar { padding: 10px 16px; flex-wrap: wrap; }

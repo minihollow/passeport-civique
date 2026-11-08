@@ -265,6 +265,11 @@ export default function App() {
               {n.id === 'mistakes' && weakCount > 0 && <span className="badge">{weakCount}</span>}
             </button>
           ))}
+          <div className="side-thanks">
+            <b>{UI.side_luck[uiIdx]}</b>
+            <span>{UI.side_by[uiIdx]}</span>
+            <a href="https://ko-fi.com/minihollow" target="_blank" rel="noreferrer">☕ {UI.side_tip[uiIdx]}</a>
+          </div>
           {aiOn && <div className="side-foot">{ai.status.running && model ? <>🟢 Coco · {model}</> : <>🔴 Coco</>}</div>}
         </nav>
 

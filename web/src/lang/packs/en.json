@@ -684,6 +684,18 @@
   "fr": "À propos",
   "en": "About"
  },
+ "ui.side_luck": {
+  "fr": "Bon courage pour l'examen ! 🍀",
+  "en": "Good luck with the exam! 🍀"
+ },
+ "ui.side_by": {
+  "fr": "Créée par minihollow",
+  "en": "Made by minihollow"
+ },
+ "ui.side_tip": {
+  "fr": "Vous aimez l'app ? Offrez-moi un café pour me remercier",
+  "en": "Like the app? Buy me a coffee to say thanks"
+ },
  "ui.about_unofficial": {
   "fr": "Application gratuite et non officielle, faite par des bénévoles. Elle ne remplace pas les informations officielles : vérifiez toujours les règles sur les sites ci-dessous et auprès de votre préfecture.",
   "en": "Free and unofficial app, made by volunteers. It does not replace official information: always check the rules on the sites below and with your prefecture."
@@ -691,6 +703,10 @@
  "ui.about_license": {
   "fr": "Code sous licence MIT, contenu sous licence CC BY-SA 4.0",
   "en": "Code under the MIT license, content under CC BY-SA 4.0"
+ },
+ "ui.about_support": {
+  "fr": "L'application est gratuite pour tous. Si elle vous aide, vous pouvez offrir un café pour soutenir le projet.",
+  "en": "The app is free for everyone. If it helps you, you can buy us a coffee to support the project."
  },
  "ui.setup_unofficial": {
   "fr": "Gratuit, sans compte, non officiel.",

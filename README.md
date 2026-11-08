@@ -37,6 +37,10 @@ Progress is saved in the browser of that device. Export it from time to time (Se
 
 Download **`Passeport-civique-Windows.zip`** from the [Releases](https://github.com/minihollow/passeport-civique/releases) (not "Source code"). Right-click → Properties → Unblock, then Extract All, and run `Installer.bat`. The installer offers to install Coco and picks the AI model that suits your graphics card. Details in the *Install guide* included in the zip.
 
+## Support the project
+
+Passeport civique is free for everyone and will stay free. If it helps you, you can buy us a coffee: **[ko-fi.com/minihollow](https://ko-fi.com/minihollow)**. Donations unlock nothing: every feature is available to all.
+
 ## Content
 
 The wording of the 190 knowledge questions comes from the official questions published by the French Ministry of the Interior under the Licence Ouverte 2.0 ([dataset "Examen civique - CSP"](https://www.data.gouv.fr/datasets/examen-civique-csp) on data.gouv.fr). The answer choices, explanations, vocabulary, scenarios and translations were written for this project, checking the answers against official sources.
