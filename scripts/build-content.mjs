@@ -43,3 +43,21 @@ const dest = join(root, 'web', 'src', 'data', 'questions.json');
 mkdirSync(dirname(dest), { recursive: true });
 writeFileSync(dest, JSON.stringify(out));
 console.log(`${out.length} questions -> ${dest}`);
+
+// Lessons: one per sub-theme, read on the "Lire le cours" page.
+const lessons = JSON.parse(readFileSync(join(root, 'content', 'lessons.json'), 'utf8'));
+const subs = new Set(out.map((q) => `${q.t}.${q.s}`));
+const seenLessons = new Set();
+for (const l of lessons) {
+  const key = `${l.t}.${l.s}`;
+  if (!subs.has(key)) throw new Error('lesson for an unknown sub-theme: ' + key);
+  if (seenLessons.has(key)) throw new Error('duplicate lesson ' + key);
+  seenLessons.add(key);
+  if (!l.parts?.length) throw new Error('lesson without parts: ' + key);
+  for (const t of [l.intro, ...l.parts.flatMap((p) => [p.h, ...(p.p || [])]), ...(l.keys || []), ...(l.v || [])]) {
+    if (typeof t !== 'string' || !t.trim()) throw new Error('empty or invalid text in lesson ' + key + ': ' + JSON.stringify(t));
+  }
+}
+const lessonsDest = join(root, 'web', 'src', 'data', 'lessons.json');
+writeFileSync(lessonsDest, JSON.stringify(lessons));
+console.log(`${lessons.length} lessons -> ${lessonsDest}`);

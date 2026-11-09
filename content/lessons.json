@@ -1,0 +1,733 @@
+[
+{
+ "t": "pv",
+ "s": "symboles",
+ "intro": "La France est une République. Elle a une devise, des symboles et des valeurs que tout le monde doit connaître et respecter.",
+ "parts": [
+  {
+   "h": "La devise : « Liberté, égalité, fraternité »",
+   "p": [
+    "La devise vient de la Révolution française. Elle est officielle depuis 1848. On la voit sur les mairies, les écoles, les tribunaux, les pièces de monnaie et les timbres.",
+    "La liberté : on peut faire tout ce qui ne nuit pas aux autres. Ma liberté s'arrête où commence celle des autres.",
+    "L'égalité : la loi est la même pour tous, quels que soient l'origine, le sexe, la religion ou les opinions. Les femmes et les hommes ont les mêmes droits.",
+    "La fraternité : l'entraide et la solidarité entre tous. Par exemple la Sécurité sociale, ou les associations qui aident les personnes en difficulté."
+   ]
+  },
+  {
+   "h": "Les symboles de la République",
+   "p": [
+    "L'article 2 de la Constitution cite les symboles officiels : la langue française, le drapeau bleu, blanc, rouge, l'hymne national (la Marseillaise) et la devise.",
+    "Le drapeau est tricolore (trois couleurs), en bandes verticales. Le bleu et le rouge sont les couleurs de Paris, le blanc celle du roi.",
+    "La Marseillaise a été écrite en 1792 par Rouget de Lisle, pendant la Révolution. On la chante lors des cérémonies officielles et des matchs de l'équipe de France.",
+    "Marianne est une figure de femme qui représente la République. Son buste est dans les mairies, son visage sur les timbres. Le coq est un symbole traditionnel, mais il n'est pas dans la Constitution."
+   ]
+  },
+  {
+   "h": "La fête nationale : le 14 juillet",
+   "p": [
+    "Le 14 juillet rappelle la prise de la Bastille (14 juillet 1789) et la fête de la Fédération (1790), symbole de l'unité du pays. Il y a un grand défilé militaire sur les Champs-Élysées, à Paris, et des feux d'artifice dans toute la France."
+   ]
+  },
+  {
+   "h": "La langue et la Constitution",
+   "p": [
+    "« La langue de la République est le français. » C'est la langue de l'administration, de la justice et de l'école. Les langues régionales (breton, corse, alsacien…) existent, mais elles ne sont pas officielles.",
+    "La Constitution actuelle date du 4 octobre 1958 : c'est la Ve République. La France est une République démocratique : le pouvoir appartient au peuple, qui vote.",
+    "La liberté d'expression permet de dire ce que l'on pense. Mais la loi interdit l'insulte, la diffamation (mentir pour nuire) et l'appel à la haine, même sur Internet."
+   ]
+  }
+ ],
+ "keys": [
+  "Devise : « Liberté, égalité, fraternité », officielle depuis 1848.",
+  "Symboles officiels : le français, le drapeau bleu-blanc-rouge, la Marseillaise, la devise.",
+  "La Marseillaise : 1792, Rouget de Lisle.",
+  "Fête nationale : 14 juillet (prise de la Bastille, 1789).",
+  "Marianne représente la République ; le coq n'est pas un symbole officiel.",
+  "Constitution actuelle : 4 octobre 1958 (Ve République)."
+ ],
+ "v": [
+  "la devise",
+  "le drapeau",
+  "l'hymne national",
+  "la fête nationale",
+  "la fraternité"
+ ]
+},
+{
+ "t": "pv",
+ "s": "laicite",
+ "intro": "La laïcité est un principe très important en France. Elle protège la liberté de chacun et garantit que l'État reste neutre face aux religions.",
+ "parts": [
+  {
+   "h": "Ce que veut dire « laïque »",
+   "p": [
+    "Article 1 de la Constitution : « La France est une République indivisible, laïque, démocratique et sociale. » Laïque veut dire que l'État n'a pas de religion : il est neutre.",
+    "La loi du 9 décembre 1905 sépare les Églises et l'État. L'État ne reconnaît et ne finance aucune religion. Aucune religion n'est au-dessus de la loi."
+   ]
+  },
+  {
+   "h": "La liberté de conscience",
+   "p": [
+    "Chacun est libre de croire, de ne pas croire (être athée ou agnostique) ou de changer de religion. On peut pratiquer sa religion, dans le respect de l'ordre public.",
+    "La religion fait partie de la vie privée. Personne n'a à déclarer sa religion, et elle n'est pas écrite sur les papiers d'identité."
+   ]
+  },
+  {
+   "h": "Qui doit être neutre ?",
+   "p": [
+    "C'est l'État qui est neutre, pas les citoyens. Les agents du service public (enseignants, employés de mairie…) ne montrent pas leur religion au travail.",
+    "Dans la rue, chacun peut porter un signe religieux. Seule règle : le visage doit rester visible dans l'espace public (loi de 2010)."
+   ]
+  },
+  {
+   "h": "La laïcité à l'école",
+   "p": [
+    "L'école publique est laïque : elle accueille tous les enfants de la même façon. Depuis 2004, les élèves ne peuvent pas porter de signes religieux visibles (voile, kippa, grande croix).",
+    "La religion n'est pas une raison pour manquer l'école ou refuser un cours. L'instruction est obligatoire de 3 à 16 ans."
+   ]
+  }
+ ],
+ "keys": [
+  "Article 1 : la République est « laïque ».",
+  "Loi du 9 décembre 1905 : séparation des Églises et de l'État.",
+  "On est libre de croire, de ne pas croire ou de changer de religion.",
+  "L'État et ses agents sont neutres ; les citoyens sont libres.",
+  "École : pas de signes religieux visibles pour les élèves (2004)."
+ ],
+ "v": [
+  "laïque",
+  "la liberté de conscience",
+  "neutre",
+  "un signe religieux"
+ ]
+},
+{
+ "t": "pv",
+ "s": "situation",
+ "intro": "Les questions « mises en situation » décrivent un cas de la vie de tous les jours. Pour bien répondre, il suffit d'appliquer quelques règles simples.",
+ "parts": [
+  {
+   "h": "L'égalité entre les femmes et les hommes",
+   "p": [
+    "Les femmes et les hommes ont les mêmes droits partout : à l'école, au travail, dans le sport, dans le couple. Depuis 1965, une femme mariée peut travailler et ouvrir un compte en banque sans l'accord de son mari.",
+    "Chacun choisit librement la personne qu'il épouse. Le mariage forcé est interdit, même à l'étranger. On peut se marier à partir de 18 ans. La femme comme l'homme peut demander le divorce ; la répudiation n'existe pas."
+   ]
+  },
+  {
+   "h": "Le service public et la neutralité",
+   "p": [
+    "Le service public est le même pour tous. Un usager ne choisit pas l'agent (médecin, guichetier, enseignant) selon son sexe ou sa religion, sauf urgence ou cas particulier.",
+    "À l'école, la mixité est la règle. Le sport, la natation et les sorties pendant les heures de classe sont obligatoires. Étudier l'histoire des religions n'est pas un enseignement religieux.",
+    "Dans une entreprise privée, la liberté religieuse existe, mais elle ne doit pas gêner le travail, la sécurité ou les autres. Le règlement intérieur peut fixer des règles."
+   ]
+  },
+  {
+   "h": "Les discriminations sont punies",
+   "p": [
+    "Refuser un emploi, un logement ou un service à cause de l'origine, de la couleur de peau, de la religion, du sexe, d'une grossesse ou de l'orientation sexuelle est une discrimination. C'est un délit.",
+    "Une insulte raciste ou homophobe est aussi un délit. La victime peut porter plainte à la police ou à la gendarmerie, ou contacter le Défenseur des droits. On ne se fait jamais justice soi-même."
+   ]
+  },
+  {
+   "h": "Respecter les symboles et débattre",
+   "p": [
+    "On respecte la Marseillaise et le drapeau. Les outrager en public, lors d'un événement officiel, est puni par la loi.",
+    "En démocratie, on peut critiquer, débattre, créer une association (loi de 1901, même pour un étranger) et manifester pacifiquement. La violence et les menaces sont interdites."
+   ]
+  }
+ ],
+ "keys": [
+  "Femmes et hommes : mêmes droits, partout.",
+  "Mariage : libre, à 18 ans minimum ; mariage forcé interdit.",
+  "Service public : on ne choisit pas l'agent selon son sexe ou sa religion.",
+  "Discrimination ou insulte raciste : délit, on peut porter plainte.",
+  "On ne se fait jamais justice soi-même."
+ ],
+ "v": [
+  "la discrimination",
+  "la mixité",
+  "porter plainte",
+  "le Défenseur des droits"
+ ]
+},
+{
+ "t": "sip",
+ "s": "democratie",
+ "intro": "En démocratie, le pouvoir vient du peuple. Les citoyens choisissent leurs représentants par des élections libres.",
+ "parts": [
+  {
+   "h": "Le droit de vote",
+   "p": [
+    "Pour voter, il faut être citoyen français, avoir 18 ans (l'âge de la majorité depuis 1974) et être inscrit sur les listes électorales de sa commune.",
+    "Le suffrage universel, c'est le vote pour tous les citoyens majeurs, sans condition de richesse ou de sexe. Les femmes votent depuis 1944.",
+    "Exception : les citoyens de l'Union européenne qui habitent en France peuvent voter aux élections municipales et européennes."
+   ]
+  },
+  {
+   "h": "Les grandes élections",
+   "p": [
+    "Présidentielle : les citoyens élisent directement le président de la République, pour 5 ans (le quinquennat, depuis 2000). Au maximum 2 mandats de suite.",
+    "Législatives : on élit les 577 députés de l'Assemblée nationale, pour 5 ans, au suffrage universel direct.",
+    "Sénatoriales : les 348 sénateurs sont élus pour 6 ans par des « grands électeurs » (surtout des élus locaux). La moitié du Sénat change tous les 3 ans.",
+    "Municipales : on élit le conseil municipal pour 6 ans. Ensuite, les conseillers élisent le maire."
+   ]
+  },
+  {
+   "h": "Le pluralisme",
+   "p": [
+    "La Constitution garantit le pluralisme : plusieurs partis politiques existent librement et présentent des candidats. Depuis 1958, la France vit sous la Ve République."
+   ]
+  }
+ ],
+ "keys": [
+  "Voter : être Français, 18 ans, inscrit sur les listes.",
+  "Femmes : droit de vote depuis 1944.",
+  "Président : 5 ans, élu directement, 2 mandats de suite au maximum.",
+  "577 députés (5 ans) ; 348 sénateurs (6 ans).",
+  "Conseil municipal : 6 ans ; il élit le maire."
+ ],
+ "v": [
+  "le suffrage universel",
+  "les listes électorales",
+  "un mandat",
+  "un député"
+ ]
+},
+{
+ "t": "sip",
+ "s": "organisation",
+ "intro": "En France, le pouvoir est partagé entre trois pouvoirs séparés. Ainsi, personne n'a tout le pouvoir, et personne n'est au-dessus de la loi.",
+ "parts": [
+  {
+   "h": "Les trois pouvoirs",
+   "p": [
+    "Le pouvoir législatif vote les lois. Il appartient au Parlement : l'Assemblée nationale (577 députés) et le Sénat (348 sénateurs). Le Parlement vote aussi le budget et contrôle le Gouvernement.",
+    "Le pouvoir exécutif fait appliquer les lois et gouverne. Il appartient au président de la République et au Gouvernement (Premier ministre et ministres). Le président nomme le Premier ministre et signe (promulgue) les lois.",
+    "Le pouvoir judiciaire juge. Les magistrats sont indépendants : les juges jugent, les procureurs défendent l'intérêt de la société. La police enquête et arrête, mais elle ne juge pas."
+   ]
+  },
+  {
+   "h": "L'État de droit",
+   "p": [
+    "La loi s'applique à tous : citoyens, étrangers, élus, ministres, policiers. Si on n'est pas d'accord avec une loi, on peut s'exprimer, manifester ou voter, mais on doit la respecter.",
+    "Seule la justice peut sanctionner. On n'a pas le droit de se faire justice soi-même."
+   ]
+  },
+  {
+   "h": "Les lieux du pouvoir",
+   "p": [
+    "Le président habite et travaille au palais de l'Élysée, à Paris. Le Premier ministre travaille à l'hôtel Matignon."
+   ]
+  },
+  {
+   "h": "Le territoire : communes, départements, régions",
+   "p": [
+    "La commune est dirigée par le maire et le conseil municipal. La mairie s'occupe de l'état civil (naissances, mariages) et des écoles primaires.",
+    "La France compte 101 départements, dont 5 en outre-mer. Dans chaque département, le préfet représente l'État. Il est nommé par le président et le Gouvernement. C'est à la préfecture qu'on fait les démarches pour les titres de séjour."
+   ]
+  }
+ ],
+ "keys": [
+  "Législatif = Parlement (Assemblée nationale + Sénat) : vote les lois.",
+  "Exécutif = président + Gouvernement : applique les lois.",
+  "Judiciaire = juges : jugent, de façon indépendante.",
+  "Le président nomme le Premier ministre.",
+  "Élysée = président ; Matignon = Premier ministre.",
+  "Préfet = l'État dans le département (titres de séjour)."
+ ],
+ "v": [
+  "le pouvoir législatif",
+  "le Gouvernement",
+  "la préfecture",
+  "la mairie"
+ ]
+},
+{
+ "t": "sip",
+ "s": "europe",
+ "intro": "La France est un des pays qui ont fondé l'Union européenne. Elle en fait toujours partie, avec 26 autres pays.",
+ "parts": [
+  {
+   "h": "L'histoire de l'Europe unie",
+   "p": [
+    "Le 9 mai 1950, Robert Schuman propose d'unir les pays d'Europe. Le 9 mai est devenu la journée de l'Europe.",
+    "En 1957, le traité de Rome crée la CEE avec 6 pays fondateurs : la France, l'Allemagne, l'Italie, la Belgique, les Pays-Bas et le Luxembourg. Elle devient l'Union européenne en 1992 (traité de Maastricht)."
+   ]
+  },
+  {
+   "h": "L'Union européenne aujourd'hui",
+   "p": [
+    "L'Union européenne compte 27 pays depuis le départ du Royaume-Uni (Brexit, 2020). La Suisse et la Norvège sont en Europe, mais pas dans l'Union.",
+    "Depuis 2002, la monnaie de la France est l'euro (€). Avant, c'était le franc. Le Parlement européen se trouve à Strasbourg."
+   ]
+  },
+  {
+   "h": "Les élections européennes",
+   "p": [
+    "Tous les 5 ans, les citoyens des 27 pays élisent directement les députés du Parlement européen. Les dernières ont eu lieu en juin 2024. Pour voter, il faut être citoyen de l'Union, majeur et inscrit sur les listes électorales."
+   ]
+  }
+ ],
+ "keys": [
+  "6 pays fondateurs (1957) : France, Allemagne, Italie, Belgique, Pays-Bas, Luxembourg.",
+  "27 pays depuis le Brexit (2020).",
+  "Euro depuis 2002.",
+  "Journée de l'Europe : 9 mai.",
+  "Élections européennes : tous les 5 ans."
+ ],
+ "v": [
+  "l'Union européenne",
+  "un pays fondateur",
+  "la monnaie",
+  "le Parlement européen"
+ ]
+},
+{
+ "t": "dd",
+ "s": "fondamentaux",
+ "intro": "En France, toute personne a des droits fondamentaux, qu'elle soit française ou étrangère. Ils sont écrits dans de grands textes.",
+ "parts": [
+  {
+   "h": "La Déclaration des droits de l'homme et du citoyen",
+   "p": [
+    "La DDHC a été adoptée le 26 août 1789, pendant la Révolution, quelques semaines après la prise de la Bastille. Son article 1 dit : « Les hommes naissent et demeurent libres et égaux en droits. »",
+    "Elle énonce les droits fondamentaux : la liberté, l'égalité, la propriété, la sûreté. Elle fait partie de la Constitution."
+   ]
+  },
+  {
+   "h": "La Constitution de 1958",
+   "p": [
+    "La Constitution de la Ve République a été adoptée le 4 octobre 1958. C'est le texte le plus important du pays. Son préambule renvoie à la DDHC de 1789, au préambule de 1946 et à la Charte de l'environnement."
+   ]
+  },
+  {
+   "h": "Les libertés de chacun",
+   "p": [
+    "Liberté d'opinion et d'expression : on peut dire et écrire ses idées, à l'oral, sur papier ou sur Internet. Mais l'insulte, la diffamation et l'appel à la haine sont punis.",
+    "Liberté de conscience : croire, ne pas croire ou changer de religion. Elle est protégée par la laïcité.",
+    "Droit à la justice : toute personne a droit à un procès équitable et à un avocat. Si elle n'a pas assez d'argent, l'aide juridictionnelle peut payer l'avocat."
+   ]
+  }
+ ],
+ "keys": [
+  "DDHC : 26 août 1789.",
+  "Article 1 : « libres et égaux en droits ».",
+  "Constitution : 4 octobre 1958.",
+  "Ces droits valent pour tous, Français et étrangers.",
+  "Droit à un avocat, même sans argent (aide juridictionnelle)."
+ ],
+ "v": [
+  "un droit fondamental",
+  "la sûreté",
+  "un avocat",
+  "un procès"
+ ]
+},
+{
+ "t": "dd",
+ "s": "obligations",
+ "intro": "Vivre en France, c'est avoir des droits, mais aussi des devoirs. La loi peut limiter une liberté pour protéger les autres.",
+ "parts": [
+  {
+   "h": "Les devoirs du citoyen",
+   "p": [
+    "Les citoyens français ont des droits civiques (voter, être élu, être juré) et des devoirs : respecter la loi, payer ses impôts, participer à la défense du pays.",
+    "Les libertés ont des limites. Par exemple, la liberté de circuler ne permet pas de rouler trop vite.",
+    "Il faut porter secours à une personne en danger. Ne rien faire est une infraction : la non-assistance à personne en danger."
+   ]
+  },
+  {
+   "h": "Les infractions et la sécurité",
+   "p": [
+    "Il y a trois sortes d'infractions : la contravention (la moins grave, comme un excès de vitesse), le délit (vol, fraude) et le crime (le plus grave, comme le meurtre, jugé par la cour d'assises).",
+    "Les sanctions peuvent être une amende, un travail d'intérêt général ou la prison. La police (en ville, numéro 17) et la gendarmerie (surtout à la campagne) assurent la sécurité.",
+    "Une victime de violences appelle le 17 ou le 112 et peut porter plainte. Pour les femmes victimes de violences : le 3919, gratuit et anonyme."
+   ]
+  },
+  {
+   "h": "Des droits importants de la loi française",
+   "p": [
+    "La peine de mort a été abolie en 1981 (loi de Robert Badinter). Depuis 2007, c'est écrit dans la Constitution.",
+    "L'IVG (interruption volontaire de grossesse) est un droit de la femme, dans un délai fixé par la loi. Personne ne décide à sa place. Depuis 2024, cette liberté est dans la Constitution.",
+    "On ne peut être marié qu'avec une seule personne : la polygamie est interdite. La femme comme l'homme peut demander le divorce. La traite des êtres humains (travail forcé, esclavage) est un crime grave."
+   ]
+  },
+  {
+   "h": "Protéger l'environnement",
+   "p": [
+    "Protéger l'environnement est un devoir (Charte de l'environnement). On trie ses déchets (poubelle jaune pour les emballages, verre à part). Jeter un déchet dans la rue coûte une amende de 135 € ou plus. Les gros objets vont à la déchetterie ; brûler ses déchets dans son jardin est interdit."
+   ]
+  }
+ ],
+ "keys": [
+  "Devoirs : respecter la loi, payer ses impôts, porter secours.",
+  "Contravention < délit < crime.",
+  "Urgences : 17 police, 112 européen, 3919 violences faites aux femmes.",
+  "Peine de mort abolie en 1981.",
+  "IVG dans la Constitution depuis 2024 ; polygamie interdite."
+ ],
+ "v": [
+  "une infraction",
+  "une amende",
+  "porter secours",
+  "les impôts",
+  "trier ses déchets"
+ ]
+},
+{
+ "t": "dd",
+ "s": "situation",
+ "intro": "Ces questions décrivent des situations de la vie quotidienne. Le bon réflexe : respecter la loi, protéger les personnes et passer par les bonnes institutions.",
+ "parts": [
+  {
+   "h": "Urgences et entraide",
+   "p": [
+    "Une personne est en danger : on appelle le 15 (SAMU), le 18 (pompiers) ou le 112. Ne rien faire est un délit.",
+    "Les violences conjugales sont un délit grave. Le 3919 écoute les victimes (gratuit, anonyme). En danger immédiat : le 17. La fraternité, c'est aussi s'inquiéter d'un voisin fragile et alerter les secours ou la mairie."
+   ]
+  },
+  {
+   "h": "La justice, pas la vengeance",
+   "p": [
+    "Un témoin peut alerter et témoigner, mais on ne se fait pas justice soi-même. Toute personne est présumée innocente tant que la justice ne l'a pas jugée coupable.",
+    "Garder un objet trouvé peut être un vol : on le rapporte à la police ou à la mairie. Acheter un objet qu'on sait volé, c'est du recel, un délit. Donner de l'argent à un policier, c'est de la corruption.",
+    "Une amende doit être payée. Si on n'est pas d'accord, on la conteste (site de l'ANTAI). Un avis d'impôt qui semble faux : on fait une réclamation, on ne l'ignore pas."
+   ]
+  },
+  {
+   "h": "Vie privée et respect",
+   "p": [
+    "Le domicile est inviolable : même le propriétaire ne peut pas entrer chez son locataire sans accord. Chacun a droit au respect de son image ; un employeur ne peut pas lire les messages personnels d'un salarié.",
+    "Le tapage nocturne est interdit. On parle d'abord calmement ; si ça continue, on fait appel à un conciliateur ou à la police (17).",
+    "Le patient peut consulter son propre dossier médical. Le harcèlement sexuel est un délit : la victime peut alerter son employeur, l'inspection du travail, le Défenseur des droits ou porter plainte."
+   ]
+  },
+  {
+   "h": "Papiers, travail, famille",
+   "p": [
+    "Un étranger doit pouvoir montrer son titre de séjour lors d'un contrôle, et déclarer un changement d'adresse dans les 3 mois (site de l'ANEF). Personne n'a le droit de garder votre passeport : c'est un signe de traite des êtres humains.",
+    "Le travail non déclaré est interdit et ne protège pas (maladie, retraite, chômage). Utiliser de faux papiers est un délit grave. Conduire sans permis valable aussi ; un permis étranger doit parfois être échangé.",
+    "Les gifles et fessées sont interdites depuis 2019. Pour les enfants nés depuis 2018, 11 vaccins sont obligatoires. L'école est obligatoire jusqu'à 16 ans, puis la formation jusqu'à 18 ans. Les absences doivent être justifiées."
+   ]
+  }
+ ],
+ "keys": [
+  "Personne en danger : 15, 18 ou 112 ; ne rien faire est un délit.",
+  "On ne se fait jamais justice soi-même ; présomption d'innocence.",
+  "Objet trouvé : on le rapporte (police, mairie).",
+  "Pas d'accord avec une amende ou un impôt : on conteste, on n'ignore pas.",
+  "Changement d'adresse : à déclarer dans les 3 mois (ANEF).",
+  "Aucune violence sur les enfants (loi de 2019)."
+ ],
+ "v": [
+  "un témoin",
+  "le recel",
+  "contester",
+  "le domicile",
+  "le travail non déclaré"
+ ]
+},
+{
+ "t": "hgc",
+ "s": "histoire",
+ "intro": "Quelques grandes dates suffisent pour comprendre l'histoire de France : la Révolution, les deux guerres mondiales et la naissance de la Ve République.",
+ "parts": [
+  {
+   "h": "Avant la Révolution",
+   "p": [
+    "Jeanne d'Arc est une héroïne du XVe siècle : pendant la guerre de Cent Ans, elle a combattu les Anglais. Louis XIV, le « Roi-Soleil », a fait construire le château de Versailles."
+   ]
+  },
+  {
+   "h": "La Révolution et Napoléon",
+   "p": [
+    "La Révolution commence en 1789. Le 14 juillet 1789, le peuple de Paris prend la Bastille ; le 26 août, la Déclaration des droits de l'homme est adoptée. La monarchie est abolie en 1792 et le roi Louis XVI est exécuté en 1793.",
+    "Napoléon Bonaparte devient empereur en 1804. Il crée le Code civil, les lycées et la Légion d'honneur."
+   ]
+  },
+  {
+   "h": "Le XIXe siècle : République, esclavage, école",
+   "p": [
+    "La France a eu 5 Républiques : 1792, 1848, 1870, 1946 et 1958 (la Ve, actuelle).",
+    "L'esclavage est aboli en 1794, rétabli par Napoléon en 1802, puis aboli définitivement en 1848 grâce à Victor Schœlcher.",
+    "Avec Jules Ferry, l'école primaire publique devient gratuite (1881), puis laïque et obligatoire (1882)."
+   ]
+  },
+  {
+   "h": "Les deux guerres mondiales",
+   "p": [
+    "Première Guerre mondiale (la « Grande Guerre ») : 1914-1918. Environ 1,4 million de soldats français meurent. L'armistice du 11 novembre 1918 met fin aux combats.",
+    "Seconde Guerre mondiale : 1939-1945. La France est occupée par l'Allemagne nazie de 1940 à 1944. Le régime de Vichy collabore et participe à la déportation de près de 76 000 Juifs. Le 8 mai 1945 marque la victoire."
+   ]
+  },
+  {
+   "h": "Après 1945",
+   "p": [
+    "La France avait un grand empire colonial (Afrique, Asie). L'Algérie devient indépendante en 1962. En 1957, la France fonde la CEE, future Union européenne.",
+    "En 1958, le général de Gaulle revient au pouvoir. La Constitution du 4 octobre 1958 crée la Ve République. De Gaulle en est le premier président (1959-1969)."
+   ]
+  }
+ ],
+ "keys": [
+  "1789 : Révolution, prise de la Bastille (14 juillet).",
+  "1804 : Napoléon empereur, Code civil.",
+  "1848 : abolition définitive de l'esclavage (Schœlcher).",
+  "1881-1882 : école gratuite, laïque, obligatoire (Jules Ferry).",
+  "1914-1918 et 1939-1945 : les deux guerres mondiales.",
+  "1958 : Ve République, de Gaulle."
+ ],
+ "v": [
+  "la Révolution",
+  "la monarchie",
+  "l'esclavage",
+  "l'armistice",
+  "l'Occupation"
+ ]
+},
+{
+ "t": "hgc",
+ "s": "geo",
+ "intro": "La France métropolitaine est en Europe de l'Ouest. Elle a aussi des territoires sur d'autres continents : c'est l'outre-mer.",
+ "parts": [
+  {
+   "h": "Mers et montagnes",
+   "p": [
+    "La France est bordée par la Manche au nord, l'océan Atlantique à l'ouest et la mer Méditerranée au sud (Marseille, Nice, Montpellier). Brest est sur l'Atlantique.",
+    "Les Alpes séparent la France de l'Italie ; le mont Blanc (4 805 m) est le plus haut sommet. Les Pyrénées sont entre la France et l'Espagne."
+   ]
+  },
+  {
+   "h": "Fleuves et villes",
+   "p": [
+    "Les grands fleuves : la Loire (le plus long), la Seine (qui traverse Paris), la Garonne et le Rhône. Le Rhin marque une partie de la frontière avec l'Allemagne.",
+    "Paris est la capitale et la plus grande ville. Lyon est la 3e ville. Marseille est le premier port, Le Havre un très grand port sur la Manche. Strasbourg, à l'est, accueille le Parlement européen ; Lille est au nord."
+   ]
+  },
+  {
+   "h": "Régions, départements et outre-mer",
+   "p": [
+    "Depuis 2016, il y a 13 régions en métropole (18 avec l'outre-mer), par exemple l'Île-de-France ou la Bretagne. La Corse est une île de la Méditerranée ; Napoléon est né à Ajaccio.",
+    "Les 5 départements d'outre-mer : la Guadeloupe, la Martinique, la Guyane, La Réunion (île de l'océan Indien) et Mayotte."
+   ]
+  }
+ ],
+ "keys": [
+  "Nord : Manche ; ouest : Atlantique ; sud : Méditerranée.",
+  "Mont Blanc : 4 805 m, dans les Alpes.",
+  "La Loire est le plus long fleuve ; la Seine traverse Paris.",
+  "13 régions en métropole, 101 départements.",
+  "Outre-mer : Guadeloupe, Martinique, Guyane, La Réunion, Mayotte."
+ ],
+ "v": [
+  "un fleuve",
+  "la frontière",
+  "la capitale",
+  "l'outre-mer"
+ ]
+},
+{
+ "t": "hgc",
+ "s": "patrimoine",
+ "intro": "Le patrimoine, c'est ce que la France a de plus précieux : ses monuments, ses écrivains, ses artistes et ses traditions.",
+ "parts": [
+  {
+   "h": "Monuments",
+   "p": [
+    "La tour Eiffel, à Paris, a été construite par Gustave Eiffel pour l'Exposition universelle de 1889. Le Louvre, ancien palais des rois, est le musée le plus visité du monde : on y voit « La Joconde » de Léonard de Vinci."
+   ]
+  },
+  {
+   "h": "Écrivains",
+   "p": [
+    "XVIIe siècle : Molière, auteur de comédies (on dit « la langue de Molière » pour le français), et Jean de La Fontaine, auteur des fables (« Le Corbeau et le Renard »).",
+    "XIXe siècle : Victor Hugo (« Les Misérables », « Notre-Dame de Paris »), le poète Charles Baudelaire (« Les Fleurs du mal ») et George Sand, qui a pris un nom d'homme pour publier.",
+    "XXe siècle : Simone de Beauvoir (« Le Deuxième Sexe », 1949, pour les droits des femmes) et Albert Camus, né en Algérie (« L'Étranger », prix Nobel 1957)."
+   ]
+  },
+  {
+   "h": "Artistes",
+   "p": [
+    "Paul Cézanne a peint la montagne Sainte-Victoire en Provence. Marc Chagall, d'origine russe, a peint le plafond de l'Opéra Garnier.",
+    "Édith Piaf est une chanteuse très célèbre (« La Vie en rose »). Joséphine Baker, née aux États-Unis puis française, a aidé la Résistance et lutté contre le racisme ; elle est entrée au Panthéon en 2021."
+   ]
+  },
+  {
+   "h": "Traditions",
+   "p": [
+    "Noël, le 25 décembre, est une fête d'origine chrétienne devenue une fête familiale pour beaucoup de Français. C'est un jour férié, comme le 14 juillet."
+   ]
+  }
+ ],
+ "keys": [
+  "Tour Eiffel : 1889 ; Louvre : « La Joconde ».",
+  "Molière et La Fontaine : XVIIe siècle.",
+  "Victor Hugo : « Les Misérables ».",
+  "Simone de Beauvoir et George Sand : droits des femmes.",
+  "Joséphine Baker : Résistance, Panthéon en 2021."
+ ],
+ "v": [
+  "le patrimoine",
+  "un écrivain",
+  "un peintre",
+  "un jour férié"
+ ]
+},
+{
+ "t": "vsf",
+ "s": "installer",
+ "intro": "Quelques règles et numéros utiles pour bien vivre au quotidien en France.",
+ "parts": [
+  {
+   "h": "Les numéros d'urgence",
+   "p": [
+    "15 : SAMU (urgence médicale). 17 : police. 18 : pompiers (incendie, accident, blessés). 112 : numéro d'urgence européen. 114 : par SMS, pour les personnes sourdes ou qui ne peuvent pas parler.",
+    "Ces numéros sont gratuits et répondent jour et nuit, même sans crédit sur le téléphone."
+   ]
+  },
+  {
+   "h": "L'état civil à la mairie",
+   "p": [
+    "Seul le mariage civil, à la mairie, est reconnu par la loi. Les deux époux doivent avoir 18 ans et être d'accord librement. Le mariage religieux ne peut avoir lieu qu'après.",
+    "La naissance d'un enfant doit être déclarée à la mairie du lieu de naissance dans les 5 jours."
+   ]
+  },
+  {
+   "h": "Voiture et adresse",
+   "p": [
+    "L'assurance auto est obligatoire pour toute voiture qui roule. Conduire sans assurance est un délit.",
+    "Un étranger qui déménage doit déclarer sa nouvelle adresse dans les 3 mois, en ligne sur le site de l'ANEF."
+   ]
+  }
+ ],
+ "keys": [
+  "15 SAMU, 17 police, 18 pompiers, 112 européen, 114 par SMS.",
+  "Mariage civil à la mairie d'abord, à 18 ans, librement.",
+  "Naissance : déclarée dans les 5 jours.",
+  "Assurance auto obligatoire."
+ ],
+ "v": [
+  "les pompiers",
+  "l'état civil",
+  "un époux, une épouse",
+  "l'assurance"
+ ]
+},
+{
+ "t": "vsf",
+ "s": "soins",
+ "intro": "En France, toute personne qui vit ou travaille de façon stable et régulière peut se faire soigner et être remboursée.",
+ "parts": [
+  {
+   "h": "L'Assurance maladie et la mutuelle",
+   "p": [
+    "L'Assurance maladie (la « Sécu », la CPAM) rembourse une partie des frais de santé. C'est la protection universelle maladie (PUMa).",
+    "La mutuelle (complémentaire santé) paie une partie ou tout le reste. Elle n'est pas obligatoire, mais recommandée.",
+    "La carte Vitale est la carte verte de l'Assurance maladie. On la donne au médecin ou au pharmacien : le remboursement est automatique."
+   ]
+  },
+  {
+   "h": "Le médecin traitant",
+   "p": [
+    "Pour un problème courant, on va d'abord chez son médecin traitant (un généraliste). Il suit la santé, les vaccins, et envoie vers un spécialiste si nécessaire. On le déclare à l'Assurance maladie pour être mieux remboursé."
+   ]
+  },
+  {
+   "h": "Urgences et vaccins",
+   "p": [
+    "Les urgences de l'hôpital sont pour les cas graves. Pour une urgence vitale, on appelle le 15. Pour un petit problème : le médecin ou la pharmacie.",
+    "Les vaccins protègent la personne et les autres. Certains sont obligatoires pour les enfants, par exemple pour aller à la crèche ou à l'école."
+   ]
+  }
+ ],
+ "keys": [
+  "Assurance maladie (Sécu) + mutuelle = remboursement.",
+  "Carte Vitale : la carte verte, à donner au médecin.",
+  "D'abord le médecin traitant ; les urgences pour les cas graves.",
+  "Urgence vitale : 15."
+ ],
+ "v": [
+  "le médecin traitant",
+  "la mutuelle",
+  "rembourser",
+  "un vaccin"
+ ]
+},
+{
+ "t": "vsf",
+ "s": "travail",
+ "intro": "Travailler en France, c'est avoir des droits protégés par la loi : un salaire minimum, une durée de travail et l'égalité.",
+ "parts": [
+  {
+   "h": "Salaire et durée du travail",
+   "p": [
+    "Le SMIC est le salaire minimum légal : aucun salarié ne peut être payé moins. Les femmes et les hommes doivent avoir le même salaire pour le même travail.",
+    "La durée légale du travail à temps plein est de 35 heures par semaine. Au-delà, ce sont des heures supplémentaires, payées en plus."
+   ]
+  },
+  {
+   "h": "Le travail déclaré",
+   "p": [
+    "Le travail « au noir » (non déclaré) est interdit. Le salarié n'a alors aucune protection : pas de maladie, de retraite ni de chômage. L'inspection du travail peut l'aider."
+   ]
+  },
+  {
+   "h": "Chercher un emploi",
+   "p": [
+    "On s'inscrit à France Travail (ex-Pôle emploi). Un conseiller aide à trouver un emploi ou une formation, et verse les allocations chômage.",
+    "On peut créer une entreprise sans être français, si son titre de séjour le permet. On peut travailler dès 16 ans avec l'accord des parents.",
+    "Depuis 1965, une femme mariée peut travailler et ouvrir un compte bancaire sans l'accord de son mari."
+   ]
+  }
+ ],
+ "keys": [
+  "SMIC = salaire minimum légal.",
+  "35 heures par semaine ; au-delà, heures supplémentaires.",
+  "Travail au noir interdit, sans protection.",
+  "Chercher un emploi : France Travail."
+ ],
+ "v": [
+  "le salaire",
+  "un salarié",
+  "le chômage",
+  "les heures supplémentaires"
+ ]
+},
+{
+ "t": "vsf",
+ "s": "ecole",
+ "intro": "En France, l'école est un droit et une obligation pour tous les enfants, quelle que soit leur nationalité.",
+ "parts": [
+  {
+   "h": "L'instruction obligatoire",
+   "p": [
+    "L'instruction est obligatoire de 3 à 16 ans pour tous les enfants qui habitent en France. De 16 à 18 ans, les jeunes doivent continuer une formation : études, apprentissage, service civique ou emploi.",
+    "L'élève doit aller à tous les cours. Les parents justifient chaque absence (maladie, par exemple). Les enfants qui parlent une autre langue ont des cours de français adaptés (UPE2A)."
+   ]
+  },
+  {
+   "h": "Le parcours scolaire",
+   "p": [
+    "École maternelle (3-6 ans), école élémentaire (6-11 ans), collège (11-15 ans), puis lycée (15-18 ans). À la fin du collège, on passe le brevet ; à la fin du lycée, le baccalauréat (le « bac »), qui permet d'aller à l'université."
+   ]
+  },
+  {
+   "h": "L'autorité parentale",
+   "p": [
+    "Les deux parents ont l'autorité parentale : ils protègent l'enfant (sécurité, santé), l'éduquent et l'envoient à l'école. Toute violence, même « éducative », est interdite."
+   ]
+  }
+ ],
+ "keys": [
+  "Instruction obligatoire de 3 à 16 ans ; formation jusqu'à 18 ans.",
+  "Maternelle, élémentaire, collège, lycée.",
+  "Brevet (fin du collège), bac (fin du lycée).",
+  "Les deux parents ont l'autorité parentale, sans violence."
+ ],
+ "v": [
+  "l'école maternelle",
+  "le collège",
+  "le lycée",
+  "l'autorité parentale"
+ ]
+}
+]

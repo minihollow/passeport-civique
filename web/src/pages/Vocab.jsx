@@ -4,7 +4,8 @@ import { QUESTIONS, shuffle } from '../lib/quiz.js';
 import { THEMES } from '../data/themes.js';
 import { helpLang } from '../lang/langs.js';
 
-const ALL = (() => {
+// Built on each visit, not at import: the help-language pack fills the translations after startup.
+const allWords = () => {
   const seen = new Map();
   for (const q of QUESTIONS) {
     for (const [fr, tr] of q.v || []) {
@@ -13,7 +14,7 @@ const ALL = (() => {
     }
   }
   return [...seen.values()].sort((a, b) => a.fr.localeCompare(b.fr, 'fr', { sensitivity: 'base' }));
-})();
+};
 
 const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/^(le |la |les |l'|un |une |des )/, '');
 
@@ -22,8 +23,10 @@ export default function Vocab() {
   const [query, setQuery] = useState('');
   const [theme, setTheme] = useState('');
   const [cards, setCards] = useState(false);
-  const list = useMemo(() => ALL.filter((w) => (!theme || w.t === theme)
-    && (!query || norm(w.fr).includes(norm(query)) || w.tr.toLowerCase().includes(query.toLowerCase()))), [query, theme]);
+  const lang = helpLang();
+  const all = useMemo(allWords, [lang]); // eslint-disable-line react-hooks/exhaustive-deps
+  const list = useMemo(() => all.filter((w) => (!theme || w.t === theme)
+    && (!query || norm(w.fr).includes(norm(query)) || w.tr.toLowerCase().includes(query.toLowerCase()))), [all, query, theme]);
 
   return (
     <div className="page">

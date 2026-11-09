@@ -36,6 +36,20 @@ Rules:
 - After changing or adding French text, update the translations: run `node scripts/lang-template.mjs <code>` for each language (`tr`, `en`…). Texts whose French changed are emptied in the pack, ready to be translated again; until then they are shown in French.
 - New words in a question or a choice: run `node scripts/word-list.mjs <code>` for each language. It updates the word by word glossary (`web/src/lang/words/<code>.json`, shown when a word is tapped in bilingual mode); fill in the empty translations. A word without a translation is still read aloud.
 
+## Fix a lesson
+
+The lessons ("Lire le cours", one per sub-theme) live in `content/lessons.json`, in French:
+
+```json
+{"t":"pv","s":"laicite",
+ "intro":"La laïcité est un principe très important en France…",
+ "parts":[{"h":"Ce que veut dire « laïque »","p":["Article 1 de la Constitution…","La loi du 9 décembre 1905…"]}],
+ "keys":["Loi du 9 décembre 1905 : séparation des Églises et de l'État."],
+ "v":["laïque","la liberté de conscience"]}
+```
+
+`t` and `s` are the theme and sub-theme (see `web/src/data/themes.js`); `parts` are headed sections of paragraphs; `keys` the points to remember; `v` the key words. Same rules as the questions: short sentences, checkable on an official source, then `node scripts/lang-template.mjs <code>` for each language.
+
 ## Add a help language
 
 The app's texts are written in French and shown as `[French, help language]` pairs. Each help language is a **pack**, a JSON file in `web/src/lang/packs/` (`tr.json`, `en.json`…), that fills the second slot. Only the profile's language is loaded.

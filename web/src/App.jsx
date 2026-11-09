@@ -12,6 +12,7 @@ import Result from './pages/Result.jsx';
 import Mistakes from './pages/Mistakes.jsx';
 import Progress from './pages/Progress.jsx';
 import Vocab from './pages/Vocab.jsx';
+import Lesson from './pages/Lesson.jsx';
 import Settings from './pages/Settings.jsx';
 import Setup from './pages/Setup.jsx';
 import Profiles from './pages/Profiles.jsx';
@@ -235,11 +236,12 @@ export default function App() {
 
   const weakCount = QUESTIONS.filter((q) => isWeak(qStat(state, q.id))).length;
   const streak = streakDays(state.days);
-  const navName = route.name === 'session' ? (plan?.type === 'exam' ? 'exam' : 'practice') : route.name === 'result' ? 'progress' : route.name;
+  const navName = route.name === 'session' ? (plan?.type === 'exam' ? 'exam' : 'practice') : route.name === 'result' ? 'progress' : route.name === 'lesson' ? 'practice' : route.name;
 
   let page;
   switch (route.name) {
-    case 'practice': page = <Practice start={start} focusTheme={route.params.theme} />; break;
+    case 'practice': page = <Practice start={start} go={go} focusTheme={route.params.theme} />; break;
+    case 'lesson': page = <Lesson key={`${route.params.t}.${route.params.s || ''}`} t={route.params.t} s={route.params.s} go={go} start={start} />; break;
     case 'session': page = plan && <Session key={plan.key} plan={plan} go={go} restart={(o) => start(plan.type, { ...o, force: true })} setCoco={setCocoCtx} askCoco={askCoco} notify={notify} />; break;
     case 'result': page = <Result sessionId={route.params.sessionId} freshBadges={route.params.freshBadges} go={go} askAbout={askAbout}
       startAgain={() => { const s = state.sessions.find((x) => x.id === route.params.sessionId); start(s?.type || 'daily', { theme: s?.theme, sub: s?.sub, level: s?.level }); }} />; break;
@@ -259,7 +261,7 @@ export default function App() {
             <div className="brand-name">{UI.appName[uiIdx]}<small>{UI.app_sub[uiIdx]}</small></div>
           </div>
           {NAV.map((n) => (
-            <button key={n.id} type="button" className="nav-btn" aria-current={navName === n.id ? 'page' : undefined} onClick={() => go(n.id)}>
+            <button key={n.id} type="button" className={`nav-btn nav-${n.id}`} aria-current={navName === n.id ? 'page' : undefined} onClick={() => go(n.id)}>
               <span className="ico">{n.ico}</span>
               <span>{UI[n.k][uiIdx]}{mode === 'bi' && <span className="sub">{UI[n.k][1]}</span>}</span>
               {n.id === 'mistakes' && weakCount > 0 && <span className="badge">{weakCount}</span>}
@@ -282,6 +284,9 @@ export default function App() {
             {aiOn && !chatOpen && (
               <button type="button" className="btn small ink" onClick={() => setChatOpen(true)}>🐓 Coco</button>
             )}
+            {/* Phones: Settings moves from the bottom menu to here, so the menu fits on one line. */}
+            <button type="button" className="icon-btn top-settings" aria-label={UI.nav_settings[uiIdx]} title={UI.nav_settings[uiIdx]}
+              aria-current={navName === 'settings' ? 'page' : undefined} onClick={() => go('settings')}>⚙️</button>
           </header>
           <main className="content">
             {plan && route.name !== 'session' && (

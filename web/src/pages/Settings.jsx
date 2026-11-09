@@ -138,6 +138,11 @@ export default function Settings({ ai, aiOn, refreshAi, notify }) {
   );
 }
 
+// Phone or tablet (no mouse): Ollama cannot run there.
+const touchOnly = () => {
+  try { return matchMedia('(pointer: coarse)').matches && !matchMedia('(any-pointer: fine)').matches; } catch { return false; }
+};
+
 function AiSettings({ ai, aiOn, setAiOn, refreshAi, model, setModel, speed, setSpeed, system }) {
   const { ui, pick } = useLang();
   const [pulling, setPulling] = useState(null); // { name, pct, status }
@@ -186,6 +191,7 @@ function AiSettings({ ai, aiOn, setAiOn, refreshAi, model, setModel, speed, setS
         <button type="button" aria-pressed={!aiOn} onClick={() => setAiOn(false)}>📖 {ui('ai_mode_off')}</button>
       </div>
       <p className="muted small">{ui('ai_mode_desc')}</p>
+      {touchOnly() && <p className="ai-check small">📱 {ui('ai_desktop_only')}</p>}
       {aiOn && <>
       <div>
         <span className={`status-dot ${ai.status.running ? 'on' : 'off'}`} />

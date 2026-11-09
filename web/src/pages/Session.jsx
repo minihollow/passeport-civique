@@ -17,6 +17,11 @@ export default function Session({ plan, go, restart, setCoco, askCoco, notify })
   const startedAt = plan.startedAt || plan.key;
   const [now, setNow] = useState(Date.now());
   const finished = useRef(false);
+  // Phones: the exam question grid is one scrolling row; keep the current question in view.
+  const gridRef = useRef(null);
+  useEffect(() => {
+    gridRef.current?.querySelector('.cur')?.scrollIntoView({ block: 'nearest', inline: 'center' });
+  }, [idx]);
   const items = plan.items;
   const cur = items[idx];
   const q = Q_BY_ID[cur.id];
@@ -150,12 +155,12 @@ export default function Session({ plan, go, restart, setCoco, askCoco, notify })
         <div className="session-bottom">
           <div className="session-foot">
             <button type="button" className="btn" onClick={() => setIdx(idx - 1)} disabled={idx === 0}>← <U k="prev" /></button>
-            <span className="muted small" style={{ textAlign: 'center' }}>{answeredCount} / {items.length} <U k="answered" /><br />📝 <U k="exam_mode_note" /></span>
+            <span className="muted small" style={{ textAlign: 'center' }}>{answeredCount} / {items.length} <U k="answered" /><span className="exam-note"><br />📝 <U k="exam_mode_note" /></span></span>
             {idx < items.length - 1
               ? <button type="button" className="btn primary" onClick={next}><U k="next" /></button>
               : <button type="button" className="btn primary" onClick={endExam}><U k="finish" /></button>}
           </div>
-          <div className="exam-grid" aria-label="Questions">
+          <div className="exam-grid" aria-label="Questions" ref={gridRef}>
             {items.map((it, i) => (
               <button key={it.id} type="button" className={`${answers[it.id] != null ? 'done' : ''} ${i === idx ? 'cur' : ''}`}
                 onClick={() => setIdx(i)} aria-label={`${ui('question')} ${i + 1}`}>{i + 1}</button>

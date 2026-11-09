@@ -164,6 +164,38 @@
   "fr": "questions",
   "tr": "soru"
  },
+ "ui.lesson_read": {
+  "fr": "Lire le cours",
+  "tr": "Dersi oku"
+ },
+ "ui.lesson_read_all": {
+  "fr": "Lire tout le cours",
+  "tr": "Bütün dersi oku"
+ },
+ "ui.lesson_keys": {
+  "fr": "À retenir",
+  "tr": "Akılda tutulacaklar"
+ },
+ "ui.lesson_words": {
+  "fr": "Mots clés",
+  "tr": "Anahtar kelimeler"
+ },
+ "ui.lesson_practice": {
+  "fr": "M'entraîner sur ce thème",
+  "tr": "Bu konuda alıştırma yap"
+ },
+ "ui.lesson_back": {
+  "fr": "Retour aux thèmes",
+  "tr": "Konulara dön"
+ },
+ "ui.lesson_next": {
+  "fr": "Cours suivant",
+  "tr": "Sonraki ders"
+ },
+ "ui.lesson_hint": {
+  "fr": "Lisez à votre rythme. Touchez 🔊 pour écouter un paragraphe.",
+  "tr": "Kendi hızınızda okuyun. Bir paragrafı dinlemek için 🔊 simgesine dokunun."
+ },
  "ui.start": {
   "fr": "Commencer",
   "tr": "Başla"
@@ -819,6 +851,10 @@
  "ui.ai_no_ollama": {
   "fr": "Ollama n'est pas lancé. Coco ne peut pas répondre.",
   "tr": "Ollama çalışmıyor. Coco cevap veremez."
+ },
+ "ui.ai_desktop_only": {
+  "fr": "Coco fonctionne seulement sur ordinateur, avec Ollama. Sur téléphone ou tablette, il n'est pas disponible : tout le reste de l'application marche.",
+  "tr": "Coco sadece bilgisayarda, Ollama ile çalışır. Telefonda veya tablette kullanılamaz: uygulamanın geri kalanı çalışır."
  },
  "ui.ai_no_model": {
   "fr": "Le modèle d'IA n'est pas encore téléchargé.",
@@ -14515,5 +14551,1377 @@
  "q.ms-dd30.v.1": {
   "fr": "démissionner",
   "tr": "istifa etmek"
+ },
+ "lesson.pv.symboles.intro": {
+  "fr": "La France est une République. Elle a une devise, des symboles et des valeurs que tout le monde doit connaître et respecter.",
+  "tr": "Fransa bir Cumhuriyettir. Herkesin bilmesi ve saygı göstermesi gereken bir şiarı, sembolleri ve değerleri vardır."
+ },
+ "lesson.pv.symboles.parts.0.h": {
+  "fr": "La devise : « Liberté, égalité, fraternité »",
+  "tr": "Şiar: « Özgürlük, eşitlik, kardeşlik »"
+ },
+ "lesson.pv.symboles.parts.0.p.0": {
+  "fr": "La devise vient de la Révolution française. Elle est officielle depuis 1848. On la voit sur les mairies, les écoles, les tribunaux, les pièces de monnaie et les timbres.",
+  "tr": "Şiar Fransız Devrimi'nden gelir. 1848'den beri resmîdir. Belediye binalarında, okullarda, mahkemelerde, madeni paralarda ve pullarda görülür."
+ },
+ "lesson.pv.symboles.parts.0.p.1": {
+  "fr": "La liberté : on peut faire tout ce qui ne nuit pas aux autres. Ma liberté s'arrête où commence celle des autres.",
+  "tr": "Özgürlük: başkalarına zarar vermeyen her şey yapılabilir. Benim özgürlüğüm, başkalarının özgürlüğünün başladığı yerde biter."
+ },
+ "lesson.pv.symboles.parts.0.p.2": {
+  "fr": "L'égalité : la loi est la même pour tous, quels que soient l'origine, le sexe, la religion ou les opinions. Les femmes et les hommes ont les mêmes droits.",
+  "tr": "Eşitlik: köken, cinsiyet, din veya görüş ne olursa olsun yasa herkes için aynıdır. Kadınlar ve erkekler aynı haklara sahiptir."
+ },
+ "lesson.pv.symboles.parts.0.p.3": {
+  "fr": "La fraternité : l'entraide et la solidarité entre tous. Par exemple la Sécurité sociale, ou les associations qui aident les personnes en difficulté.",
+  "tr": "Kardeşlik: herkes arasında yardımlaşma ve dayanışma. Örneğin Sosyal Güvenlik veya zor durumdaki insanlara yardım eden dernekler."
+ },
+ "lesson.pv.symboles.parts.1.h": {
+  "fr": "Les symboles de la République",
+  "tr": "Cumhuriyet'in sembolleri"
+ },
+ "lesson.pv.symboles.parts.1.p.0": {
+  "fr": "L'article 2 de la Constitution cite les symboles officiels : la langue française, le drapeau bleu, blanc, rouge, l'hymne national (la Marseillaise) et la devise.",
+  "tr": "Anayasa'nın 2. maddesi resmî sembolleri sayar: Fransızca, mavi-beyaz-kırmızı bayrak, ulusal marş (Marseillaise) ve şiar."
+ },
+ "lesson.pv.symboles.parts.1.p.1": {
+  "fr": "Le drapeau est tricolore (trois couleurs), en bandes verticales. Le bleu et le rouge sont les couleurs de Paris, le blanc celle du roi.",
+  "tr": "Bayrak üç renklidir ve dikey şeritlerden oluşur. Mavi ve kırmızı Paris'in renkleri, beyaz ise kralın rengidir."
+ },
+ "lesson.pv.symboles.parts.1.p.2": {
+  "fr": "La Marseillaise a été écrite en 1792 par Rouget de Lisle, pendant la Révolution. On la chante lors des cérémonies officielles et des matchs de l'équipe de France.",
+  "tr": "Marseillaise, 1792'de Devrim sırasında Rouget de Lisle tarafından yazıldı. Resmî törenlerde ve Fransa milli takımının maçlarında söylenir."
+ },
+ "lesson.pv.symboles.parts.1.p.3": {
+  "fr": "Marianne est une figure de femme qui représente la République. Son buste est dans les mairies, son visage sur les timbres. Le coq est un symbole traditionnel, mais il n'est pas dans la Constitution.",
+  "tr": "Marianne, Cumhuriyet'i temsil eden bir kadın figürüdür. Büstü belediyelerde, yüzü pullardadır. Horoz geleneksel bir semboldür ama Anayasa'da yer almaz."
+ },
+ "lesson.pv.symboles.parts.2.h": {
+  "fr": "La fête nationale : le 14 juillet",
+  "tr": "Ulusal bayram: 14 Temmuz"
+ },
+ "lesson.pv.symboles.parts.2.p.0": {
+  "fr": "Le 14 juillet rappelle la prise de la Bastille (14 juillet 1789) et la fête de la Fédération (1790), symbole de l'unité du pays. Il y a un grand défilé militaire sur les Champs-Élysées, à Paris, et des feux d'artifice dans toute la France.",
+  "tr": "14 Temmuz, Bastille'in alınmasını (14 Temmuz 1789) ve ülkenin birliğinin sembolü olan Federasyon Bayramı'nı (1790) hatırlatır. Paris'te Champs-Élysées'de büyük bir askerî geçit töreni ve bütün Fransa'da havai fişek gösterileri yapılır."
+ },
+ "lesson.pv.symboles.parts.3.h": {
+  "fr": "La langue et la Constitution",
+  "tr": "Dil ve Anayasa"
+ },
+ "lesson.pv.symboles.parts.3.p.0": {
+  "fr": "« La langue de la République est le français. » C'est la langue de l'administration, de la justice et de l'école. Les langues régionales (breton, corse, alsacien…) existent, mais elles ne sont pas officielles.",
+  "tr": "« Cumhuriyet'in dili Fransızcadır. » İdarenin, adaletin ve okulun dilidir. Bölgesel diller (Bretonca, Korsikaca, Alsasça…) vardır ama resmî değildir."
+ },
+ "lesson.pv.symboles.parts.3.p.1": {
+  "fr": "La Constitution actuelle date du 4 octobre 1958 : c'est la Ve République. La France est une République démocratique : le pouvoir appartient au peuple, qui vote.",
+  "tr": "Bugünkü Anayasa 4 Ekim 1958 tarihlidir: bu, Beşinci Cumhuriyet'tir. Fransa demokratik bir Cumhuriyettir: iktidar oy kullanan halka aittir."
+ },
+ "lesson.pv.symboles.parts.3.p.2": {
+  "fr": "La liberté d'expression permet de dire ce que l'on pense. Mais la loi interdit l'insulte, la diffamation (mentir pour nuire) et l'appel à la haine, même sur Internet.",
+  "tr": "İfade özgürlüğü düşündüğünü söylemeye izin verir. Ama yasa hakareti, iftirayı (zarar vermek için yalan söylemek) ve nefrete çağrıyı internette bile yasaklar."
+ },
+ "lesson.pv.symboles.keys.0": {
+  "fr": "Devise : « Liberté, égalité, fraternité », officielle depuis 1848.",
+  "tr": "Şiar: « Özgürlük, eşitlik, kardeşlik », 1848'den beri resmî."
+ },
+ "lesson.pv.symboles.keys.1": {
+  "fr": "Symboles officiels : le français, le drapeau bleu-blanc-rouge, la Marseillaise, la devise.",
+  "tr": "Resmî semboller: Fransızca, mavi-beyaz-kırmızı bayrak, Marseillaise, şiar."
+ },
+ "lesson.pv.symboles.keys.2": {
+  "fr": "La Marseillaise : 1792, Rouget de Lisle.",
+  "tr": "Marseillaise: 1792, Rouget de Lisle."
+ },
+ "lesson.pv.symboles.keys.3": {
+  "fr": "Fête nationale : 14 juillet (prise de la Bastille, 1789).",
+  "tr": "Ulusal bayram: 14 Temmuz (Bastille'in alınması, 1789)."
+ },
+ "lesson.pv.symboles.keys.4": {
+  "fr": "Marianne représente la République ; le coq n'est pas un symbole officiel.",
+  "tr": "Marianne Cumhuriyet'i temsil eder; horoz resmî bir sembol değildir."
+ },
+ "lesson.pv.symboles.keys.5": {
+  "fr": "Constitution actuelle : 4 octobre 1958 (Ve République).",
+  "tr": "Bugünkü Anayasa: 4 Ekim 1958 (Beşinci Cumhuriyet)."
+ },
+ "lesson.pv.symboles.v.0": {
+  "fr": "la devise",
+  "tr": "şiar"
+ },
+ "lesson.pv.symboles.v.1": {
+  "fr": "le drapeau",
+  "tr": "bayrak"
+ },
+ "lesson.pv.symboles.v.2": {
+  "fr": "l'hymne national",
+  "tr": "ulusal marş"
+ },
+ "lesson.pv.symboles.v.3": {
+  "fr": "la fête nationale",
+  "tr": "ulusal bayram"
+ },
+ "lesson.pv.symboles.v.4": {
+  "fr": "la fraternité",
+  "tr": "kardeşlik"
+ },
+ "lesson.pv.laicite.intro": {
+  "fr": "La laïcité est un principe très important en France. Elle protège la liberté de chacun et garantit que l'État reste neutre face aux religions.",
+  "tr": "Laiklik Fransa'da çok önemli bir ilkedir. Herkesin özgürlüğünü korur ve devletin dinler karşısında tarafsız kalmasını güvence altına alır."
+ },
+ "lesson.pv.laicite.parts.0.h": {
+  "fr": "Ce que veut dire « laïque »",
+  "tr": "« Laik » ne demek"
+ },
+ "lesson.pv.laicite.parts.0.p.0": {
+  "fr": "Article 1 de la Constitution : « La France est une République indivisible, laïque, démocratique et sociale. » Laïque veut dire que l'État n'a pas de religion : il est neutre.",
+  "tr": "Anayasa'nın 1. maddesi: « Fransa bölünmez, laik, demokratik ve sosyal bir Cumhuriyettir. » Laik, devletin bir dini olmadığı anlamına gelir: devlet tarafsızdır."
+ },
+ "lesson.pv.laicite.parts.0.p.1": {
+  "fr": "La loi du 9 décembre 1905 sépare les Églises et l'État. L'État ne reconnaît et ne finance aucune religion. Aucune religion n'est au-dessus de la loi.",
+  "tr": "9 Aralık 1905 yasası kiliseleri ve devleti birbirinden ayırır. Devlet hiçbir dini tanımaz ve finanse etmez. Hiçbir din yasanın üstünde değildir."
+ },
+ "lesson.pv.laicite.parts.1.h": {
+  "fr": "La liberté de conscience",
+  "tr": "Vicdan özgürlüğü"
+ },
+ "lesson.pv.laicite.parts.1.p.0": {
+  "fr": "Chacun est libre de croire, de ne pas croire (être athée ou agnostique) ou de changer de religion. On peut pratiquer sa religion, dans le respect de l'ordre public.",
+  "tr": "Herkes inanmakta, inanmamakta (ateist veya agnostik olmakta) ya da din değiştirmekte özgürdür. Kamu düzenine saygı göstererek dinini yaşayabilir."
+ },
+ "lesson.pv.laicite.parts.1.p.1": {
+  "fr": "La religion fait partie de la vie privée. Personne n'a à déclarer sa religion, et elle n'est pas écrite sur les papiers d'identité.",
+  "tr": "Din özel hayatın bir parçasıdır. Kimse dinini beyan etmek zorunda değildir ve din kimlik belgelerinde yazmaz."
+ },
+ "lesson.pv.laicite.parts.2.h": {
+  "fr": "Qui doit être neutre ?",
+  "tr": "Kim tarafsız olmalı?"
+ },
+ "lesson.pv.laicite.parts.2.p.0": {
+  "fr": "C'est l'État qui est neutre, pas les citoyens. Les agents du service public (enseignants, employés de mairie…) ne montrent pas leur religion au travail.",
+  "tr": "Tarafsız olan devlettir, vatandaşlar değil. Kamu görevlileri (öğretmenler, belediye çalışanları…) işte dinlerini göstermezler."
+ },
+ "lesson.pv.laicite.parts.2.p.1": {
+  "fr": "Dans la rue, chacun peut porter un signe religieux. Seule règle : le visage doit rester visible dans l'espace public (loi de 2010).",
+  "tr": "Sokakta herkes dinî bir simge taşıyabilir. Tek kural: kamusal alanda yüz görünür kalmalıdır (2010 yasası)."
+ },
+ "lesson.pv.laicite.parts.3.h": {
+  "fr": "La laïcité à l'école",
+  "tr": "Okulda laiklik"
+ },
+ "lesson.pv.laicite.parts.3.p.0": {
+  "fr": "L'école publique est laïque : elle accueille tous les enfants de la même façon. Depuis 2004, les élèves ne peuvent pas porter de signes religieux visibles (voile, kippa, grande croix).",
+  "tr": "Devlet okulu laiktir: bütün çocukları aynı şekilde kabul eder. 2004'ten beri öğrenciler görünür dinî simgeler (başörtüsü, kipa, büyük haç) takamaz."
+ },
+ "lesson.pv.laicite.parts.3.p.1": {
+  "fr": "La religion n'est pas une raison pour manquer l'école ou refuser un cours. L'instruction est obligatoire de 3 à 16 ans.",
+  "tr": "Din, okula gitmemek veya bir dersi reddetmek için bir sebep değildir. Eğitim 3 ile 16 yaş arasında zorunludur."
+ },
+ "lesson.pv.laicite.keys.0": {
+  "fr": "Article 1 : la République est « laïque ».",
+  "tr": "1. madde: Cumhuriyet « laiktir »."
+ },
+ "lesson.pv.laicite.keys.1": {
+  "fr": "Loi du 9 décembre 1905 : séparation des Églises et de l'État.",
+  "tr": "9 Aralık 1905 yasası: kiliselerin ve devletin ayrılması."
+ },
+ "lesson.pv.laicite.keys.2": {
+  "fr": "On est libre de croire, de ne pas croire ou de changer de religion.",
+  "tr": "İnanmakta, inanmamakta veya din değiştirmekte özgürüz."
+ },
+ "lesson.pv.laicite.keys.3": {
+  "fr": "L'État et ses agents sont neutres ; les citoyens sont libres.",
+  "tr": "Devlet ve görevlileri tarafsızdır; vatandaşlar özgürdür."
+ },
+ "lesson.pv.laicite.keys.4": {
+  "fr": "École : pas de signes religieux visibles pour les élèves (2004).",
+  "tr": "Okul: öğrenciler için görünür dinî simge yok (2004)."
+ },
+ "lesson.pv.laicite.v.0": {
+  "fr": "laïque",
+  "tr": "laik"
+ },
+ "lesson.pv.laicite.v.1": {
+  "fr": "la liberté de conscience",
+  "tr": "vicdan özgürlüğü"
+ },
+ "lesson.pv.laicite.v.2": {
+  "fr": "neutre",
+  "tr": "tarafsız"
+ },
+ "lesson.pv.laicite.v.3": {
+  "fr": "un signe religieux",
+  "tr": "dinî simge"
+ },
+ "lesson.pv.situation.intro": {
+  "fr": "Les questions « mises en situation » décrivent un cas de la vie de tous les jours. Pour bien répondre, il suffit d'appliquer quelques règles simples.",
+  "tr": "« Durum soruları » günlük hayattan bir olayı anlatır. Doğru cevap vermek için birkaç basit kuralı uygulamak yeterlidir."
+ },
+ "lesson.pv.situation.parts.0.h": {
+  "fr": "L'égalité entre les femmes et les hommes",
+  "tr": "Kadın-erkek eşitliği"
+ },
+ "lesson.pv.situation.parts.0.p.0": {
+  "fr": "Les femmes et les hommes ont les mêmes droits partout : à l'école, au travail, dans le sport, dans le couple. Depuis 1965, une femme mariée peut travailler et ouvrir un compte en banque sans l'accord de son mari.",
+  "tr": "Kadınlar ve erkekler her yerde aynı haklara sahiptir: okulda, işte, sporda, çiftte. 1965'ten beri evli bir kadın kocasının iznini almadan çalışabilir ve banka hesabı açabilir."
+ },
+ "lesson.pv.situation.parts.0.p.1": {
+  "fr": "Chacun choisit librement la personne qu'il épouse. Le mariage forcé est interdit, même à l'étranger. On peut se marier à partir de 18 ans. La femme comme l'homme peut demander le divorce ; la répudiation n'existe pas.",
+  "tr": "Herkes evleneceği kişiyi özgürce seçer. Zorla evlendirme yurt dışında bile yasaktır. 18 yaşından itibaren evlenilebilir. Kadın da erkek de boşanma talep edebilir; tek taraflı boşama (talak) yoktur."
+ },
+ "lesson.pv.situation.parts.1.h": {
+  "fr": "Le service public et la neutralité",
+  "tr": "Kamu hizmeti ve tarafsızlık"
+ },
+ "lesson.pv.situation.parts.1.p.0": {
+  "fr": "Le service public est le même pour tous. Un usager ne choisit pas l'agent (médecin, guichetier, enseignant) selon son sexe ou sa religion, sauf urgence ou cas particulier.",
+  "tr": "Kamu hizmeti herkes için aynıdır. Bir kullanıcı, acil durum veya özel durum dışında, görevliyi (doktor, gişe memuru, öğretmen) cinsiyetine veya dinine göre seçemez."
+ },
+ "lesson.pv.situation.parts.1.p.1": {
+  "fr": "À l'école, la mixité est la règle. Le sport, la natation et les sorties pendant les heures de classe sont obligatoires. Étudier l'histoire des religions n'est pas un enseignement religieux.",
+  "tr": "Okulda karma eğitim kuraldır. Spor, yüzme ve ders saatlerindeki geziler zorunludur. Dinler tarihini öğrenmek dinî bir eğitim değildir."
+ },
+ "lesson.pv.situation.parts.1.p.2": {
+  "fr": "Dans une entreprise privée, la liberté religieuse existe, mais elle ne doit pas gêner le travail, la sécurité ou les autres. Le règlement intérieur peut fixer des règles.",
+  "tr": "Özel bir şirkette din özgürlüğü vardır ama işi, güvenliği veya başkalarını rahatsız etmemelidir. İç yönetmelik kurallar koyabilir."
+ },
+ "lesson.pv.situation.parts.2.h": {
+  "fr": "Les discriminations sont punies",
+  "tr": "Ayrımcılık cezalandırılır"
+ },
+ "lesson.pv.situation.parts.2.p.0": {
+  "fr": "Refuser un emploi, un logement ou un service à cause de l'origine, de la couleur de peau, de la religion, du sexe, d'une grossesse ou de l'orientation sexuelle est une discrimination. C'est un délit.",
+  "tr": "Köken, ten rengi, din, cinsiyet, hamilelik veya cinsel yönelim nedeniyle bir işi, konutu veya hizmeti reddetmek ayrımcılıktır. Bu bir suçtur."
+ },
+ "lesson.pv.situation.parts.2.p.1": {
+  "fr": "Une insulte raciste ou homophobe est aussi un délit. La victime peut porter plainte à la police ou à la gendarmerie, ou contacter le Défenseur des droits. On ne se fait jamais justice soi-même.",
+  "tr": "Irkçı veya homofobik bir hakaret de suçtur. Mağdur polise veya jandarmaya şikâyette bulunabilir ya da Hak Savunucusu'na (Défenseur des droits) başvurabilir. Asla kendi adaletini kendin sağlamazsın."
+ },
+ "lesson.pv.situation.parts.3.h": {
+  "fr": "Respecter les symboles et débattre",
+  "tr": "Sembollere saygı ve tartışma"
+ },
+ "lesson.pv.situation.parts.3.p.0": {
+  "fr": "On respecte la Marseillaise et le drapeau. Les outrager en public, lors d'un événement officiel, est puni par la loi.",
+  "tr": "Marseillaise'e ve bayrağa saygı gösterilir. Resmî bir etkinlikte bunlara alenen hakaret etmek yasayla cezalandırılır."
+ },
+ "lesson.pv.situation.parts.3.p.1": {
+  "fr": "En démocratie, on peut critiquer, débattre, créer une association (loi de 1901, même pour un étranger) et manifester pacifiquement. La violence et les menaces sont interdites.",
+  "tr": "Demokraside eleştirebilir, tartışabilir, dernek kurabilir (1901 yasası, yabancılar için de geçerli) ve barışçıl şekilde gösteri yapabilirsiniz. Şiddet ve tehdit yasaktır."
+ },
+ "lesson.pv.situation.keys.0": {
+  "fr": "Femmes et hommes : mêmes droits, partout.",
+  "tr": "Kadınlar ve erkekler: her yerde aynı haklar."
+ },
+ "lesson.pv.situation.keys.1": {
+  "fr": "Mariage : libre, à 18 ans minimum ; mariage forcé interdit.",
+  "tr": "Evlilik: özgür, en az 18 yaş; zorla evlendirme yasak."
+ },
+ "lesson.pv.situation.keys.2": {
+  "fr": "Service public : on ne choisit pas l'agent selon son sexe ou sa religion.",
+  "tr": "Kamu hizmeti: görevli cinsiyetine veya dinine göre seçilmez."
+ },
+ "lesson.pv.situation.keys.3": {
+  "fr": "Discrimination ou insulte raciste : délit, on peut porter plainte.",
+  "tr": "Ayrımcılık veya ırkçı hakaret: suç, şikâyette bulunulabilir."
+ },
+ "lesson.pv.situation.keys.4": {
+  "fr": "On ne se fait jamais justice soi-même.",
+  "tr": "Asla kendi adaletini kendin sağlamazsın."
+ },
+ "lesson.pv.situation.v.0": {
+  "fr": "la discrimination",
+  "tr": "ayrımcılık"
+ },
+ "lesson.pv.situation.v.1": {
+  "fr": "la mixité",
+  "tr": "karma eğitim"
+ },
+ "lesson.pv.situation.v.2": {
+  "fr": "porter plainte",
+  "tr": "şikâyette bulunmak"
+ },
+ "lesson.pv.situation.v.3": {
+  "fr": "le Défenseur des droits",
+  "tr": "Hak Savunucusu"
+ },
+ "lesson.sip.democratie.intro": {
+  "fr": "En démocratie, le pouvoir vient du peuple. Les citoyens choisissent leurs représentants par des élections libres.",
+  "tr": "Demokraside iktidar halktan gelir. Vatandaşlar temsilcilerini özgür seçimlerle belirler."
+ },
+ "lesson.sip.democratie.parts.0.h": {
+  "fr": "Le droit de vote",
+  "tr": "Oy hakkı"
+ },
+ "lesson.sip.democratie.parts.0.p.0": {
+  "fr": "Pour voter, il faut être citoyen français, avoir 18 ans (l'âge de la majorité depuis 1974) et être inscrit sur les listes électorales de sa commune.",
+  "tr": "Oy kullanmak için Fransız vatandaşı olmak, 18 yaşında olmak (1974'ten beri reşit olma yaşı) ve belediyenin seçmen listelerine kayıtlı olmak gerekir."
+ },
+ "lesson.sip.democratie.parts.0.p.1": {
+  "fr": "Le suffrage universel, c'est le vote pour tous les citoyens majeurs, sans condition de richesse ou de sexe. Les femmes votent depuis 1944.",
+  "tr": "Genel oy, servet veya cinsiyet şartı olmadan bütün reşit vatandaşların oy hakkıdır. Kadınlar 1944'ten beri oy kullanır."
+ },
+ "lesson.sip.democratie.parts.0.p.2": {
+  "fr": "Exception : les citoyens de l'Union européenne qui habitent en France peuvent voter aux élections municipales et européennes.",
+  "tr": "İstisna: Fransa'da yaşayan Avrupa Birliği vatandaşları belediye ve Avrupa seçimlerinde oy kullanabilir."
+ },
+ "lesson.sip.democratie.parts.1.h": {
+  "fr": "Les grandes élections",
+  "tr": "Başlıca seçimler"
+ },
+ "lesson.sip.democratie.parts.1.p.0": {
+  "fr": "Présidentielle : les citoyens élisent directement le président de la République, pour 5 ans (le quinquennat, depuis 2000). Au maximum 2 mandats de suite.",
+  "tr": "Cumhurbaşkanlığı seçimi: vatandaşlar Cumhurbaşkanı'nı doğrudan 5 yıllığına seçer (2000'den beri beş yıllık görev süresi). En fazla art arda 2 dönem."
+ },
+ "lesson.sip.democratie.parts.1.p.1": {
+  "fr": "Législatives : on élit les 577 députés de l'Assemblée nationale, pour 5 ans, au suffrage universel direct.",
+  "tr": "Milletvekili seçimleri: Ulusal Meclis'in 577 milletvekili 5 yıllığına, tek dereceli genel oyla seçilir."
+ },
+ "lesson.sip.democratie.parts.1.p.2": {
+  "fr": "Sénatoriales : les 348 sénateurs sont élus pour 6 ans par des « grands électeurs » (surtout des élus locaux). La moitié du Sénat change tous les 3 ans.",
+  "tr": "Senato seçimleri: 348 senatör 6 yıllığına « büyük seçmenler » (çoğunlukla yerel seçilmişler) tarafından seçilir. Senato'nun yarısı her 3 yılda bir yenilenir."
+ },
+ "lesson.sip.democratie.parts.1.p.3": {
+  "fr": "Municipales : on élit le conseil municipal pour 6 ans. Ensuite, les conseillers élisent le maire.",
+  "tr": "Belediye seçimleri: belediye meclisi 6 yıllığına seçilir. Sonra meclis üyeleri belediye başkanını seçer."
+ },
+ "lesson.sip.democratie.parts.2.h": {
+  "fr": "Le pluralisme",
+  "tr": "Çoğulculuk"
+ },
+ "lesson.sip.democratie.parts.2.p.0": {
+  "fr": "La Constitution garantit le pluralisme : plusieurs partis politiques existent librement et présentent des candidats. Depuis 1958, la France vit sous la Ve République.",
+  "tr": "Anayasa çoğulculuğu güvence altına alır: birçok siyasi parti özgürce var olur ve aday gösterir. Fransa 1958'den beri Beşinci Cumhuriyet'te yaşamaktadır."
+ },
+ "lesson.sip.democratie.keys.0": {
+  "fr": "Voter : être Français, 18 ans, inscrit sur les listes.",
+  "tr": "Oy kullanmak: Fransız, 18 yaşında, listeye kayıtlı olmak."
+ },
+ "lesson.sip.democratie.keys.1": {
+  "fr": "Femmes : droit de vote depuis 1944.",
+  "tr": "Kadınlar: 1944'ten beri oy hakkı."
+ },
+ "lesson.sip.democratie.keys.2": {
+  "fr": "Président : 5 ans, élu directement, 2 mandats de suite au maximum.",
+  "tr": "Cumhurbaşkanı: 5 yıl, doğrudan seçilir, en fazla art arda 2 dönem."
+ },
+ "lesson.sip.democratie.keys.3": {
+  "fr": "577 députés (5 ans) ; 348 sénateurs (6 ans).",
+  "tr": "577 milletvekili (5 yıl); 348 senatör (6 yıl)."
+ },
+ "lesson.sip.democratie.keys.4": {
+  "fr": "Conseil municipal : 6 ans ; il élit le maire.",
+  "tr": "Belediye meclisi: 6 yıl; belediye başkanını seçer."
+ },
+ "lesson.sip.democratie.v.0": {
+  "fr": "le suffrage universel",
+  "tr": "genel oy"
+ },
+ "lesson.sip.democratie.v.1": {
+  "fr": "les listes électorales",
+  "tr": "seçmen listeleri"
+ },
+ "lesson.sip.democratie.v.2": {
+  "fr": "un mandat",
+  "tr": "görev süresi"
+ },
+ "lesson.sip.democratie.v.3": {
+  "fr": "un député",
+  "tr": "milletvekili"
+ },
+ "lesson.sip.organisation.intro": {
+  "fr": "En France, le pouvoir est partagé entre trois pouvoirs séparés. Ainsi, personne n'a tout le pouvoir, et personne n'est au-dessus de la loi.",
+  "tr": "Fransa'da iktidar birbirinden ayrı üç güç arasında paylaşılır. Böylece kimse bütün güce sahip olmaz ve kimse yasanın üstünde değildir."
+ },
+ "lesson.sip.organisation.parts.0.h": {
+  "fr": "Les trois pouvoirs",
+  "tr": "Üç güç"
+ },
+ "lesson.sip.organisation.parts.0.p.0": {
+  "fr": "Le pouvoir législatif vote les lois. Il appartient au Parlement : l'Assemblée nationale (577 députés) et le Sénat (348 sénateurs). Le Parlement vote aussi le budget et contrôle le Gouvernement.",
+  "tr": "Yasama gücü yasaları oylar. Parlamento'ya aittir: Ulusal Meclis (577 milletvekili) ve Senato (348 senatör). Parlamento bütçeyi de oylar ve Hükûmet'i denetler."
+ },
+ "lesson.sip.organisation.parts.0.p.1": {
+  "fr": "Le pouvoir exécutif fait appliquer les lois et gouverne. Il appartient au président de la République et au Gouvernement (Premier ministre et ministres). Le président nomme le Premier ministre et signe (promulgue) les lois.",
+  "tr": "Yürütme gücü yasaları uygular ve ülkeyi yönetir. Cumhurbaşkanı'na ve Hükûmet'e (Başbakan ve bakanlar) aittir. Cumhurbaşkanı Başbakan'ı atar ve yasaları imzalar (yürürlüğe koyar)."
+ },
+ "lesson.sip.organisation.parts.0.p.2": {
+  "fr": "Le pouvoir judiciaire juge. Les magistrats sont indépendants : les juges jugent, les procureurs défendent l'intérêt de la société. La police enquête et arrête, mais elle ne juge pas.",
+  "tr": "Yargı gücü yargılar. Yargıçlar bağımsızdır: hâkimler yargılar, savcılar toplumun çıkarını savunur. Polis soruşturur ve tutuklar ama yargılamaz."
+ },
+ "lesson.sip.organisation.parts.1.h": {
+  "fr": "L'État de droit",
+  "tr": "Hukuk devleti"
+ },
+ "lesson.sip.organisation.parts.1.p.0": {
+  "fr": "La loi s'applique à tous : citoyens, étrangers, élus, ministres, policiers. Si on n'est pas d'accord avec une loi, on peut s'exprimer, manifester ou voter, mais on doit la respecter.",
+  "tr": "Yasa herkese uygulanır: vatandaşlar, yabancılar, seçilmişler, bakanlar, polisler. Bir yasaya katılmıyorsak fikrimizi söyleyebilir, gösteri yapabilir veya oy kullanabiliriz ama ona uymak zorundayız."
+ },
+ "lesson.sip.organisation.parts.1.p.1": {
+  "fr": "Seule la justice peut sanctionner. On n'a pas le droit de se faire justice soi-même.",
+  "tr": "Sadece adalet cezalandırabilir. Kimsenin kendi adaletini kendisi sağlama hakkı yoktur."
+ },
+ "lesson.sip.organisation.parts.2.h": {
+  "fr": "Les lieux du pouvoir",
+  "tr": "İktidarın mekânları"
+ },
+ "lesson.sip.organisation.parts.2.p.0": {
+  "fr": "Le président habite et travaille au palais de l'Élysée, à Paris. Le Premier ministre travaille à l'hôtel Matignon.",
+  "tr": "Cumhurbaşkanı Paris'teki Élysée Sarayı'nda yaşar ve çalışır. Başbakan Matignon Konağı'nda çalışır."
+ },
+ "lesson.sip.organisation.parts.3.h": {
+  "fr": "Le territoire : communes, départements, régions",
+  "tr": "Ülke: belediyeler, iller, bölgeler"
+ },
+ "lesson.sip.organisation.parts.3.p.0": {
+  "fr": "La commune est dirigée par le maire et le conseil municipal. La mairie s'occupe de l'état civil (naissances, mariages) et des écoles primaires.",
+  "tr": "Belediye (komün), belediye başkanı ve belediye meclisi tarafından yönetilir. Belediye nüfus işlerini (doğumlar, evlilikler) ve ilkokulları yürütür."
+ },
+ "lesson.sip.organisation.parts.3.p.1": {
+  "fr": "La France compte 101 départements, dont 5 en outre-mer. Dans chaque département, le préfet représente l'État. Il est nommé par le président et le Gouvernement. C'est à la préfecture qu'on fait les démarches pour les titres de séjour.",
+  "tr": "Fransa'da 5'i denizaşırı olmak üzere 101 il (departman) vardır. Her ilde vali (préfet) devleti temsil eder. Cumhurbaşkanı ve Hükûmet tarafından atanır. Oturma izni işlemleri valilikte (préfecture) yapılır."
+ },
+ "lesson.sip.organisation.keys.0": {
+  "fr": "Législatif = Parlement (Assemblée nationale + Sénat) : vote les lois.",
+  "tr": "Yasama = Parlamento (Ulusal Meclis + Senato): yasaları oylar."
+ },
+ "lesson.sip.organisation.keys.1": {
+  "fr": "Exécutif = président + Gouvernement : applique les lois.",
+  "tr": "Yürütme = Cumhurbaşkanı + Hükûmet: yasaları uygular."
+ },
+ "lesson.sip.organisation.keys.2": {
+  "fr": "Judiciaire = juges : jugent, de façon indépendante.",
+  "tr": "Yargı = hâkimler: bağımsız olarak yargılar."
+ },
+ "lesson.sip.organisation.keys.3": {
+  "fr": "Le président nomme le Premier ministre.",
+  "tr": "Cumhurbaşkanı Başbakan'ı atar."
+ },
+ "lesson.sip.organisation.keys.4": {
+  "fr": "Élysée = président ; Matignon = Premier ministre.",
+  "tr": "Élysée = Cumhurbaşkanı; Matignon = Başbakan."
+ },
+ "lesson.sip.organisation.keys.5": {
+  "fr": "Préfet = l'État dans le département (titres de séjour).",
+  "tr": "Vali = ildeki devlet (oturma izinleri)."
+ },
+ "lesson.sip.organisation.v.0": {
+  "fr": "le pouvoir législatif",
+  "tr": "yasama gücü"
+ },
+ "lesson.sip.organisation.v.1": {
+  "fr": "le Gouvernement",
+  "tr": "Hükûmet"
+ },
+ "lesson.sip.organisation.v.2": {
+  "fr": "la préfecture",
+  "tr": "valilik"
+ },
+ "lesson.sip.organisation.v.3": {
+  "fr": "la mairie",
+  "tr": "belediye"
+ },
+ "lesson.sip.europe.intro": {
+  "fr": "La France est un des pays qui ont fondé l'Union européenne. Elle en fait toujours partie, avec 26 autres pays.",
+  "tr": "Fransa, Avrupa Birliği'ni kuran ülkelerden biridir. Hâlâ 26 başka ülkeyle birlikte Birliğin üyesidir."
+ },
+ "lesson.sip.europe.parts.0.h": {
+  "fr": "L'histoire de l'Europe unie",
+  "tr": "Birleşik Avrupa'nın tarihi"
+ },
+ "lesson.sip.europe.parts.0.p.0": {
+  "fr": "Le 9 mai 1950, Robert Schuman propose d'unir les pays d'Europe. Le 9 mai est devenu la journée de l'Europe.",
+  "tr": "9 Mayıs 1950'de Robert Schuman Avrupa ülkelerini birleştirmeyi önerir. 9 Mayıs, Avrupa Günü olmuştur."
+ },
+ "lesson.sip.europe.parts.0.p.1": {
+  "fr": "En 1957, le traité de Rome crée la CEE avec 6 pays fondateurs : la France, l'Allemagne, l'Italie, la Belgique, les Pays-Bas et le Luxembourg. Elle devient l'Union européenne en 1992 (traité de Maastricht).",
+  "tr": "1957'de Roma Antlaşması 6 kurucu ülkeyle AET'yi kurar: Fransa, Almanya, İtalya, Belçika, Hollanda ve Lüksemburg. 1992'de (Maastricht Antlaşması) Avrupa Birliği olur."
+ },
+ "lesson.sip.europe.parts.1.h": {
+  "fr": "L'Union européenne aujourd'hui",
+  "tr": "Bugün Avrupa Birliği"
+ },
+ "lesson.sip.europe.parts.1.p.0": {
+  "fr": "L'Union européenne compte 27 pays depuis le départ du Royaume-Uni (Brexit, 2020). La Suisse et la Norvège sont en Europe, mais pas dans l'Union.",
+  "tr": "Birleşik Krallık'ın ayrılmasından (Brexit, 2020) bu yana Avrupa Birliği'nde 27 ülke vardır. İsviçre ve Norveç Avrupa'dadır ama Birliğin üyesi değildir."
+ },
+ "lesson.sip.europe.parts.1.p.1": {
+  "fr": "Depuis 2002, la monnaie de la France est l'euro (€). Avant, c'était le franc. Le Parlement européen se trouve à Strasbourg.",
+  "tr": "2002'den beri Fransa'nın para birimi avrodur (€). Önceden frank idi. Avrupa Parlamentosu Strazburg'dadır."
+ },
+ "lesson.sip.europe.parts.2.h": {
+  "fr": "Les élections européennes",
+  "tr": "Avrupa seçimleri"
+ },
+ "lesson.sip.europe.parts.2.p.0": {
+  "fr": "Tous les 5 ans, les citoyens des 27 pays élisent directement les députés du Parlement européen. Les dernières ont eu lieu en juin 2024. Pour voter, il faut être citoyen de l'Union, majeur et inscrit sur les listes électorales.",
+  "tr": "Her 5 yılda bir 27 ülkenin vatandaşları Avrupa Parlamentosu üyelerini doğrudan seçer. Sonuncusu Haziran 2024'te yapıldı. Oy kullanmak için Birlik vatandaşı, reşit ve seçmen listelerine kayıtlı olmak gerekir."
+ },
+ "lesson.sip.europe.keys.0": {
+  "fr": "6 pays fondateurs (1957) : France, Allemagne, Italie, Belgique, Pays-Bas, Luxembourg.",
+  "tr": "6 kurucu ülke (1957): Fransa, Almanya, İtalya, Belçika, Hollanda, Lüksemburg."
+ },
+ "lesson.sip.europe.keys.1": {
+  "fr": "27 pays depuis le Brexit (2020).",
+  "tr": "Brexit'ten (2020) beri 27 ülke."
+ },
+ "lesson.sip.europe.keys.2": {
+  "fr": "Euro depuis 2002.",
+  "tr": "2002'den beri avro."
+ },
+ "lesson.sip.europe.keys.3": {
+  "fr": "Journée de l'Europe : 9 mai.",
+  "tr": "Avrupa Günü: 9 Mayıs."
+ },
+ "lesson.sip.europe.keys.4": {
+  "fr": "Élections européennes : tous les 5 ans.",
+  "tr": "Avrupa seçimleri: her 5 yılda bir."
+ },
+ "lesson.sip.europe.v.0": {
+  "fr": "l'Union européenne",
+  "tr": "Avrupa Birliği"
+ },
+ "lesson.sip.europe.v.1": {
+  "fr": "un pays fondateur",
+  "tr": "kurucu ülke"
+ },
+ "lesson.sip.europe.v.2": {
+  "fr": "la monnaie",
+  "tr": "para birimi"
+ },
+ "lesson.sip.europe.v.3": {
+  "fr": "le Parlement européen",
+  "tr": "Avrupa Parlamentosu"
+ },
+ "lesson.dd.fondamentaux.intro": {
+  "fr": "En France, toute personne a des droits fondamentaux, qu'elle soit française ou étrangère. Ils sont écrits dans de grands textes.",
+  "tr": "Fransa'da Fransız veya yabancı olsun herkesin temel hakları vardır. Bu haklar önemli metinlerde yazılıdır."
+ },
+ "lesson.dd.fondamentaux.parts.0.h": {
+  "fr": "La Déclaration des droits de l'homme et du citoyen",
+  "tr": "İnsan ve Yurttaş Hakları Bildirgesi"
+ },
+ "lesson.dd.fondamentaux.parts.0.p.0": {
+  "fr": "La DDHC a été adoptée le 26 août 1789, pendant la Révolution, quelques semaines après la prise de la Bastille. Son article 1 dit : « Les hommes naissent et demeurent libres et égaux en droits. »",
+  "tr": "Bildirge 26 Ağustos 1789'da, Devrim sırasında, Bastille'in alınmasından birkaç hafta sonra kabul edildi. 1. maddesi şöyle der: « İnsanlar özgür ve haklar bakımından eşit doğar ve öyle kalır. »"
+ },
+ "lesson.dd.fondamentaux.parts.0.p.1": {
+  "fr": "Elle énonce les droits fondamentaux : la liberté, l'égalité, la propriété, la sûreté. Elle fait partie de la Constitution.",
+  "tr": "Temel hakları sayar: özgürlük, eşitlik, mülkiyet, güvenlik. Anayasa'nın bir parçasıdır."
+ },
+ "lesson.dd.fondamentaux.parts.1.h": {
+  "fr": "La Constitution de 1958",
+  "tr": "1958 Anayasası"
+ },
+ "lesson.dd.fondamentaux.parts.1.p.0": {
+  "fr": "La Constitution de la Ve République a été adoptée le 4 octobre 1958. C'est le texte le plus important du pays. Son préambule renvoie à la DDHC de 1789, au préambule de 1946 et à la Charte de l'environnement.",
+  "tr": "Beşinci Cumhuriyet Anayasası 4 Ekim 1958'de kabul edildi. Ülkenin en önemli metnidir. Başlangıç bölümü 1789 Bildirgesi'ne, 1946 başlangıç metnine ve Çevre Şartı'na atıfta bulunur."
+ },
+ "lesson.dd.fondamentaux.parts.2.h": {
+  "fr": "Les libertés de chacun",
+  "tr": "Herkesin özgürlükleri"
+ },
+ "lesson.dd.fondamentaux.parts.2.p.0": {
+  "fr": "Liberté d'opinion et d'expression : on peut dire et écrire ses idées, à l'oral, sur papier ou sur Internet. Mais l'insulte, la diffamation et l'appel à la haine sont punis.",
+  "tr": "Düşünce ve ifade özgürlüğü: fikirlerimizi sözlü, yazılı veya internette ifade edebiliriz. Ama hakaret, iftira ve nefrete çağrı cezalandırılır."
+ },
+ "lesson.dd.fondamentaux.parts.2.p.1": {
+  "fr": "Liberté de conscience : croire, ne pas croire ou changer de religion. Elle est protégée par la laïcité.",
+  "tr": "Vicdan özgürlüğü: inanmak, inanmamak veya din değiştirmek. Laiklik tarafından korunur."
+ },
+ "lesson.dd.fondamentaux.parts.2.p.2": {
+  "fr": "Droit à la justice : toute personne a droit à un procès équitable et à un avocat. Si elle n'a pas assez d'argent, l'aide juridictionnelle peut payer l'avocat.",
+  "tr": "Adalet hakkı: herkesin adil yargılanma ve avukat hakkı vardır. Yeterli parası yoksa adli yardım avukatın ücretini ödeyebilir."
+ },
+ "lesson.dd.fondamentaux.keys.0": {
+  "fr": "DDHC : 26 août 1789.",
+  "tr": "Bildirge: 26 Ağustos 1789."
+ },
+ "lesson.dd.fondamentaux.keys.1": {
+  "fr": "Article 1 : « libres et égaux en droits ».",
+  "tr": "1. madde: « özgür ve haklar bakımından eşit »."
+ },
+ "lesson.dd.fondamentaux.keys.2": {
+  "fr": "Constitution : 4 octobre 1958.",
+  "tr": "Anayasa: 4 Ekim 1958."
+ },
+ "lesson.dd.fondamentaux.keys.3": {
+  "fr": "Ces droits valent pour tous, Français et étrangers.",
+  "tr": "Bu haklar Fransız ve yabancı herkes için geçerlidir."
+ },
+ "lesson.dd.fondamentaux.keys.4": {
+  "fr": "Droit à un avocat, même sans argent (aide juridictionnelle).",
+  "tr": "Parası olmasa bile avukat hakkı (adli yardım)."
+ },
+ "lesson.dd.fondamentaux.v.0": {
+  "fr": "un droit fondamental",
+  "tr": "temel hak"
+ },
+ "lesson.dd.fondamentaux.v.1": {
+  "fr": "la sûreté",
+  "tr": "güvenlik"
+ },
+ "lesson.dd.fondamentaux.v.2": {
+  "fr": "un avocat",
+  "tr": "avukat"
+ },
+ "lesson.dd.fondamentaux.v.3": {
+  "fr": "un procès",
+  "tr": "dava"
+ },
+ "lesson.dd.obligations.intro": {
+  "fr": "Vivre en France, c'est avoir des droits, mais aussi des devoirs. La loi peut limiter une liberté pour protéger les autres.",
+  "tr": "Fransa'da yaşamak haklara ama aynı zamanda görevlere sahip olmak demektir. Yasa, başkalarını korumak için bir özgürlüğü sınırlayabilir."
+ },
+ "lesson.dd.obligations.parts.0.h": {
+  "fr": "Les devoirs du citoyen",
+  "tr": "Vatandaşın görevleri"
+ },
+ "lesson.dd.obligations.parts.0.p.0": {
+  "fr": "Les citoyens français ont des droits civiques (voter, être élu, être juré) et des devoirs : respecter la loi, payer ses impôts, participer à la défense du pays.",
+  "tr": "Fransız vatandaşlarının medeni hakları (oy vermek, seçilmek, jüri üyesi olmak) ve görevleri vardır: yasaya uymak, vergi ödemek, ülkenin savunmasına katılmak."
+ },
+ "lesson.dd.obligations.parts.0.p.1": {
+  "fr": "Les libertés ont des limites. Par exemple, la liberté de circuler ne permet pas de rouler trop vite.",
+  "tr": "Özgürlüklerin sınırları vardır. Örneğin dolaşım özgürlüğü aşırı hızla araç kullanmaya izin vermez."
+ },
+ "lesson.dd.obligations.parts.0.p.2": {
+  "fr": "Il faut porter secours à une personne en danger. Ne rien faire est une infraction : la non-assistance à personne en danger.",
+  "tr": "Tehlikedeki bir kişiye yardım etmek gerekir. Hiçbir şey yapmamak bir suçtur: tehlikedeki kişiye yardım etmemek."
+ },
+ "lesson.dd.obligations.parts.1.h": {
+  "fr": "Les infractions et la sécurité",
+  "tr": "Suçlar ve güvenlik"
+ },
+ "lesson.dd.obligations.parts.1.p.0": {
+  "fr": "Il y a trois sortes d'infractions : la contravention (la moins grave, comme un excès de vitesse), le délit (vol, fraude) et le crime (le plus grave, comme le meurtre, jugé par la cour d'assises).",
+  "tr": "Üç tür suç vardır: kabahat (en hafifi, örneğin hız sınırını aşmak), cürüm (hırsızlık, dolandırıcılık) ve cinayet gibi ağır suçlar (en ağırı, ağır ceza mahkemesinde yargılanır)."
+ },
+ "lesson.dd.obligations.parts.1.p.1": {
+  "fr": "Les sanctions peuvent être une amende, un travail d'intérêt général ou la prison. La police (en ville, numéro 17) et la gendarmerie (surtout à la campagne) assurent la sécurité.",
+  "tr": "Cezalar para cezası, kamu yararına çalışma veya hapis olabilir. Polis (şehirde, 17 numara) ve jandarma (çoğunlukla kırsalda) güvenliği sağlar."
+ },
+ "lesson.dd.obligations.parts.1.p.2": {
+  "fr": "Une victime de violences appelle le 17 ou le 112 et peut porter plainte. Pour les femmes victimes de violences : le 3919, gratuit et anonyme.",
+  "tr": "Şiddet mağduru 17'yi veya 112'yi arar ve şikâyette bulunabilir. Şiddet mağduru kadınlar için: 3919, ücretsiz ve isimsiz."
+ },
+ "lesson.dd.obligations.parts.2.h": {
+  "fr": "Des droits importants de la loi française",
+  "tr": "Fransız yasasının önemli hakları"
+ },
+ "lesson.dd.obligations.parts.2.p.0": {
+  "fr": "La peine de mort a été abolie en 1981 (loi de Robert Badinter). Depuis 2007, c'est écrit dans la Constitution.",
+  "tr": "İdam cezası 1981'de kaldırıldı (Robert Badinter yasası). 2007'den beri Anayasa'da yazılıdır."
+ },
+ "lesson.dd.obligations.parts.2.p.1": {
+  "fr": "L'IVG (interruption volontaire de grossesse) est un droit de la femme, dans un délai fixé par la loi. Personne ne décide à sa place. Depuis 2024, cette liberté est dans la Constitution.",
+  "tr": "Gönüllü gebelik sonlandırma (kürtaj), yasanın belirlediği süre içinde kadının hakkıdır. Kimse onun yerine karar veremez. 2024'ten beri bu özgürlük Anayasa'dadır."
+ },
+ "lesson.dd.obligations.parts.2.p.2": {
+  "fr": "On ne peut être marié qu'avec une seule personne : la polygamie est interdite. La femme comme l'homme peut demander le divorce. La traite des êtres humains (travail forcé, esclavage) est un crime grave.",
+  "tr": "Sadece tek bir kişiyle evli olunabilir: çok eşlilik yasaktır. Kadın da erkek de boşanma talep edebilir. İnsan ticareti (zorla çalıştırma, kölelik) ağır bir suçtur."
+ },
+ "lesson.dd.obligations.parts.3.h": {
+  "fr": "Protéger l'environnement",
+  "tr": "Çevreyi korumak"
+ },
+ "lesson.dd.obligations.parts.3.p.0": {
+  "fr": "Protéger l'environnement est un devoir (Charte de l'environnement). On trie ses déchets (poubelle jaune pour les emballages, verre à part). Jeter un déchet dans la rue coûte une amende de 135 € ou plus. Les gros objets vont à la déchetterie ; brûler ses déchets dans son jardin est interdit.",
+  "tr": "Çevreyi korumak bir görevdir (Çevre Şartı). Atıklar ayrıştırılır (ambalajlar için sarı çöp kutusu, cam ayrı). Sokağa çöp atmanın cezası 135 € veya daha fazladır. Büyük eşyalar atık toplama merkezine götürülür; bahçede çöp yakmak yasaktır."
+ },
+ "lesson.dd.obligations.keys.0": {
+  "fr": "Devoirs : respecter la loi, payer ses impôts, porter secours.",
+  "tr": "Görevler: yasaya uymak, vergi ödemek, yardım etmek."
+ },
+ "lesson.dd.obligations.keys.1": {
+  "fr": "Contravention < délit < crime.",
+  "tr": "Kabahat < cürüm < ağır suç."
+ },
+ "lesson.dd.obligations.keys.2": {
+  "fr": "Urgences : 17 police, 112 européen, 3919 violences faites aux femmes.",
+  "tr": "Acil: 17 polis, 112 Avrupa, 3919 kadına şiddet."
+ },
+ "lesson.dd.obligations.keys.3": {
+  "fr": "Peine de mort abolie en 1981.",
+  "tr": "İdam cezası 1981'de kaldırıldı."
+ },
+ "lesson.dd.obligations.keys.4": {
+  "fr": "IVG dans la Constitution depuis 2024 ; polygamie interdite.",
+  "tr": "Kürtaj hakkı 2024'ten beri Anayasa'da; çok eşlilik yasak."
+ },
+ "lesson.dd.obligations.v.0": {
+  "fr": "une infraction",
+  "tr": "suç"
+ },
+ "lesson.dd.obligations.v.1": {
+  "fr": "une amende",
+  "tr": "para cezası"
+ },
+ "lesson.dd.obligations.v.2": {
+  "fr": "porter secours",
+  "tr": "yardım etmek"
+ },
+ "lesson.dd.obligations.v.3": {
+  "fr": "les impôts",
+  "tr": "vergiler"
+ },
+ "lesson.dd.obligations.v.4": {
+  "fr": "trier ses déchets",
+  "tr": "atıkları ayrıştırmak"
+ },
+ "lesson.dd.situation.intro": {
+  "fr": "Ces questions décrivent des situations de la vie quotidienne. Le bon réflexe : respecter la loi, protéger les personnes et passer par les bonnes institutions.",
+  "tr": "Bu sorular günlük hayattan durumları anlatır. Doğru refleks: yasaya uymak, insanları korumak ve doğru kurumlara başvurmak."
+ },
+ "lesson.dd.situation.parts.0.h": {
+  "fr": "Urgences et entraide",
+  "tr": "Acil durumlar ve yardımlaşma"
+ },
+ "lesson.dd.situation.parts.0.p.0": {
+  "fr": "Une personne est en danger : on appelle le 15 (SAMU), le 18 (pompiers) ou le 112. Ne rien faire est un délit.",
+  "tr": "Bir kişi tehlikede: 15'i (SAMU), 18'i (itfaiye) veya 112'yi ararız. Hiçbir şey yapmamak suçtur."
+ },
+ "lesson.dd.situation.parts.0.p.1": {
+  "fr": "Les violences conjugales sont un délit grave. Le 3919 écoute les victimes (gratuit, anonyme). En danger immédiat : le 17. La fraternité, c'est aussi s'inquiéter d'un voisin fragile et alerter les secours ou la mairie.",
+  "tr": "Aile içi şiddet ağır bir suçtur. 3919 mağdurları dinler (ücretsiz, isimsiz). Acil tehlikede: 17. Kardeşlik, kırılgan bir komşu için endişelenip yardım ekiplerini veya belediyeyi uyarmak da demektir."
+ },
+ "lesson.dd.situation.parts.1.h": {
+  "fr": "La justice, pas la vengeance",
+  "tr": "İntikam değil, adalet"
+ },
+ "lesson.dd.situation.parts.1.p.0": {
+  "fr": "Un témoin peut alerter et témoigner, mais on ne se fait pas justice soi-même. Toute personne est présumée innocente tant que la justice ne l'a pas jugée coupable.",
+  "tr": "Bir tanık haber verebilir ve tanıklık edebilir ama kimse kendi adaletini kendi sağlamaz. Herkes mahkeme suçlu bulana kadar masum sayılır."
+ },
+ "lesson.dd.situation.parts.1.p.1": {
+  "fr": "Garder un objet trouvé peut être un vol : on le rapporte à la police ou à la mairie. Acheter un objet qu'on sait volé, c'est du recel, un délit. Donner de l'argent à un policier, c'est de la corruption.",
+  "tr": "Bulunan bir eşyayı saklamak hırsızlık sayılabilir: polise veya belediyeye teslim edilir. Çalıntı olduğunu bildiğin bir eşyayı satın almak suç eşyasını kabul etmektir, bir suçtur. Bir polise para vermek rüşvettir."
+ },
+ "lesson.dd.situation.parts.1.p.2": {
+  "fr": "Une amende doit être payée. Si on n'est pas d'accord, on la conteste (site de l'ANTAI). Un avis d'impôt qui semble faux : on fait une réclamation, on ne l'ignore pas.",
+  "tr": "Para cezası ödenmelidir. Katılmıyorsak itiraz ederiz (ANTAI sitesi). Hatalı görünen bir vergi bildirimi: itiraz ederiz, görmezden gelmeyiz."
+ },
+ "lesson.dd.situation.parts.2.h": {
+  "fr": "Vie privée et respect",
+  "tr": "Özel hayat ve saygı"
+ },
+ "lesson.dd.situation.parts.2.p.0": {
+  "fr": "Le domicile est inviolable : même le propriétaire ne peut pas entrer chez son locataire sans accord. Chacun a droit au respect de son image ; un employeur ne peut pas lire les messages personnels d'un salarié.",
+  "tr": "Konut dokunulmazdır: ev sahibi bile kiracının evine izni olmadan giremez. Herkesin kendi görüntüsüne saygı hakkı vardır; işveren çalışanın kişisel mesajlarını okuyamaz."
+ },
+ "lesson.dd.situation.parts.2.p.1": {
+  "fr": "Le tapage nocturne est interdit. On parle d'abord calmement ; si ça continue, on fait appel à un conciliateur ou à la police (17).",
+  "tr": "Gece gürültüsü yasaktır. Önce sakince konuşulur; devam ederse arabulucuya veya polise (17) başvurulur."
+ },
+ "lesson.dd.situation.parts.2.p.2": {
+  "fr": "Le patient peut consulter son propre dossier médical. Le harcèlement sexuel est un délit : la victime peut alerter son employeur, l'inspection du travail, le Défenseur des droits ou porter plainte.",
+  "tr": "Hasta kendi tıbbi dosyasını görebilir. Cinsel taciz bir suçtur: mağdur işverenini, iş müfettişliğini, Hak Savunucusu'nu uyarabilir veya şikâyette bulunabilir."
+ },
+ "lesson.dd.situation.parts.3.h": {
+  "fr": "Papiers, travail, famille",
+  "tr": "Belgeler, iş, aile"
+ },
+ "lesson.dd.situation.parts.3.p.0": {
+  "fr": "Un étranger doit pouvoir montrer son titre de séjour lors d'un contrôle, et déclarer un changement d'adresse dans les 3 mois (site de l'ANEF). Personne n'a le droit de garder votre passeport : c'est un signe de traite des êtres humains.",
+  "tr": "Bir yabancı kontrol sırasında oturma iznini gösterebilmeli ve adres değişikliğini 3 ay içinde bildirmelidir (ANEF sitesi). Kimsenin pasaportunuzu alıkoyma hakkı yoktur: bu, insan ticaretinin bir işaretidir."
+ },
+ "lesson.dd.situation.parts.3.p.1": {
+  "fr": "Le travail non déclaré est interdit et ne protège pas (maladie, retraite, chômage). Utiliser de faux papiers est un délit grave. Conduire sans permis valable aussi ; un permis étranger doit parfois être échangé.",
+  "tr": "Kayıt dışı çalışma yasaktır ve koruma sağlamaz (hastalık, emeklilik, işsizlik). Sahte belge kullanmak ağır bir suçtur. Geçerli ehliyet olmadan araç kullanmak da öyle; yabancı ehliyetin bazen değiştirilmesi gerekir."
+ },
+ "lesson.dd.situation.parts.3.p.2": {
+  "fr": "Les gifles et fessées sont interdites depuis 2019. Pour les enfants nés depuis 2018, 11 vaccins sont obligatoires. L'école est obligatoire jusqu'à 16 ans, puis la formation jusqu'à 18 ans. Les absences doivent être justifiées.",
+  "tr": "Tokat ve şaplak 2019'dan beri yasaktır. 2018'den sonra doğan çocuklar için 11 aşı zorunludur. Okul 16 yaşına kadar, sonra eğitim 18 yaşına kadar zorunludur. Devamsızlıkların gerekçesi bildirilmelidir."
+ },
+ "lesson.dd.situation.keys.0": {
+  "fr": "Personne en danger : 15, 18 ou 112 ; ne rien faire est un délit.",
+  "tr": "Tehlikedeki kişi: 15, 18 veya 112; hiçbir şey yapmamak suçtur."
+ },
+ "lesson.dd.situation.keys.1": {
+  "fr": "On ne se fait jamais justice soi-même ; présomption d'innocence.",
+  "tr": "Asla kendi adaletini kendin sağlamazsın; masumiyet karinesi."
+ },
+ "lesson.dd.situation.keys.2": {
+  "fr": "Objet trouvé : on le rapporte (police, mairie).",
+  "tr": "Bulunan eşya: teslim edilir (polis, belediye)."
+ },
+ "lesson.dd.situation.keys.3": {
+  "fr": "Pas d'accord avec une amende ou un impôt : on conteste, on n'ignore pas.",
+  "tr": "Para cezasına veya vergiye itiraz: itiraz edilir, görmezden gelinmez."
+ },
+ "lesson.dd.situation.keys.4": {
+  "fr": "Changement d'adresse : à déclarer dans les 3 mois (ANEF).",
+  "tr": "Adres değişikliği: 3 ay içinde bildirilir (ANEF)."
+ },
+ "lesson.dd.situation.keys.5": {
+  "fr": "Aucune violence sur les enfants (loi de 2019).",
+  "tr": "Çocuklara hiçbir şiddet yok (2019 yasası)."
+ },
+ "lesson.dd.situation.v.0": {
+  "fr": "un témoin",
+  "tr": "tanık"
+ },
+ "lesson.dd.situation.v.1": {
+  "fr": "le recel",
+  "tr": "suç eşyasını kabul etme"
+ },
+ "lesson.dd.situation.v.2": {
+  "fr": "contester",
+  "tr": "itiraz etmek"
+ },
+ "lesson.dd.situation.v.3": {
+  "fr": "le domicile",
+  "tr": "konut"
+ },
+ "lesson.dd.situation.v.4": {
+  "fr": "le travail non déclaré",
+  "tr": "kayıt dışı çalışma"
+ },
+ "lesson.hgc.histoire.intro": {
+  "fr": "Quelques grandes dates suffisent pour comprendre l'histoire de France : la Révolution, les deux guerres mondiales et la naissance de la Ve République.",
+  "tr": "Fransa tarihini anlamak için birkaç önemli tarih yeterlidir: Devrim, iki dünya savaşı ve Beşinci Cumhuriyet'in doğuşu."
+ },
+ "lesson.hgc.histoire.parts.0.h": {
+  "fr": "Avant la Révolution",
+  "tr": "Devrimden önce"
+ },
+ "lesson.hgc.histoire.parts.0.p.0": {
+  "fr": "Jeanne d'Arc est une héroïne du XVe siècle : pendant la guerre de Cent Ans, elle a combattu les Anglais. Louis XIV, le « Roi-Soleil », a fait construire le château de Versailles.",
+  "tr": "Jeanne d'Arc 15. yüzyılın bir kahramanıdır: Yüz Yıl Savaşları sırasında İngilizlere karşı savaştı. « Güneş Kral » XIV. Louis, Versay Sarayı'nı inşa ettirdi."
+ },
+ "lesson.hgc.histoire.parts.1.h": {
+  "fr": "La Révolution et Napoléon",
+  "tr": "Devrim ve Napolyon"
+ },
+ "lesson.hgc.histoire.parts.1.p.0": {
+  "fr": "La Révolution commence en 1789. Le 14 juillet 1789, le peuple de Paris prend la Bastille ; le 26 août, la Déclaration des droits de l'homme est adoptée. La monarchie est abolie en 1792 et le roi Louis XVI est exécuté en 1793.",
+  "tr": "Devrim 1789'da başlar. 14 Temmuz 1789'da Paris halkı Bastille'i alır; 26 Ağustos'ta İnsan Hakları Bildirgesi kabul edilir. Monarşi 1792'de kaldırılır ve Kral XVI. Louis 1793'te idam edilir."
+ },
+ "lesson.hgc.histoire.parts.1.p.1": {
+  "fr": "Napoléon Bonaparte devient empereur en 1804. Il crée le Code civil, les lycées et la Légion d'honneur.",
+  "tr": "Napolyon Bonapart 1804'te imparator olur. Medeni Kanun'u, liseleri ve Légion d'honneur nişanını oluşturur."
+ },
+ "lesson.hgc.histoire.parts.2.h": {
+  "fr": "Le XIXe siècle : République, esclavage, école",
+  "tr": "19. yüzyıl: Cumhuriyet, kölelik, okul"
+ },
+ "lesson.hgc.histoire.parts.2.p.0": {
+  "fr": "La France a eu 5 Républiques : 1792, 1848, 1870, 1946 et 1958 (la Ve, actuelle).",
+  "tr": "Fransa'da 5 Cumhuriyet oldu: 1792, 1848, 1870, 1946 ve 1958 (bugünkü Beşinci)."
+ },
+ "lesson.hgc.histoire.parts.2.p.1": {
+  "fr": "L'esclavage est aboli en 1794, rétabli par Napoléon en 1802, puis aboli définitivement en 1848 grâce à Victor Schœlcher.",
+  "tr": "Kölelik 1794'te kaldırılır, 1802'de Napolyon tarafından geri getirilir, sonra 1848'de Victor Schœlcher sayesinde kesin olarak kaldırılır."
+ },
+ "lesson.hgc.histoire.parts.2.p.2": {
+  "fr": "Avec Jules Ferry, l'école primaire publique devient gratuite (1881), puis laïque et obligatoire (1882).",
+  "tr": "Jules Ferry ile devlet ilkokulu ücretsiz (1881), sonra laik ve zorunlu (1882) olur."
+ },
+ "lesson.hgc.histoire.parts.3.h": {
+  "fr": "Les deux guerres mondiales",
+  "tr": "İki dünya savaşı"
+ },
+ "lesson.hgc.histoire.parts.3.p.0": {
+  "fr": "Première Guerre mondiale (la « Grande Guerre ») : 1914-1918. Environ 1,4 million de soldats français meurent. L'armistice du 11 novembre 1918 met fin aux combats.",
+  "tr": "Birinci Dünya Savaşı (« Büyük Savaş »): 1914-1918. Yaklaşık 1,4 milyon Fransız askeri ölür. 11 Kasım 1918 ateşkesi çatışmalara son verir."
+ },
+ "lesson.hgc.histoire.parts.3.p.1": {
+  "fr": "Seconde Guerre mondiale : 1939-1945. La France est occupée par l'Allemagne nazie de 1940 à 1944. Le régime de Vichy collabore et participe à la déportation de près de 76 000 Juifs. Le 8 mai 1945 marque la victoire.",
+  "tr": "İkinci Dünya Savaşı: 1939-1945. Fransa 1940'tan 1944'e kadar Nazi Almanyası tarafından işgal edilir. Vichy rejimi işbirliği yapar ve yaklaşık 76 000 Yahudi'nin sürgün edilmesine katılır. 8 Mayıs 1945 zaferi simgeler."
+ },
+ "lesson.hgc.histoire.parts.4.h": {
+  "fr": "Après 1945",
+  "tr": "1945'ten sonra"
+ },
+ "lesson.hgc.histoire.parts.4.p.0": {
+  "fr": "La France avait un grand empire colonial (Afrique, Asie). L'Algérie devient indépendante en 1962. En 1957, la France fonde la CEE, future Union européenne.",
+  "tr": "Fransa'nın büyük bir sömürge imparatorluğu vardı (Afrika, Asya). Cezayir 1962'de bağımsız olur. 1957'de Fransa, geleceğin Avrupa Birliği olan AET'yi kurar."
+ },
+ "lesson.hgc.histoire.parts.4.p.1": {
+  "fr": "En 1958, le général de Gaulle revient au pouvoir. La Constitution du 4 octobre 1958 crée la Ve République. De Gaulle en est le premier président (1959-1969).",
+  "tr": "1958'de General de Gaulle iktidara geri döner. 4 Ekim 1958 Anayasası Beşinci Cumhuriyet'i kurar. De Gaulle onun ilk cumhurbaşkanıdır (1959-1969)."
+ },
+ "lesson.hgc.histoire.keys.0": {
+  "fr": "1789 : Révolution, prise de la Bastille (14 juillet).",
+  "tr": "1789: Devrim, Bastille'in alınması (14 Temmuz)."
+ },
+ "lesson.hgc.histoire.keys.1": {
+  "fr": "1804 : Napoléon empereur, Code civil.",
+  "tr": "1804: Napolyon imparator, Medeni Kanun."
+ },
+ "lesson.hgc.histoire.keys.2": {
+  "fr": "1848 : abolition définitive de l'esclavage (Schœlcher).",
+  "tr": "1848: köleliğin kesin olarak kaldırılması (Schœlcher)."
+ },
+ "lesson.hgc.histoire.keys.3": {
+  "fr": "1881-1882 : école gratuite, laïque, obligatoire (Jules Ferry).",
+  "tr": "1881-1882: ücretsiz, laik, zorunlu okul (Jules Ferry)."
+ },
+ "lesson.hgc.histoire.keys.4": {
+  "fr": "1914-1918 et 1939-1945 : les deux guerres mondiales.",
+  "tr": "1914-1918 ve 1939-1945: iki dünya savaşı."
+ },
+ "lesson.hgc.histoire.keys.5": {
+  "fr": "1958 : Ve République, de Gaulle.",
+  "tr": "1958: Beşinci Cumhuriyet, de Gaulle."
+ },
+ "lesson.hgc.histoire.v.0": {
+  "fr": "la Révolution",
+  "tr": "Devrim"
+ },
+ "lesson.hgc.histoire.v.1": {
+  "fr": "la monarchie",
+  "tr": "monarşi"
+ },
+ "lesson.hgc.histoire.v.2": {
+  "fr": "l'esclavage",
+  "tr": "kölelik"
+ },
+ "lesson.hgc.histoire.v.3": {
+  "fr": "l'armistice",
+  "tr": "ateşkes"
+ },
+ "lesson.hgc.histoire.v.4": {
+  "fr": "l'Occupation",
+  "tr": "işgal"
+ },
+ "lesson.hgc.geo.intro": {
+  "fr": "La France métropolitaine est en Europe de l'Ouest. Elle a aussi des territoires sur d'autres continents : c'est l'outre-mer.",
+  "tr": "Anakara Fransa Batı Avrupa'dadır. Başka kıtalarda da toprakları vardır: bunlara denizaşırı topraklar denir."
+ },
+ "lesson.hgc.geo.parts.0.h": {
+  "fr": "Mers et montagnes",
+  "tr": "Denizler ve dağlar"
+ },
+ "lesson.hgc.geo.parts.0.p.0": {
+  "fr": "La France est bordée par la Manche au nord, l'océan Atlantique à l'ouest et la mer Méditerranée au sud (Marseille, Nice, Montpellier). Brest est sur l'Atlantique.",
+  "tr": "Fransa kuzeyde Manş Denizi, batıda Atlas Okyanusu ve güneyde Akdeniz (Marsilya, Nice, Montpellier) ile çevrilidir. Brest Atlas kıyısındadır."
+ },
+ "lesson.hgc.geo.parts.0.p.1": {
+  "fr": "Les Alpes séparent la France de l'Italie ; le mont Blanc (4 805 m) est le plus haut sommet. Les Pyrénées sont entre la France et l'Espagne.",
+  "tr": "Alpler Fransa'yı İtalya'dan ayırır; Mont Blanc (4 805 m) en yüksek zirvedir. Pireneler Fransa ile İspanya arasındadır."
+ },
+ "lesson.hgc.geo.parts.1.h": {
+  "fr": "Fleuves et villes",
+  "tr": "Nehirler ve şehirler"
+ },
+ "lesson.hgc.geo.parts.1.p.0": {
+  "fr": "Les grands fleuves : la Loire (le plus long), la Seine (qui traverse Paris), la Garonne et le Rhône. Le Rhin marque une partie de la frontière avec l'Allemagne.",
+  "tr": "Büyük nehirler: Loire (en uzunu), Seine (Paris'ten geçer), Garonne ve Rhône. Ren Nehri, Almanya ile sınırın bir kısmını oluşturur."
+ },
+ "lesson.hgc.geo.parts.1.p.1": {
+  "fr": "Paris est la capitale et la plus grande ville. Lyon est la 3e ville. Marseille est le premier port, Le Havre un très grand port sur la Manche. Strasbourg, à l'est, accueille le Parlement européen ; Lille est au nord.",
+  "tr": "Paris başkent ve en büyük şehirdir. Lyon üçüncü şehirdir. Marsilya birinci limandır, Le Havre ise Manş kıyısında çok büyük bir limandır. Doğudaki Strazburg Avrupa Parlamentosu'na ev sahipliği yapar; Lille kuzeydedir."
+ },
+ "lesson.hgc.geo.parts.2.h": {
+  "fr": "Régions, départements et outre-mer",
+  "tr": "Bölgeler, iller ve denizaşırı topraklar"
+ },
+ "lesson.hgc.geo.parts.2.p.0": {
+  "fr": "Depuis 2016, il y a 13 régions en métropole (18 avec l'outre-mer), par exemple l'Île-de-France ou la Bretagne. La Corse est une île de la Méditerranée ; Napoléon est né à Ajaccio.",
+  "tr": "2016'dan beri anakarada 13 bölge vardır (denizaşırı topraklarla 18), örneğin Île-de-France veya Bretanya. Korsika Akdeniz'de bir adadır; Napolyon Ajaccio'da doğdu."
+ },
+ "lesson.hgc.geo.parts.2.p.1": {
+  "fr": "Les 5 départements d'outre-mer : la Guadeloupe, la Martinique, la Guyane, La Réunion (île de l'océan Indien) et Mayotte.",
+  "tr": "5 denizaşırı il: Guadeloupe, Martinik, Guyana, La Réunion (Hint Okyanusu'nda bir ada) ve Mayotte."
+ },
+ "lesson.hgc.geo.keys.0": {
+  "fr": "Nord : Manche ; ouest : Atlantique ; sud : Méditerranée.",
+  "tr": "Kuzey: Manş; batı: Atlas Okyanusu; güney: Akdeniz."
+ },
+ "lesson.hgc.geo.keys.1": {
+  "fr": "Mont Blanc : 4 805 m, dans les Alpes.",
+  "tr": "Mont Blanc: 4 805 m, Alpler'de."
+ },
+ "lesson.hgc.geo.keys.2": {
+  "fr": "La Loire est le plus long fleuve ; la Seine traverse Paris.",
+  "tr": "Loire en uzun nehirdir; Seine Paris'ten geçer."
+ },
+ "lesson.hgc.geo.keys.3": {
+  "fr": "13 régions en métropole, 101 départements.",
+  "tr": "Anakarada 13 bölge, 101 il."
+ },
+ "lesson.hgc.geo.keys.4": {
+  "fr": "Outre-mer : Guadeloupe, Martinique, Guyane, La Réunion, Mayotte.",
+  "tr": "Denizaşırı: Guadeloupe, Martinik, Guyana, La Réunion, Mayotte."
+ },
+ "lesson.hgc.geo.v.0": {
+  "fr": "un fleuve",
+  "tr": "nehir"
+ },
+ "lesson.hgc.geo.v.1": {
+  "fr": "la frontière",
+  "tr": "sınır"
+ },
+ "lesson.hgc.geo.v.2": {
+  "fr": "la capitale",
+  "tr": "başkent"
+ },
+ "lesson.hgc.geo.v.3": {
+  "fr": "l'outre-mer",
+  "tr": "denizaşırı topraklar"
+ },
+ "lesson.hgc.patrimoine.intro": {
+  "fr": "Le patrimoine, c'est ce que la France a de plus précieux : ses monuments, ses écrivains, ses artistes et ses traditions.",
+  "tr": "Miras, Fransa'nın en değerli varlıklarıdır: anıtları, yazarları, sanatçıları ve gelenekleri."
+ },
+ "lesson.hgc.patrimoine.parts.0.h": {
+  "fr": "Monuments",
+  "tr": "Anıtlar"
+ },
+ "lesson.hgc.patrimoine.parts.0.p.0": {
+  "fr": "La tour Eiffel, à Paris, a été construite par Gustave Eiffel pour l'Exposition universelle de 1889. Le Louvre, ancien palais des rois, est le musée le plus visité du monde : on y voit « La Joconde » de Léonard de Vinci.",
+  "tr": "Paris'teki Eyfel Kulesi, 1889 Dünya Fuarı için Gustave Eiffel tarafından inşa edildi. Eski bir kraliyet sarayı olan Louvre dünyanın en çok ziyaret edilen müzesidir: Leonardo da Vinci'nin « Mona Lisa » tablosu oradadır."
+ },
+ "lesson.hgc.patrimoine.parts.1.h": {
+  "fr": "Écrivains",
+  "tr": "Yazarlar"
+ },
+ "lesson.hgc.patrimoine.parts.1.p.0": {
+  "fr": "XVIIe siècle : Molière, auteur de comédies (on dit « la langue de Molière » pour le français), et Jean de La Fontaine, auteur des fables (« Le Corbeau et le Renard »).",
+  "tr": "17. yüzyıl: komedi yazarı Molière (Fransızca için « Molière'in dili » denir) ve fabl yazarı Jean de La Fontaine (« Karga ile Tilki »)."
+ },
+ "lesson.hgc.patrimoine.parts.1.p.1": {
+  "fr": "XIXe siècle : Victor Hugo (« Les Misérables », « Notre-Dame de Paris »), le poète Charles Baudelaire (« Les Fleurs du mal ») et George Sand, qui a pris un nom d'homme pour publier.",
+  "tr": "19. yüzyıl: Victor Hugo (« Sefiller », « Notre-Dame'ın Kamburu »), şair Charles Baudelaire (« Kötülük Çiçekleri ») ve yayımlayabilmek için erkek adı kullanan George Sand."
+ },
+ "lesson.hgc.patrimoine.parts.1.p.2": {
+  "fr": "XXe siècle : Simone de Beauvoir (« Le Deuxième Sexe », 1949, pour les droits des femmes) et Albert Camus, né en Algérie (« L'Étranger », prix Nobel 1957).",
+  "tr": "20. yüzyıl: Simone de Beauvoir (« İkinci Cins », 1949, kadın hakları için) ve Cezayir'de doğan Albert Camus (« Yabancı », 1957 Nobel ödülü)."
+ },
+ "lesson.hgc.patrimoine.parts.2.h": {
+  "fr": "Artistes",
+  "tr": "Sanatçılar"
+ },
+ "lesson.hgc.patrimoine.parts.2.p.0": {
+  "fr": "Paul Cézanne a peint la montagne Sainte-Victoire en Provence. Marc Chagall, d'origine russe, a peint le plafond de l'Opéra Garnier.",
+  "tr": "Paul Cézanne, Provence'taki Sainte-Victoire dağını resmetti. Rus kökenli Marc Chagall, Opéra Garnier'nin tavanını boyadı."
+ },
+ "lesson.hgc.patrimoine.parts.2.p.1": {
+  "fr": "Édith Piaf est une chanteuse très célèbre (« La Vie en rose »). Joséphine Baker, née aux États-Unis puis française, a aidé la Résistance et lutté contre le racisme ; elle est entrée au Panthéon en 2021.",
+  "tr": "Édith Piaf çok ünlü bir şarkıcıdır (« La Vie en rose »). ABD'de doğup Fransız olan Joséphine Baker Direniş'e yardım etti ve ırkçılığa karşı mücadele etti; 2021'de Panthéon'a girdi."
+ },
+ "lesson.hgc.patrimoine.parts.3.h": {
+  "fr": "Traditions",
+  "tr": "Gelenekler"
+ },
+ "lesson.hgc.patrimoine.parts.3.p.0": {
+  "fr": "Noël, le 25 décembre, est une fête d'origine chrétienne devenue une fête familiale pour beaucoup de Français. C'est un jour férié, comme le 14 juillet.",
+  "tr": "25 Aralık'taki Noel, Hristiyan kökenli olup birçok Fransız için bir aile bayramı hâline gelmiştir. 14 Temmuz gibi resmî tatildir."
+ },
+ "lesson.hgc.patrimoine.keys.0": {
+  "fr": "Tour Eiffel : 1889 ; Louvre : « La Joconde ».",
+  "tr": "Eyfel Kulesi: 1889; Louvre: « Mona Lisa »."
+ },
+ "lesson.hgc.patrimoine.keys.1": {
+  "fr": "Molière et La Fontaine : XVIIe siècle.",
+  "tr": "Molière ve La Fontaine: 17. yüzyıl."
+ },
+ "lesson.hgc.patrimoine.keys.2": {
+  "fr": "Victor Hugo : « Les Misérables ».",
+  "tr": "Victor Hugo: « Sefiller »."
+ },
+ "lesson.hgc.patrimoine.keys.3": {
+  "fr": "Simone de Beauvoir et George Sand : droits des femmes.",
+  "tr": "Simone de Beauvoir ve George Sand: kadın hakları."
+ },
+ "lesson.hgc.patrimoine.keys.4": {
+  "fr": "Joséphine Baker : Résistance, Panthéon en 2021.",
+  "tr": "Joséphine Baker: Direniş, 2021'de Panthéon."
+ },
+ "lesson.hgc.patrimoine.v.0": {
+  "fr": "le patrimoine",
+  "tr": "miras"
+ },
+ "lesson.hgc.patrimoine.v.1": {
+  "fr": "un écrivain",
+  "tr": "yazar"
+ },
+ "lesson.hgc.patrimoine.v.2": {
+  "fr": "un peintre",
+  "tr": "ressam"
+ },
+ "lesson.hgc.patrimoine.v.3": {
+  "fr": "un jour férié",
+  "tr": "resmî tatil"
+ },
+ "lesson.vsf.installer.intro": {
+  "fr": "Quelques règles et numéros utiles pour bien vivre au quotidien en France.",
+  "tr": "Fransa'da günlük hayatı iyi yaşamak için birkaç kural ve faydalı numara."
+ },
+ "lesson.vsf.installer.parts.0.h": {
+  "fr": "Les numéros d'urgence",
+  "tr": "Acil durum numaraları"
+ },
+ "lesson.vsf.installer.parts.0.p.0": {
+  "fr": "15 : SAMU (urgence médicale). 17 : police. 18 : pompiers (incendie, accident, blessés). 112 : numéro d'urgence européen. 114 : par SMS, pour les personnes sourdes ou qui ne peuvent pas parler.",
+  "tr": "15: SAMU (tıbbi acil). 17: polis. 18: itfaiye (yangın, kaza, yaralılar). 112: Avrupa acil numarası. 114: SMS ile, işitme engelli veya konuşamayan kişiler için."
+ },
+ "lesson.vsf.installer.parts.0.p.1": {
+  "fr": "Ces numéros sont gratuits et répondent jour et nuit, même sans crédit sur le téléphone.",
+  "tr": "Bu numaralar ücretsizdir ve gece gündüz cevap verir, telefonda kontür olmasa bile."
+ },
+ "lesson.vsf.installer.parts.1.h": {
+  "fr": "L'état civil à la mairie",
+  "tr": "Belediyede nüfus işleri"
+ },
+ "lesson.vsf.installer.parts.1.p.0": {
+  "fr": "Seul le mariage civil, à la mairie, est reconnu par la loi. Les deux époux doivent avoir 18 ans et être d'accord librement. Le mariage religieux ne peut avoir lieu qu'après.",
+  "tr": "Yalnızca belediyede kıyılan resmî nikâh yasa tarafından tanınır. İki eş de 18 yaşında olmalı ve özgürce rıza göstermelidir. Dinî nikâh ancak bundan sonra yapılabilir."
+ },
+ "lesson.vsf.installer.parts.1.p.1": {
+  "fr": "La naissance d'un enfant doit être déclarée à la mairie du lieu de naissance dans les 5 jours.",
+  "tr": "Bir çocuğun doğumu, doğum yerindeki belediyeye 5 gün içinde bildirilmelidir."
+ },
+ "lesson.vsf.installer.parts.2.h": {
+  "fr": "Voiture et adresse",
+  "tr": "Araba ve adres"
+ },
+ "lesson.vsf.installer.parts.2.p.0": {
+  "fr": "L'assurance auto est obligatoire pour toute voiture qui roule. Conduire sans assurance est un délit.",
+  "tr": "Trafiğe çıkan her araba için araç sigortası zorunludur. Sigortasız araç kullanmak suçtur."
+ },
+ "lesson.vsf.installer.parts.2.p.1": {
+  "fr": "Un étranger qui déménage doit déclarer sa nouvelle adresse dans les 3 mois, en ligne sur le site de l'ANEF.",
+  "tr": "Taşınan bir yabancı yeni adresini 3 ay içinde ANEF sitesinde çevrim içi bildirmelidir."
+ },
+ "lesson.vsf.installer.keys.0": {
+  "fr": "15 SAMU, 17 police, 18 pompiers, 112 européen, 114 par SMS.",
+  "tr": "15 SAMU, 17 polis, 18 itfaiye, 112 Avrupa, 114 SMS ile."
+ },
+ "lesson.vsf.installer.keys.1": {
+  "fr": "Mariage civil à la mairie d'abord, à 18 ans, librement.",
+  "tr": "Önce belediyede resmî nikâh, 18 yaşında, özgür rızayla."
+ },
+ "lesson.vsf.installer.keys.2": {
+  "fr": "Naissance : déclarée dans les 5 jours.",
+  "tr": "Doğum: 5 gün içinde bildirilir."
+ },
+ "lesson.vsf.installer.keys.3": {
+  "fr": "Assurance auto obligatoire.",
+  "tr": "Araç sigortası zorunlu."
+ },
+ "lesson.vsf.installer.v.0": {
+  "fr": "les pompiers",
+  "tr": "itfaiye"
+ },
+ "lesson.vsf.installer.v.1": {
+  "fr": "l'état civil",
+  "tr": "nüfus kayıtları"
+ },
+ "lesson.vsf.installer.v.2": {
+  "fr": "un époux, une épouse",
+  "tr": "eş"
+ },
+ "lesson.vsf.installer.v.3": {
+  "fr": "l'assurance",
+  "tr": "sigorta"
+ },
+ "lesson.vsf.soins.intro": {
+  "fr": "En France, toute personne qui vit ou travaille de façon stable et régulière peut se faire soigner et être remboursée.",
+  "tr": "Fransa'da düzenli ve yasal olarak yaşayan veya çalışan herkes tedavi olabilir ve masrafları geri ödenir."
+ },
+ "lesson.vsf.soins.parts.0.h": {
+  "fr": "L'Assurance maladie et la mutuelle",
+  "tr": "Sağlık sigortası ve tamamlayıcı sigorta"
+ },
+ "lesson.vsf.soins.parts.0.p.0": {
+  "fr": "L'Assurance maladie (la « Sécu », la CPAM) rembourse une partie des frais de santé. C'est la protection universelle maladie (PUMa).",
+  "tr": "Sağlık sigortası (« Sécu », CPAM) sağlık masraflarının bir kısmını geri öder. Buna evrensel sağlık koruması (PUMa) denir."
+ },
+ "lesson.vsf.soins.parts.0.p.1": {
+  "fr": "La mutuelle (complémentaire santé) paie une partie ou tout le reste. Elle n'est pas obligatoire, mais recommandée.",
+  "tr": "Tamamlayıcı sağlık sigortası (mutuelle) kalanın bir kısmını veya tamamını öder. Zorunlu değildir ama tavsiye edilir."
+ },
+ "lesson.vsf.soins.parts.0.p.2": {
+  "fr": "La carte Vitale est la carte verte de l'Assurance maladie. On la donne au médecin ou au pharmacien : le remboursement est automatique.",
+  "tr": "Carte Vitale, sağlık sigortasının yeşil kartıdır. Doktora veya eczacıya verilir: geri ödeme otomatiktir."
+ },
+ "lesson.vsf.soins.parts.1.h": {
+  "fr": "Le médecin traitant",
+  "tr": "Aile hekimi"
+ },
+ "lesson.vsf.soins.parts.1.p.0": {
+  "fr": "Pour un problème courant, on va d'abord chez son médecin traitant (un généraliste). Il suit la santé, les vaccins, et envoie vers un spécialiste si nécessaire. On le déclare à l'Assurance maladie pour être mieux remboursé.",
+  "tr": "Sıradan bir sorun için önce aile hekimine (pratisyen hekim) gidilir. Sağlığı ve aşıları takip eder, gerekirse uzmana yönlendirir. Daha iyi geri ödeme için sağlık sigortasına bildirilir."
+ },
+ "lesson.vsf.soins.parts.2.h": {
+  "fr": "Urgences et vaccins",
+  "tr": "Acil durumlar ve aşılar"
+ },
+ "lesson.vsf.soins.parts.2.p.0": {
+  "fr": "Les urgences de l'hôpital sont pour les cas graves. Pour une urgence vitale, on appelle le 15. Pour un petit problème : le médecin ou la pharmacie.",
+  "tr": "Hastane acil servisi ciddi durumlar içindir. Hayati bir acil durumda 15 aranır. Küçük bir sorun için: doktor veya eczane."
+ },
+ "lesson.vsf.soins.parts.2.p.1": {
+  "fr": "Les vaccins protègent la personne et les autres. Certains sont obligatoires pour les enfants, par exemple pour aller à la crèche ou à l'école.",
+  "tr": "Aşılar hem kişiyi hem de başkalarını korur. Bazıları çocuklar için zorunludur, örneğin kreşe veya okula gitmek için."
+ },
+ "lesson.vsf.soins.keys.0": {
+  "fr": "Assurance maladie (Sécu) + mutuelle = remboursement.",
+  "tr": "Sağlık sigortası (Sécu) + mutuelle = geri ödeme."
+ },
+ "lesson.vsf.soins.keys.1": {
+  "fr": "Carte Vitale : la carte verte, à donner au médecin.",
+  "tr": "Carte Vitale: doktora verilen yeşil kart."
+ },
+ "lesson.vsf.soins.keys.2": {
+  "fr": "D'abord le médecin traitant ; les urgences pour les cas graves.",
+  "tr": "Önce aile hekimi; ciddi durumlar için acil servis."
+ },
+ "lesson.vsf.soins.keys.3": {
+  "fr": "Urgence vitale : 15.",
+  "tr": "Hayati acil durum: 15."
+ },
+ "lesson.vsf.soins.v.0": {
+  "fr": "le médecin traitant",
+  "tr": "aile hekimi"
+ },
+ "lesson.vsf.soins.v.1": {
+  "fr": "la mutuelle",
+  "tr": "tamamlayıcı sağlık sigortası"
+ },
+ "lesson.vsf.soins.v.2": {
+  "fr": "rembourser",
+  "tr": "geri ödemek"
+ },
+ "lesson.vsf.soins.v.3": {
+  "fr": "un vaccin",
+  "tr": "aşı"
+ },
+ "lesson.vsf.travail.intro": {
+  "fr": "Travailler en France, c'est avoir des droits protégés par la loi : un salaire minimum, une durée de travail et l'égalité.",
+  "tr": "Fransa'da çalışmak, yasayla korunan haklara sahip olmak demektir: asgari ücret, çalışma süresi ve eşitlik."
+ },
+ "lesson.vsf.travail.parts.0.h": {
+  "fr": "Salaire et durée du travail",
+  "tr": "Ücret ve çalışma süresi"
+ },
+ "lesson.vsf.travail.parts.0.p.0": {
+  "fr": "Le SMIC est le salaire minimum légal : aucun salarié ne peut être payé moins. Les femmes et les hommes doivent avoir le même salaire pour le même travail.",
+  "tr": "SMIC yasal asgari ücrettir: hiçbir çalışana daha az ödenemez. Kadınlar ve erkekler aynı iş için aynı ücreti almalıdır."
+ },
+ "lesson.vsf.travail.parts.0.p.1": {
+  "fr": "La durée légale du travail à temps plein est de 35 heures par semaine. Au-delà, ce sont des heures supplémentaires, payées en plus.",
+  "tr": "Tam zamanlı yasal çalışma süresi haftada 35 saattir. Bunun üzerindeki saatler fazla mesaidir ve ek olarak ödenir."
+ },
+ "lesson.vsf.travail.parts.1.h": {
+  "fr": "Le travail déclaré",
+  "tr": "Kayıtlı çalışma"
+ },
+ "lesson.vsf.travail.parts.1.p.0": {
+  "fr": "Le travail « au noir » (non déclaré) est interdit. Le salarié n'a alors aucune protection : pas de maladie, de retraite ni de chômage. L'inspection du travail peut l'aider.",
+  "tr": "Kayıt dışı (« kaçak ») çalışma yasaktır. Bu durumda çalışanın hiçbir güvencesi olmaz: hastalık, emeklilik veya işsizlik hakkı yoktur. İş müfettişliği ona yardım edebilir."
+ },
+ "lesson.vsf.travail.parts.2.h": {
+  "fr": "Chercher un emploi",
+  "tr": "İş aramak"
+ },
+ "lesson.vsf.travail.parts.2.p.0": {
+  "fr": "On s'inscrit à France Travail (ex-Pôle emploi). Un conseiller aide à trouver un emploi ou une formation, et verse les allocations chômage.",
+  "tr": "France Travail'e (eski adıyla Pôle emploi) kaydolunur. Bir danışman iş veya eğitim bulmaya yardım eder ve işsizlik ödeneğini öder."
+ },
+ "lesson.vsf.travail.parts.2.p.1": {
+  "fr": "On peut créer une entreprise sans être français, si son titre de séjour le permet. On peut travailler dès 16 ans avec l'accord des parents.",
+  "tr": "Oturma izni izin veriyorsa Fransız olmadan da şirket kurulabilir. Ebeveyn izniyle 16 yaşından itibaren çalışılabilir."
+ },
+ "lesson.vsf.travail.parts.2.p.2": {
+  "fr": "Depuis 1965, une femme mariée peut travailler et ouvrir un compte bancaire sans l'accord de son mari.",
+  "tr": "1965'ten beri evli bir kadın kocasının izni olmadan çalışabilir ve banka hesabı açabilir."
+ },
+ "lesson.vsf.travail.keys.0": {
+  "fr": "SMIC = salaire minimum légal.",
+  "tr": "SMIC = yasal asgari ücret."
+ },
+ "lesson.vsf.travail.keys.1": {
+  "fr": "35 heures par semaine ; au-delà, heures supplémentaires.",
+  "tr": "Haftada 35 saat; fazlası fazla mesai."
+ },
+ "lesson.vsf.travail.keys.2": {
+  "fr": "Travail au noir interdit, sans protection.",
+  "tr": "Kaçak çalışma yasak, güvencesiz."
+ },
+ "lesson.vsf.travail.keys.3": {
+  "fr": "Chercher un emploi : France Travail.",
+  "tr": "İş aramak: France Travail."
+ },
+ "lesson.vsf.travail.v.0": {
+  "fr": "le salaire",
+  "tr": "maaş"
+ },
+ "lesson.vsf.travail.v.1": {
+  "fr": "un salarié",
+  "tr": "çalışan"
+ },
+ "lesson.vsf.travail.v.2": {
+  "fr": "le chômage",
+  "tr": "işsizlik"
+ },
+ "lesson.vsf.travail.v.3": {
+  "fr": "les heures supplémentaires",
+  "tr": "fazla mesai"
+ },
+ "lesson.vsf.ecole.intro": {
+  "fr": "En France, l'école est un droit et une obligation pour tous les enfants, quelle que soit leur nationalité.",
+  "tr": "Fransa'da okul, uyruğu ne olursa olsun bütün çocuklar için hem bir hak hem de bir zorunluluktur."
+ },
+ "lesson.vsf.ecole.parts.0.h": {
+  "fr": "L'instruction obligatoire",
+  "tr": "Zorunlu eğitim"
+ },
+ "lesson.vsf.ecole.parts.0.p.0": {
+  "fr": "L'instruction est obligatoire de 3 à 16 ans pour tous les enfants qui habitent en France. De 16 à 18 ans, les jeunes doivent continuer une formation : études, apprentissage, service civique ou emploi.",
+  "tr": "Fransa'da yaşayan bütün çocuklar için eğitim 3 ile 16 yaş arasında zorunludur. 16 ile 18 yaş arasında gençler bir eğitime devam etmelidir: okul, çıraklık, gönüllü kamu hizmeti veya iş."
+ },
+ "lesson.vsf.ecole.parts.0.p.1": {
+  "fr": "L'élève doit aller à tous les cours. Les parents justifient chaque absence (maladie, par exemple). Les enfants qui parlent une autre langue ont des cours de français adaptés (UPE2A).",
+  "tr": "Öğrenci bütün derslere katılmalıdır. Ebeveynler her devamsızlığın gerekçesini bildirir (örneğin hastalık). Başka bir dil konuşan çocuklar uyarlanmış Fransızca dersleri alır (UPE2A)."
+ },
+ "lesson.vsf.ecole.parts.1.h": {
+  "fr": "Le parcours scolaire",
+  "tr": "Okul yolculuğu"
+ },
+ "lesson.vsf.ecole.parts.1.p.0": {
+  "fr": "École maternelle (3-6 ans), école élémentaire (6-11 ans), collège (11-15 ans), puis lycée (15-18 ans). À la fin du collège, on passe le brevet ; à la fin du lycée, le baccalauréat (le « bac »), qui permet d'aller à l'université.",
+  "tr": "Anaokulu (3-6 yaş), ilkokul (6-11 yaş), ortaokul (11-15 yaş), sonra lise (15-18 yaş). Ortaokulun sonunda brevet sınavına, lisenin sonunda üniversiteye girmeyi sağlayan bakalorya (« bac ») sınavına girilir."
+ },
+ "lesson.vsf.ecole.parts.2.h": {
+  "fr": "L'autorité parentale",
+  "tr": "Ebeveyn yetkisi"
+ },
+ "lesson.vsf.ecole.parts.2.p.0": {
+  "fr": "Les deux parents ont l'autorité parentale : ils protègent l'enfant (sécurité, santé), l'éduquent et l'envoient à l'école. Toute violence, même « éducative », est interdite.",
+  "tr": "İki ebeveynin de ebeveyn yetkisi vardır: çocuğu korurlar (güvenlik, sağlık), eğitirler ve okula gönderirler. « Terbiye amaçlı » bile olsa her türlü şiddet yasaktır."
+ },
+ "lesson.vsf.ecole.keys.0": {
+  "fr": "Instruction obligatoire de 3 à 16 ans ; formation jusqu'à 18 ans.",
+  "tr": "3-16 yaş arası zorunlu eğitim; 18 yaşına kadar eğitim."
+ },
+ "lesson.vsf.ecole.keys.1": {
+  "fr": "Maternelle, élémentaire, collège, lycée.",
+  "tr": "Anaokulu, ilkokul, ortaokul, lise."
+ },
+ "lesson.vsf.ecole.keys.2": {
+  "fr": "Brevet (fin du collège), bac (fin du lycée).",
+  "tr": "Brevet (ortaokul sonu), bac (lise sonu)."
+ },
+ "lesson.vsf.ecole.keys.3": {
+  "fr": "Les deux parents ont l'autorité parentale, sans violence.",
+  "tr": "İki ebeveyn de şiddet olmadan ebeveyn yetkisine sahiptir."
+ },
+ "lesson.vsf.ecole.v.0": {
+  "fr": "l'école maternelle",
+  "tr": "anaokulu"
+ },
+ "lesson.vsf.ecole.v.1": {
+  "fr": "le collège",
+  "tr": "ortaokul"
+ },
+ "lesson.vsf.ecole.v.2": {
+  "fr": "le lycée",
+  "tr": "lise"
+ },
+ "lesson.vsf.ecole.v.3": {
+  "fr": "l'autorité parentale",
+  "tr": "ebeveyn yetkisi"
  }
 }

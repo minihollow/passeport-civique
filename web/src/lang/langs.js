@@ -6,6 +6,7 @@ import { UI } from '../data/i18n.js';
 import { THEMES } from '../data/themes.js';
 import { BADGES, QUESTIONS } from '../lib/quiz.js';
 import { MODELS } from '../lib/ai.js';
+import { LESSONS } from '../lib/lessons.js';
 
 // name: name in the language itself; nameFr: name in French (Coco's instructions are in French);
 // locale: dates and reading voice; dir: 'ltr' or 'rtl'; flag: drawn flag (otherwise the code is shown).
@@ -47,6 +48,7 @@ export function allPairs() {
   walk(BADGES, 'badges', out);
   walk(MODELS, 'models', out);
   for (const q of QUESTIONS) walk({ q: q.q, o: q.o, x: q.x, v: q.v }, `q.${q.id}`, out);
+  for (const l of LESSONS) walk({ intro: l.intro, parts: l.parts, keys: l.keys, v: l.v }, `lesson.${l.t}.${l.s}`, out);
   return out;
 }
 

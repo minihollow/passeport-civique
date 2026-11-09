@@ -6,3 +6,4 @@ web/src/data/questions.json
 *.log
 .DS_Store
 site/
+web/src/data/lessons.json

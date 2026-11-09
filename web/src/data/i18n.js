@@ -45,6 +45,14 @@ const FR = {
   practice_title: 'Choisir un thème',
   practice_all: 'Tout le thème',
   practice_sub_q: 'questions',
+  lesson_read: 'Lire le cours',
+  lesson_read_all: 'Lire tout le cours',
+  lesson_keys: 'À retenir',
+  lesson_words: 'Mots clés',
+  lesson_practice: "M'entraîner sur ce thème",
+  lesson_back: 'Retour aux thèmes',
+  lesson_next: 'Cours suivant',
+  lesson_hint: 'Lisez à votre rythme. Touchez 🔊 pour écouter un paragraphe.',
   start: 'Commencer',
   situations: 'Mises en situation',
 
@@ -216,6 +224,7 @@ const FR = {
 
   ai_ok: 'Coco est prêt.',
   ai_no_ollama: "Ollama n'est pas lancé. Coco ne peut pas répondre.",
+  ai_desktop_only: "Coco fonctionne seulement sur ordinateur, avec Ollama. Sur téléphone ou tablette, il n'est pas disponible : tout le reste de l'application marche.",
   ai_no_model: "Le modèle d'IA n'est pas encore téléchargé.",
   ai_download: 'Télécharger le modèle',
   ai_downloading: 'Téléchargement…',

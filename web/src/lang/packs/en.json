@@ -164,6 +164,38 @@
   "fr": "questions",
   "en": "questions"
  },
+ "ui.lesson_read": {
+  "fr": "Lire le cours",
+  "en": "Read the lesson"
+ },
+ "ui.lesson_read_all": {
+  "fr": "Lire tout le cours",
+  "en": "Read the whole lesson"
+ },
+ "ui.lesson_keys": {
+  "fr": "À retenir",
+  "en": "Key points"
+ },
+ "ui.lesson_words": {
+  "fr": "Mots clés",
+  "en": "Key words"
+ },
+ "ui.lesson_practice": {
+  "fr": "M'entraîner sur ce thème",
+  "en": "Practise this topic"
+ },
+ "ui.lesson_back": {
+  "fr": "Retour aux thèmes",
+  "en": "Back to topics"
+ },
+ "ui.lesson_next": {
+  "fr": "Cours suivant",
+  "en": "Next lesson"
+ },
+ "ui.lesson_hint": {
+  "fr": "Lisez à votre rythme. Touchez 🔊 pour écouter un paragraphe.",
+  "en": "Read at your own pace. Tap 🔊 to listen to a paragraph."
+ },
  "ui.start": {
   "fr": "Commencer",
   "en": "Start"
@@ -819,6 +851,10 @@
  "ui.ai_no_ollama": {
   "fr": "Ollama n'est pas lancé. Coco ne peut pas répondre.",
   "en": "Ollama is not running. Coco cannot answer."
+ },
+ "ui.ai_desktop_only": {
+  "fr": "Coco fonctionne seulement sur ordinateur, avec Ollama. Sur téléphone ou tablette, il n'est pas disponible : tout le reste de l'application marche.",
+  "en": "Coco only works on a computer, with Ollama. It is not available on a phone or tablet: the rest of the app works."
  },
  "ui.ai_no_model": {
   "fr": "Le modèle d'IA n'est pas encore téléchargé.",
@@ -14515,5 +14551,1377 @@
  "q.ms-dd30.v.1": {
   "fr": "démissionner",
   "en": "to resign"
+ },
+ "lesson.pv.symboles.intro": {
+  "fr": "La France est une République. Elle a une devise, des symboles et des valeurs que tout le monde doit connaître et respecter.",
+  "en": "France is a Republic. It has a motto, symbols and values that everyone must know and respect."
+ },
+ "lesson.pv.symboles.parts.0.h": {
+  "fr": "La devise : « Liberté, égalité, fraternité »",
+  "en": "The motto: “Liberty, equality, fraternity”"
+ },
+ "lesson.pv.symboles.parts.0.p.0": {
+  "fr": "La devise vient de la Révolution française. Elle est officielle depuis 1848. On la voit sur les mairies, les écoles, les tribunaux, les pièces de monnaie et les timbres.",
+  "en": "The motto comes from the French Revolution. It has been official since 1848. You can see it on town halls, schools, courts, coins and stamps."
+ },
+ "lesson.pv.symboles.parts.0.p.1": {
+  "fr": "La liberté : on peut faire tout ce qui ne nuit pas aux autres. Ma liberté s'arrête où commence celle des autres.",
+  "en": "Liberty: you can do anything that does not harm others. My freedom ends where the freedom of others begins."
+ },
+ "lesson.pv.symboles.parts.0.p.2": {
+  "fr": "L'égalité : la loi est la même pour tous, quels que soient l'origine, le sexe, la religion ou les opinions. Les femmes et les hommes ont les mêmes droits.",
+  "en": "Equality: the law is the same for everyone, whatever their origin, sex, religion or opinions. Women and men have the same rights."
+ },
+ "lesson.pv.symboles.parts.0.p.3": {
+  "fr": "La fraternité : l'entraide et la solidarité entre tous. Par exemple la Sécurité sociale, ou les associations qui aident les personnes en difficulté.",
+  "en": "Fraternity: mutual help and solidarity between everyone. For example social security, or associations that help people in difficulty."
+ },
+ "lesson.pv.symboles.parts.1.h": {
+  "fr": "Les symboles de la République",
+  "en": "The symbols of the Republic"
+ },
+ "lesson.pv.symboles.parts.1.p.0": {
+  "fr": "L'article 2 de la Constitution cite les symboles officiels : la langue française, le drapeau bleu, blanc, rouge, l'hymne national (la Marseillaise) et la devise.",
+  "en": "Article 2 of the Constitution lists the official symbols: the French language, the blue, white and red flag, the national anthem (the Marseillaise) and the motto."
+ },
+ "lesson.pv.symboles.parts.1.p.1": {
+  "fr": "Le drapeau est tricolore (trois couleurs), en bandes verticales. Le bleu et le rouge sont les couleurs de Paris, le blanc celle du roi.",
+  "en": "The flag is tricolour (three colours), in vertical stripes. Blue and red are the colours of Paris, white is the colour of the king."
+ },
+ "lesson.pv.symboles.parts.1.p.2": {
+  "fr": "La Marseillaise a été écrite en 1792 par Rouget de Lisle, pendant la Révolution. On la chante lors des cérémonies officielles et des matchs de l'équipe de France.",
+  "en": "The Marseillaise was written in 1792 by Rouget de Lisle, during the Revolution. It is sung at official ceremonies and at France team matches."
+ },
+ "lesson.pv.symboles.parts.1.p.3": {
+  "fr": "Marianne est une figure de femme qui représente la République. Son buste est dans les mairies, son visage sur les timbres. Le coq est un symbole traditionnel, mais il n'est pas dans la Constitution.",
+  "en": "Marianne is a female figure who represents the Republic. Her bust is in town halls, her face on stamps. The rooster is a traditional symbol, but it is not in the Constitution."
+ },
+ "lesson.pv.symboles.parts.2.h": {
+  "fr": "La fête nationale : le 14 juillet",
+  "en": "The national day: 14 July"
+ },
+ "lesson.pv.symboles.parts.2.p.0": {
+  "fr": "Le 14 juillet rappelle la prise de la Bastille (14 juillet 1789) et la fête de la Fédération (1790), symbole de l'unité du pays. Il y a un grand défilé militaire sur les Champs-Élysées, à Paris, et des feux d'artifice dans toute la France.",
+  "en": "14 July recalls the storming of the Bastille (14 July 1789) and the Festival of the Federation (1790), a symbol of the country's unity. There is a big military parade on the Champs-Élysées in Paris, and fireworks all over France."
+ },
+ "lesson.pv.symboles.parts.3.h": {
+  "fr": "La langue et la Constitution",
+  "en": "Language and the Constitution"
+ },
+ "lesson.pv.symboles.parts.3.p.0": {
+  "fr": "« La langue de la République est le français. » C'est la langue de l'administration, de la justice et de l'école. Les langues régionales (breton, corse, alsacien…) existent, mais elles ne sont pas officielles.",
+  "en": "“The language of the Republic is French.” It is the language of the administration, the courts and school. Regional languages (Breton, Corsican, Alsatian…) exist, but they are not official."
+ },
+ "lesson.pv.symboles.parts.3.p.1": {
+  "fr": "La Constitution actuelle date du 4 octobre 1958 : c'est la Ve République. La France est une République démocratique : le pouvoir appartient au peuple, qui vote.",
+  "en": "The current Constitution dates from 4 October 1958: this is the Fifth Republic. France is a democratic Republic: power belongs to the people, who vote."
+ },
+ "lesson.pv.symboles.parts.3.p.2": {
+  "fr": "La liberté d'expression permet de dire ce que l'on pense. Mais la loi interdit l'insulte, la diffamation (mentir pour nuire) et l'appel à la haine, même sur Internet.",
+  "en": "Freedom of expression lets you say what you think. But the law forbids insults, defamation (lying to harm someone) and incitement to hatred, even online."
+ },
+ "lesson.pv.symboles.keys.0": {
+  "fr": "Devise : « Liberté, égalité, fraternité », officielle depuis 1848.",
+  "en": "Motto: “Liberty, equality, fraternity”, official since 1848."
+ },
+ "lesson.pv.symboles.keys.1": {
+  "fr": "Symboles officiels : le français, le drapeau bleu-blanc-rouge, la Marseillaise, la devise.",
+  "en": "Official symbols: French, the blue-white-red flag, the Marseillaise, the motto."
+ },
+ "lesson.pv.symboles.keys.2": {
+  "fr": "La Marseillaise : 1792, Rouget de Lisle.",
+  "en": "The Marseillaise: 1792, Rouget de Lisle."
+ },
+ "lesson.pv.symboles.keys.3": {
+  "fr": "Fête nationale : 14 juillet (prise de la Bastille, 1789).",
+  "en": "National day: 14 July (storming of the Bastille, 1789)."
+ },
+ "lesson.pv.symboles.keys.4": {
+  "fr": "Marianne représente la République ; le coq n'est pas un symbole officiel.",
+  "en": "Marianne represents the Republic; the rooster is not an official symbol."
+ },
+ "lesson.pv.symboles.keys.5": {
+  "fr": "Constitution actuelle : 4 octobre 1958 (Ve République).",
+  "en": "Current Constitution: 4 October 1958 (Fifth Republic)."
+ },
+ "lesson.pv.symboles.v.0": {
+  "fr": "la devise",
+  "en": "the motto"
+ },
+ "lesson.pv.symboles.v.1": {
+  "fr": "le drapeau",
+  "en": "the flag"
+ },
+ "lesson.pv.symboles.v.2": {
+  "fr": "l'hymne national",
+  "en": "the national anthem"
+ },
+ "lesson.pv.symboles.v.3": {
+  "fr": "la fête nationale",
+  "en": "the national day"
+ },
+ "lesson.pv.symboles.v.4": {
+  "fr": "la fraternité",
+  "en": "fraternity"
+ },
+ "lesson.pv.laicite.intro": {
+  "fr": "La laïcité est un principe très important en France. Elle protège la liberté de chacun et garantit que l'État reste neutre face aux religions.",
+  "en": "Secularism (laïcité) is a very important principle in France. It protects everyone's freedom and guarantees that the State stays neutral towards religions."
+ },
+ "lesson.pv.laicite.parts.0.h": {
+  "fr": "Ce que veut dire « laïque »",
+  "en": "What “secular” means"
+ },
+ "lesson.pv.laicite.parts.0.p.0": {
+  "fr": "Article 1 de la Constitution : « La France est une République indivisible, laïque, démocratique et sociale. » Laïque veut dire que l'État n'a pas de religion : il est neutre.",
+  "en": "Article 1 of the Constitution: “France is an indivisible, secular, democratic and social Republic.” Secular means the State has no religion: it is neutral."
+ },
+ "lesson.pv.laicite.parts.0.p.1": {
+  "fr": "La loi du 9 décembre 1905 sépare les Églises et l'État. L'État ne reconnaît et ne finance aucune religion. Aucune religion n'est au-dessus de la loi.",
+  "en": "The law of 9 December 1905 separates the Churches and the State. The State recognises and funds no religion. No religion is above the law."
+ },
+ "lesson.pv.laicite.parts.1.h": {
+  "fr": "La liberté de conscience",
+  "en": "Freedom of conscience"
+ },
+ "lesson.pv.laicite.parts.1.p.0": {
+  "fr": "Chacun est libre de croire, de ne pas croire (être athée ou agnostique) ou de changer de religion. On peut pratiquer sa religion, dans le respect de l'ordre public.",
+  "en": "Everyone is free to believe, not to believe (to be an atheist or agnostic) or to change religion. You can practise your religion, while respecting public order."
+ },
+ "lesson.pv.laicite.parts.1.p.1": {
+  "fr": "La religion fait partie de la vie privée. Personne n'a à déclarer sa religion, et elle n'est pas écrite sur les papiers d'identité.",
+  "en": "Religion is part of private life. Nobody has to declare their religion, and it is not written on identity papers."
+ },
+ "lesson.pv.laicite.parts.2.h": {
+  "fr": "Qui doit être neutre ?",
+  "en": "Who must be neutral?"
+ },
+ "lesson.pv.laicite.parts.2.p.0": {
+  "fr": "C'est l'État qui est neutre, pas les citoyens. Les agents du service public (enseignants, employés de mairie…) ne montrent pas leur religion au travail.",
+  "en": "It is the State that is neutral, not citizens. Public service employees (teachers, town hall staff…) do not show their religion at work."
+ },
+ "lesson.pv.laicite.parts.2.p.1": {
+  "fr": "Dans la rue, chacun peut porter un signe religieux. Seule règle : le visage doit rester visible dans l'espace public (loi de 2010).",
+  "en": "In the street, anyone can wear a religious sign. Only rule: the face must remain visible in public spaces (2010 law)."
+ },
+ "lesson.pv.laicite.parts.3.h": {
+  "fr": "La laïcité à l'école",
+  "en": "Secularism at school"
+ },
+ "lesson.pv.laicite.parts.3.p.0": {
+  "fr": "L'école publique est laïque : elle accueille tous les enfants de la même façon. Depuis 2004, les élèves ne peuvent pas porter de signes religieux visibles (voile, kippa, grande croix).",
+  "en": "State school is secular: it welcomes all children in the same way. Since 2004, pupils cannot wear visible religious signs (headscarf, kippah, large cross)."
+ },
+ "lesson.pv.laicite.parts.3.p.1": {
+  "fr": "La religion n'est pas une raison pour manquer l'école ou refuser un cours. L'instruction est obligatoire de 3 à 16 ans.",
+  "en": "Religion is not a reason to miss school or refuse a lesson. Education is compulsory from 3 to 16."
+ },
+ "lesson.pv.laicite.keys.0": {
+  "fr": "Article 1 : la République est « laïque ».",
+  "en": "Article 1: the Republic is “secular”."
+ },
+ "lesson.pv.laicite.keys.1": {
+  "fr": "Loi du 9 décembre 1905 : séparation des Églises et de l'État.",
+  "en": "Law of 9 December 1905: separation of the Churches and the State."
+ },
+ "lesson.pv.laicite.keys.2": {
+  "fr": "On est libre de croire, de ne pas croire ou de changer de religion.",
+  "en": "You are free to believe, not to believe or to change religion."
+ },
+ "lesson.pv.laicite.keys.3": {
+  "fr": "L'État et ses agents sont neutres ; les citoyens sont libres.",
+  "en": "The State and its employees are neutral; citizens are free."
+ },
+ "lesson.pv.laicite.keys.4": {
+  "fr": "École : pas de signes religieux visibles pour les élèves (2004).",
+  "en": "School: no visible religious signs for pupils (2004)."
+ },
+ "lesson.pv.laicite.v.0": {
+  "fr": "laïque",
+  "en": "secular"
+ },
+ "lesson.pv.laicite.v.1": {
+  "fr": "la liberté de conscience",
+  "en": "freedom of conscience"
+ },
+ "lesson.pv.laicite.v.2": {
+  "fr": "neutre",
+  "en": "neutral"
+ },
+ "lesson.pv.laicite.v.3": {
+  "fr": "un signe religieux",
+  "en": "a religious sign"
+ },
+ "lesson.pv.situation.intro": {
+  "fr": "Les questions « mises en situation » décrivent un cas de la vie de tous les jours. Pour bien répondre, il suffit d'appliquer quelques règles simples.",
+  "en": "The “scenario” questions describe an everyday situation. To answer well, you just need to apply a few simple rules."
+ },
+ "lesson.pv.situation.parts.0.h": {
+  "fr": "L'égalité entre les femmes et les hommes",
+  "en": "Equality between women and men"
+ },
+ "lesson.pv.situation.parts.0.p.0": {
+  "fr": "Les femmes et les hommes ont les mêmes droits partout : à l'école, au travail, dans le sport, dans le couple. Depuis 1965, une femme mariée peut travailler et ouvrir un compte en banque sans l'accord de son mari.",
+  "en": "Women and men have the same rights everywhere: at school, at work, in sport, in a couple. Since 1965, a married woman can work and open a bank account without her husband's consent."
+ },
+ "lesson.pv.situation.parts.0.p.1": {
+  "fr": "Chacun choisit librement la personne qu'il épouse. Le mariage forcé est interdit, même à l'étranger. On peut se marier à partir de 18 ans. La femme comme l'homme peut demander le divorce ; la répudiation n'existe pas.",
+  "en": "Everyone freely chooses the person they marry. Forced marriage is forbidden, even abroad. You can marry from 18. Both women and men can ask for divorce; repudiation does not exist."
+ },
+ "lesson.pv.situation.parts.1.h": {
+  "fr": "Le service public et la neutralité",
+  "en": "Public service and neutrality"
+ },
+ "lesson.pv.situation.parts.1.p.0": {
+  "fr": "Le service public est le même pour tous. Un usager ne choisit pas l'agent (médecin, guichetier, enseignant) selon son sexe ou sa religion, sauf urgence ou cas particulier.",
+  "en": "Public service is the same for everyone. A user does not choose the employee (doctor, counter clerk, teacher) by sex or religion, except in an emergency or a special case."
+ },
+ "lesson.pv.situation.parts.1.p.1": {
+  "fr": "À l'école, la mixité est la règle. Le sport, la natation et les sorties pendant les heures de classe sont obligatoires. Étudier l'histoire des religions n'est pas un enseignement religieux.",
+  "en": "At school, mixed classes are the rule. Sport, swimming and outings during school hours are compulsory. Studying the history of religions is not religious teaching."
+ },
+ "lesson.pv.situation.parts.1.p.2": {
+  "fr": "Dans une entreprise privée, la liberté religieuse existe, mais elle ne doit pas gêner le travail, la sécurité ou les autres. Le règlement intérieur peut fixer des règles.",
+  "en": "In a private company, religious freedom exists, but it must not disturb work, safety or others. The internal rules can set limits."
+ },
+ "lesson.pv.situation.parts.2.h": {
+  "fr": "Les discriminations sont punies",
+  "en": "Discrimination is punished"
+ },
+ "lesson.pv.situation.parts.2.p.0": {
+  "fr": "Refuser un emploi, un logement ou un service à cause de l'origine, de la couleur de peau, de la religion, du sexe, d'une grossesse ou de l'orientation sexuelle est une discrimination. C'est un délit.",
+  "en": "Refusing a job, housing or a service because of origin, skin colour, religion, sex, pregnancy or sexual orientation is discrimination. It is an offence."
+ },
+ "lesson.pv.situation.parts.2.p.1": {
+  "fr": "Une insulte raciste ou homophobe est aussi un délit. La victime peut porter plainte à la police ou à la gendarmerie, ou contacter le Défenseur des droits. On ne se fait jamais justice soi-même.",
+  "en": "A racist or homophobic insult is also an offence. The victim can file a complaint with the police or gendarmerie, or contact the Defender of Rights. You never take justice into your own hands."
+ },
+ "lesson.pv.situation.parts.3.h": {
+  "fr": "Respecter les symboles et débattre",
+  "en": "Respecting symbols and debating"
+ },
+ "lesson.pv.situation.parts.3.p.0": {
+  "fr": "On respecte la Marseillaise et le drapeau. Les outrager en public, lors d'un événement officiel, est puni par la loi.",
+  "en": "The Marseillaise and the flag are respected. Insulting them in public, at an official event, is punished by law."
+ },
+ "lesson.pv.situation.parts.3.p.1": {
+  "fr": "En démocratie, on peut critiquer, débattre, créer une association (loi de 1901, même pour un étranger) et manifester pacifiquement. La violence et les menaces sont interdites.",
+  "en": "In a democracy, you can criticise, debate, create an association (1901 law, even as a foreigner) and demonstrate peacefully. Violence and threats are forbidden."
+ },
+ "lesson.pv.situation.keys.0": {
+  "fr": "Femmes et hommes : mêmes droits, partout.",
+  "en": "Women and men: the same rights, everywhere."
+ },
+ "lesson.pv.situation.keys.1": {
+  "fr": "Mariage : libre, à 18 ans minimum ; mariage forcé interdit.",
+  "en": "Marriage: free, from age 18; forced marriage forbidden."
+ },
+ "lesson.pv.situation.keys.2": {
+  "fr": "Service public : on ne choisit pas l'agent selon son sexe ou sa religion.",
+  "en": "Public service: you do not choose the employee by sex or religion."
+ },
+ "lesson.pv.situation.keys.3": {
+  "fr": "Discrimination ou insulte raciste : délit, on peut porter plainte.",
+  "en": "Discrimination or racist insult: an offence, you can file a complaint."
+ },
+ "lesson.pv.situation.keys.4": {
+  "fr": "On ne se fait jamais justice soi-même.",
+  "en": "Never take justice into your own hands."
+ },
+ "lesson.pv.situation.v.0": {
+  "fr": "la discrimination",
+  "en": "discrimination"
+ },
+ "lesson.pv.situation.v.1": {
+  "fr": "la mixité",
+  "en": "mixed classes"
+ },
+ "lesson.pv.situation.v.2": {
+  "fr": "porter plainte",
+  "en": "to file a complaint"
+ },
+ "lesson.pv.situation.v.3": {
+  "fr": "le Défenseur des droits",
+  "en": "the Defender of Rights"
+ },
+ "lesson.sip.democratie.intro": {
+  "fr": "En démocratie, le pouvoir vient du peuple. Les citoyens choisissent leurs représentants par des élections libres.",
+  "en": "In a democracy, power comes from the people. Citizens choose their representatives through free elections."
+ },
+ "lesson.sip.democratie.parts.0.h": {
+  "fr": "Le droit de vote",
+  "en": "The right to vote"
+ },
+ "lesson.sip.democratie.parts.0.p.0": {
+  "fr": "Pour voter, il faut être citoyen français, avoir 18 ans (l'âge de la majorité depuis 1974) et être inscrit sur les listes électorales de sa commune.",
+  "en": "To vote, you must be a French citizen, be 18 (the age of majority since 1974) and be registered on your town's electoral roll."
+ },
+ "lesson.sip.democratie.parts.0.p.1": {
+  "fr": "Le suffrage universel, c'est le vote pour tous les citoyens majeurs, sans condition de richesse ou de sexe. Les femmes votent depuis 1944.",
+  "en": "Universal suffrage means the vote for all adult citizens, regardless of wealth or sex. Women have voted since 1944."
+ },
+ "lesson.sip.democratie.parts.0.p.2": {
+  "fr": "Exception : les citoyens de l'Union européenne qui habitent en France peuvent voter aux élections municipales et européennes.",
+  "en": "Exception: European Union citizens living in France can vote in municipal and European elections."
+ },
+ "lesson.sip.democratie.parts.1.h": {
+  "fr": "Les grandes élections",
+  "en": "The main elections"
+ },
+ "lesson.sip.democratie.parts.1.p.0": {
+  "fr": "Présidentielle : les citoyens élisent directement le président de la République, pour 5 ans (le quinquennat, depuis 2000). Au maximum 2 mandats de suite.",
+  "en": "Presidential: citizens directly elect the President of the Republic, for 5 years (since 2000). At most 2 terms in a row."
+ },
+ "lesson.sip.democratie.parts.1.p.1": {
+  "fr": "Législatives : on élit les 577 députés de l'Assemblée nationale, pour 5 ans, au suffrage universel direct.",
+  "en": "Legislative: the 577 members of the National Assembly are elected for 5 years, by direct universal suffrage."
+ },
+ "lesson.sip.democratie.parts.1.p.2": {
+  "fr": "Sénatoriales : les 348 sénateurs sont élus pour 6 ans par des « grands électeurs » (surtout des élus locaux). La moitié du Sénat change tous les 3 ans.",
+  "en": "Senate: the 348 senators are elected for 6 years by “grand electors” (mostly local elected officials). Half of the Senate is renewed every 3 years."
+ },
+ "lesson.sip.democratie.parts.1.p.3": {
+  "fr": "Municipales : on élit le conseil municipal pour 6 ans. Ensuite, les conseillers élisent le maire.",
+  "en": "Municipal: the town council is elected for 6 years. Then the councillors elect the mayor."
+ },
+ "lesson.sip.democratie.parts.2.h": {
+  "fr": "Le pluralisme",
+  "en": "Pluralism"
+ },
+ "lesson.sip.democratie.parts.2.p.0": {
+  "fr": "La Constitution garantit le pluralisme : plusieurs partis politiques existent librement et présentent des candidats. Depuis 1958, la France vit sous la Ve République.",
+  "en": "The Constitution guarantees pluralism: several political parties exist freely and put forward candidates. Since 1958, France has lived under the Fifth Republic."
+ },
+ "lesson.sip.democratie.keys.0": {
+  "fr": "Voter : être Français, 18 ans, inscrit sur les listes.",
+  "en": "To vote: French, 18, registered on the roll."
+ },
+ "lesson.sip.democratie.keys.1": {
+  "fr": "Femmes : droit de vote depuis 1944.",
+  "en": "Women: right to vote since 1944."
+ },
+ "lesson.sip.democratie.keys.2": {
+  "fr": "Président : 5 ans, élu directement, 2 mandats de suite au maximum.",
+  "en": "President: 5 years, directly elected, at most 2 terms in a row."
+ },
+ "lesson.sip.democratie.keys.3": {
+  "fr": "577 députés (5 ans) ; 348 sénateurs (6 ans).",
+  "en": "577 MPs (5 years); 348 senators (6 years)."
+ },
+ "lesson.sip.democratie.keys.4": {
+  "fr": "Conseil municipal : 6 ans ; il élit le maire.",
+  "en": "Town council: 6 years; it elects the mayor."
+ },
+ "lesson.sip.democratie.v.0": {
+  "fr": "le suffrage universel",
+  "en": "universal suffrage"
+ },
+ "lesson.sip.democratie.v.1": {
+  "fr": "les listes électorales",
+  "en": "the electoral roll"
+ },
+ "lesson.sip.democratie.v.2": {
+  "fr": "un mandat",
+  "en": "a term of office"
+ },
+ "lesson.sip.democratie.v.3": {
+  "fr": "un député",
+  "en": "a member of parliament"
+ },
+ "lesson.sip.organisation.intro": {
+  "fr": "En France, le pouvoir est partagé entre trois pouvoirs séparés. Ainsi, personne n'a tout le pouvoir, et personne n'est au-dessus de la loi.",
+  "en": "In France, power is shared between three separate powers. That way, nobody has all the power, and nobody is above the law."
+ },
+ "lesson.sip.organisation.parts.0.h": {
+  "fr": "Les trois pouvoirs",
+  "en": "The three powers"
+ },
+ "lesson.sip.organisation.parts.0.p.0": {
+  "fr": "Le pouvoir législatif vote les lois. Il appartient au Parlement : l'Assemblée nationale (577 députés) et le Sénat (348 sénateurs). Le Parlement vote aussi le budget et contrôle le Gouvernement.",
+  "en": "The legislative power votes the laws. It belongs to Parliament: the National Assembly (577 MPs) and the Senate (348 senators). Parliament also votes the budget and oversees the Government."
+ },
+ "lesson.sip.organisation.parts.0.p.1": {
+  "fr": "Le pouvoir exécutif fait appliquer les lois et gouverne. Il appartient au président de la République et au Gouvernement (Premier ministre et ministres). Le président nomme le Premier ministre et signe (promulgue) les lois.",
+  "en": "The executive power applies the laws and governs. It belongs to the President of the Republic and the Government (Prime Minister and ministers). The President appoints the Prime Minister and signs (promulgates) the laws."
+ },
+ "lesson.sip.organisation.parts.0.p.2": {
+  "fr": "Le pouvoir judiciaire juge. Les magistrats sont indépendants : les juges jugent, les procureurs défendent l'intérêt de la société. La police enquête et arrête, mais elle ne juge pas.",
+  "en": "The judicial power judges. Magistrates are independent: judges judge, prosecutors defend the interest of society. The police investigate and arrest, but they do not judge."
+ },
+ "lesson.sip.organisation.parts.1.h": {
+  "fr": "L'État de droit",
+  "en": "The rule of law"
+ },
+ "lesson.sip.organisation.parts.1.p.0": {
+  "fr": "La loi s'applique à tous : citoyens, étrangers, élus, ministres, policiers. Si on n'est pas d'accord avec une loi, on peut s'exprimer, manifester ou voter, mais on doit la respecter.",
+  "en": "The law applies to everyone: citizens, foreigners, elected officials, ministers, police officers. If you disagree with a law, you can speak out, demonstrate or vote, but you must respect it."
+ },
+ "lesson.sip.organisation.parts.1.p.1": {
+  "fr": "Seule la justice peut sanctionner. On n'a pas le droit de se faire justice soi-même.",
+  "en": "Only the courts can punish. Nobody has the right to take justice into their own hands."
+ },
+ "lesson.sip.organisation.parts.2.h": {
+  "fr": "Les lieux du pouvoir",
+  "en": "Where power sits"
+ },
+ "lesson.sip.organisation.parts.2.p.0": {
+  "fr": "Le président habite et travaille au palais de l'Élysée, à Paris. Le Premier ministre travaille à l'hôtel Matignon.",
+  "en": "The President lives and works at the Élysée Palace in Paris. The Prime Minister works at the Hôtel Matignon."
+ },
+ "lesson.sip.organisation.parts.3.h": {
+  "fr": "Le territoire : communes, départements, régions",
+  "en": "The territory: towns, departments, regions"
+ },
+ "lesson.sip.organisation.parts.3.p.0": {
+  "fr": "La commune est dirigée par le maire et le conseil municipal. La mairie s'occupe de l'état civil (naissances, mariages) et des écoles primaires.",
+  "en": "The town (commune) is run by the mayor and the town council. The town hall handles civil status (births, marriages) and primary schools."
+ },
+ "lesson.sip.organisation.parts.3.p.1": {
+  "fr": "La France compte 101 départements, dont 5 en outre-mer. Dans chaque département, le préfet représente l'État. Il est nommé par le président et le Gouvernement. C'est à la préfecture qu'on fait les démarches pour les titres de séjour.",
+  "en": "France has 101 departments, 5 of them overseas. In each department, the prefect represents the State. He or she is appointed by the President and the Government. Residence permit procedures are done at the prefecture."
+ },
+ "lesson.sip.organisation.keys.0": {
+  "fr": "Législatif = Parlement (Assemblée nationale + Sénat) : vote les lois.",
+  "en": "Legislative = Parliament (National Assembly + Senate): votes the laws."
+ },
+ "lesson.sip.organisation.keys.1": {
+  "fr": "Exécutif = président + Gouvernement : applique les lois.",
+  "en": "Executive = President + Government: applies the laws."
+ },
+ "lesson.sip.organisation.keys.2": {
+  "fr": "Judiciaire = juges : jugent, de façon indépendante.",
+  "en": "Judicial = judges: judge, independently."
+ },
+ "lesson.sip.organisation.keys.3": {
+  "fr": "Le président nomme le Premier ministre.",
+  "en": "The President appoints the Prime Minister."
+ },
+ "lesson.sip.organisation.keys.4": {
+  "fr": "Élysée = président ; Matignon = Premier ministre.",
+  "en": "Élysée = President; Matignon = Prime Minister."
+ },
+ "lesson.sip.organisation.keys.5": {
+  "fr": "Préfet = l'État dans le département (titres de séjour).",
+  "en": "Prefect = the State in the department (residence permits)."
+ },
+ "lesson.sip.organisation.v.0": {
+  "fr": "le pouvoir législatif",
+  "en": "the legislative power"
+ },
+ "lesson.sip.organisation.v.1": {
+  "fr": "le Gouvernement",
+  "en": "the Government"
+ },
+ "lesson.sip.organisation.v.2": {
+  "fr": "la préfecture",
+  "en": "the prefecture"
+ },
+ "lesson.sip.organisation.v.3": {
+  "fr": "la mairie",
+  "en": "the town hall"
+ },
+ "lesson.sip.europe.intro": {
+  "fr": "La France est un des pays qui ont fondé l'Union européenne. Elle en fait toujours partie, avec 26 autres pays.",
+  "en": "France is one of the countries that founded the European Union. It is still a member, with 26 other countries."
+ },
+ "lesson.sip.europe.parts.0.h": {
+  "fr": "L'histoire de l'Europe unie",
+  "en": "The history of a united Europe"
+ },
+ "lesson.sip.europe.parts.0.p.0": {
+  "fr": "Le 9 mai 1950, Robert Schuman propose d'unir les pays d'Europe. Le 9 mai est devenu la journée de l'Europe.",
+  "en": "On 9 May 1950, Robert Schuman proposed uniting the countries of Europe. 9 May has become Europe Day."
+ },
+ "lesson.sip.europe.parts.0.p.1": {
+  "fr": "En 1957, le traité de Rome crée la CEE avec 6 pays fondateurs : la France, l'Allemagne, l'Italie, la Belgique, les Pays-Bas et le Luxembourg. Elle devient l'Union européenne en 1992 (traité de Maastricht).",
+  "en": "In 1957, the Treaty of Rome created the EEC with 6 founding countries: France, Germany, Italy, Belgium, the Netherlands and Luxembourg. It became the European Union in 1992 (Maastricht Treaty)."
+ },
+ "lesson.sip.europe.parts.1.h": {
+  "fr": "L'Union européenne aujourd'hui",
+  "en": "The European Union today"
+ },
+ "lesson.sip.europe.parts.1.p.0": {
+  "fr": "L'Union européenne compte 27 pays depuis le départ du Royaume-Uni (Brexit, 2020). La Suisse et la Norvège sont en Europe, mais pas dans l'Union.",
+  "en": "The European Union has 27 countries since the United Kingdom left (Brexit, 2020). Switzerland and Norway are in Europe, but not in the Union."
+ },
+ "lesson.sip.europe.parts.1.p.1": {
+  "fr": "Depuis 2002, la monnaie de la France est l'euro (€). Avant, c'était le franc. Le Parlement européen se trouve à Strasbourg.",
+  "en": "Since 2002, France's currency has been the euro (€). Before, it was the franc. The European Parliament sits in Strasbourg."
+ },
+ "lesson.sip.europe.parts.2.h": {
+  "fr": "Les élections européennes",
+  "en": "European elections"
+ },
+ "lesson.sip.europe.parts.2.p.0": {
+  "fr": "Tous les 5 ans, les citoyens des 27 pays élisent directement les députés du Parlement européen. Les dernières ont eu lieu en juin 2024. Pour voter, il faut être citoyen de l'Union, majeur et inscrit sur les listes électorales.",
+  "en": "Every 5 years, citizens of the 27 countries directly elect the members of the European Parliament. The last ones were in June 2024. To vote, you must be an EU citizen, an adult and registered on the electoral roll."
+ },
+ "lesson.sip.europe.keys.0": {
+  "fr": "6 pays fondateurs (1957) : France, Allemagne, Italie, Belgique, Pays-Bas, Luxembourg.",
+  "en": "6 founding countries (1957): France, Germany, Italy, Belgium, Netherlands, Luxembourg."
+ },
+ "lesson.sip.europe.keys.1": {
+  "fr": "27 pays depuis le Brexit (2020).",
+  "en": "27 countries since Brexit (2020)."
+ },
+ "lesson.sip.europe.keys.2": {
+  "fr": "Euro depuis 2002.",
+  "en": "Euro since 2002."
+ },
+ "lesson.sip.europe.keys.3": {
+  "fr": "Journée de l'Europe : 9 mai.",
+  "en": "Europe Day: 9 May."
+ },
+ "lesson.sip.europe.keys.4": {
+  "fr": "Élections européennes : tous les 5 ans.",
+  "en": "European elections: every 5 years."
+ },
+ "lesson.sip.europe.v.0": {
+  "fr": "l'Union européenne",
+  "en": "the European Union"
+ },
+ "lesson.sip.europe.v.1": {
+  "fr": "un pays fondateur",
+  "en": "a founding country"
+ },
+ "lesson.sip.europe.v.2": {
+  "fr": "la monnaie",
+  "en": "the currency"
+ },
+ "lesson.sip.europe.v.3": {
+  "fr": "le Parlement européen",
+  "en": "the European Parliament"
+ },
+ "lesson.dd.fondamentaux.intro": {
+  "fr": "En France, toute personne a des droits fondamentaux, qu'elle soit française ou étrangère. Ils sont écrits dans de grands textes.",
+  "en": "In France, every person has fundamental rights, whether French or foreign. They are written in major texts."
+ },
+ "lesson.dd.fondamentaux.parts.0.h": {
+  "fr": "La Déclaration des droits de l'homme et du citoyen",
+  "en": "The Declaration of the Rights of Man and of the Citizen"
+ },
+ "lesson.dd.fondamentaux.parts.0.p.0": {
+  "fr": "La DDHC a été adoptée le 26 août 1789, pendant la Révolution, quelques semaines après la prise de la Bastille. Son article 1 dit : « Les hommes naissent et demeurent libres et égaux en droits. »",
+  "en": "The Declaration was adopted on 26 August 1789, during the Revolution, a few weeks after the storming of the Bastille. Its article 1 says: “Men are born and remain free and equal in rights.”"
+ },
+ "lesson.dd.fondamentaux.parts.0.p.1": {
+  "fr": "Elle énonce les droits fondamentaux : la liberté, l'égalité, la propriété, la sûreté. Elle fait partie de la Constitution.",
+  "en": "It sets out fundamental rights: liberty, equality, property, security. It is part of the Constitution."
+ },
+ "lesson.dd.fondamentaux.parts.1.h": {
+  "fr": "La Constitution de 1958",
+  "en": "The 1958 Constitution"
+ },
+ "lesson.dd.fondamentaux.parts.1.p.0": {
+  "fr": "La Constitution de la Ve République a été adoptée le 4 octobre 1958. C'est le texte le plus important du pays. Son préambule renvoie à la DDHC de 1789, au préambule de 1946 et à la Charte de l'environnement.",
+  "en": "The Constitution of the Fifth Republic was adopted on 4 October 1958. It is the country's most important text. Its preamble refers to the 1789 Declaration, the 1946 preamble and the Environmental Charter."
+ },
+ "lesson.dd.fondamentaux.parts.2.h": {
+  "fr": "Les libertés de chacun",
+  "en": "Everyone's freedoms"
+ },
+ "lesson.dd.fondamentaux.parts.2.p.0": {
+  "fr": "Liberté d'opinion et d'expression : on peut dire et écrire ses idées, à l'oral, sur papier ou sur Internet. Mais l'insulte, la diffamation et l'appel à la haine sont punis.",
+  "en": "Freedom of opinion and expression: you can say and write your ideas, aloud, on paper or online. But insults, defamation and incitement to hatred are punished."
+ },
+ "lesson.dd.fondamentaux.parts.2.p.1": {
+  "fr": "Liberté de conscience : croire, ne pas croire ou changer de religion. Elle est protégée par la laïcité.",
+  "en": "Freedom of conscience: to believe, not to believe or to change religion. It is protected by secularism."
+ },
+ "lesson.dd.fondamentaux.parts.2.p.2": {
+  "fr": "Droit à la justice : toute personne a droit à un procès équitable et à un avocat. Si elle n'a pas assez d'argent, l'aide juridictionnelle peut payer l'avocat.",
+  "en": "Right to justice: everyone has the right to a fair trial and a lawyer. If they do not have enough money, legal aid can pay the lawyer."
+ },
+ "lesson.dd.fondamentaux.keys.0": {
+  "fr": "DDHC : 26 août 1789.",
+  "en": "Declaration: 26 August 1789."
+ },
+ "lesson.dd.fondamentaux.keys.1": {
+  "fr": "Article 1 : « libres et égaux en droits ».",
+  "en": "Article 1: “free and equal in rights”."
+ },
+ "lesson.dd.fondamentaux.keys.2": {
+  "fr": "Constitution : 4 octobre 1958.",
+  "en": "Constitution: 4 October 1958."
+ },
+ "lesson.dd.fondamentaux.keys.3": {
+  "fr": "Ces droits valent pour tous, Français et étrangers.",
+  "en": "These rights apply to everyone, French and foreign."
+ },
+ "lesson.dd.fondamentaux.keys.4": {
+  "fr": "Droit à un avocat, même sans argent (aide juridictionnelle).",
+  "en": "Right to a lawyer, even without money (legal aid)."
+ },
+ "lesson.dd.fondamentaux.v.0": {
+  "fr": "un droit fondamental",
+  "en": "a fundamental right"
+ },
+ "lesson.dd.fondamentaux.v.1": {
+  "fr": "la sûreté",
+  "en": "security"
+ },
+ "lesson.dd.fondamentaux.v.2": {
+  "fr": "un avocat",
+  "en": "a lawyer"
+ },
+ "lesson.dd.fondamentaux.v.3": {
+  "fr": "un procès",
+  "en": "a trial"
+ },
+ "lesson.dd.obligations.intro": {
+  "fr": "Vivre en France, c'est avoir des droits, mais aussi des devoirs. La loi peut limiter une liberté pour protéger les autres.",
+  "en": "Living in France means having rights, but also duties. The law can limit a freedom to protect others."
+ },
+ "lesson.dd.obligations.parts.0.h": {
+  "fr": "Les devoirs du citoyen",
+  "en": "A citizen's duties"
+ },
+ "lesson.dd.obligations.parts.0.p.0": {
+  "fr": "Les citoyens français ont des droits civiques (voter, être élu, être juré) et des devoirs : respecter la loi, payer ses impôts, participer à la défense du pays.",
+  "en": "French citizens have civic rights (to vote, to be elected, to serve on a jury) and duties: respect the law, pay taxes, take part in the country's defence."
+ },
+ "lesson.dd.obligations.parts.0.p.1": {
+  "fr": "Les libertés ont des limites. Par exemple, la liberté de circuler ne permet pas de rouler trop vite.",
+  "en": "Freedoms have limits. For example, freedom of movement does not allow you to drive too fast."
+ },
+ "lesson.dd.obligations.parts.0.p.2": {
+  "fr": "Il faut porter secours à une personne en danger. Ne rien faire est une infraction : la non-assistance à personne en danger.",
+  "en": "You must help a person in danger. Doing nothing is an offence: failure to assist a person in danger."
+ },
+ "lesson.dd.obligations.parts.1.h": {
+  "fr": "Les infractions et la sécurité",
+  "en": "Offences and safety"
+ },
+ "lesson.dd.obligations.parts.1.p.0": {
+  "fr": "Il y a trois sortes d'infractions : la contravention (la moins grave, comme un excès de vitesse), le délit (vol, fraude) et le crime (le plus grave, comme le meurtre, jugé par la cour d'assises).",
+  "en": "There are three kinds of offences: the minor offence (the least serious, like speeding), the misdemeanour (theft, fraud) and the crime (the most serious, like murder, tried by the assize court)."
+ },
+ "lesson.dd.obligations.parts.1.p.1": {
+  "fr": "Les sanctions peuvent être une amende, un travail d'intérêt général ou la prison. La police (en ville, numéro 17) et la gendarmerie (surtout à la campagne) assurent la sécurité.",
+  "en": "Penalties can be a fine, community service or prison. The police (in towns, number 17) and the gendarmerie (mostly in the countryside) ensure safety."
+ },
+ "lesson.dd.obligations.parts.1.p.2": {
+  "fr": "Une victime de violences appelle le 17 ou le 112 et peut porter plainte. Pour les femmes victimes de violences : le 3919, gratuit et anonyme.",
+  "en": "A victim of violence calls 17 or 112 and can file a complaint. For women who are victims of violence: 3919, free and anonymous."
+ },
+ "lesson.dd.obligations.parts.2.h": {
+  "fr": "Des droits importants de la loi française",
+  "en": "Important rights in French law"
+ },
+ "lesson.dd.obligations.parts.2.p.0": {
+  "fr": "La peine de mort a été abolie en 1981 (loi de Robert Badinter). Depuis 2007, c'est écrit dans la Constitution.",
+  "en": "The death penalty was abolished in 1981 (Robert Badinter's law). Since 2007, it has been written in the Constitution."
+ },
+ "lesson.dd.obligations.parts.2.p.1": {
+  "fr": "L'IVG (interruption volontaire de grossesse) est un droit de la femme, dans un délai fixé par la loi. Personne ne décide à sa place. Depuis 2024, cette liberté est dans la Constitution.",
+  "en": "Abortion is a woman's right, within a time limit set by law. Nobody decides for her. Since 2024, this freedom has been in the Constitution."
+ },
+ "lesson.dd.obligations.parts.2.p.2": {
+  "fr": "On ne peut être marié qu'avec une seule personne : la polygamie est interdite. La femme comme l'homme peut demander le divorce. La traite des êtres humains (travail forcé, esclavage) est un crime grave.",
+  "en": "You can only be married to one person: polygamy is forbidden. Both women and men can ask for divorce. Human trafficking (forced labour, slavery) is a serious crime."
+ },
+ "lesson.dd.obligations.parts.3.h": {
+  "fr": "Protéger l'environnement",
+  "en": "Protecting the environment"
+ },
+ "lesson.dd.obligations.parts.3.p.0": {
+  "fr": "Protéger l'environnement est un devoir (Charte de l'environnement). On trie ses déchets (poubelle jaune pour les emballages, verre à part). Jeter un déchet dans la rue coûte une amende de 135 € ou plus. Les gros objets vont à la déchetterie ; brûler ses déchets dans son jardin est interdit.",
+  "en": "Protecting the environment is a duty (Environmental Charter). You sort your waste (yellow bin for packaging, glass separately). Throwing litter in the street costs a fine of €135 or more. Large items go to the recycling centre; burning waste in your garden is forbidden."
+ },
+ "lesson.dd.obligations.keys.0": {
+  "fr": "Devoirs : respecter la loi, payer ses impôts, porter secours.",
+  "en": "Duties: respect the law, pay taxes, help people in danger."
+ },
+ "lesson.dd.obligations.keys.1": {
+  "fr": "Contravention < délit < crime.",
+  "en": "Minor offence < misdemeanour < crime."
+ },
+ "lesson.dd.obligations.keys.2": {
+  "fr": "Urgences : 17 police, 112 européen, 3919 violences faites aux femmes.",
+  "en": "Emergencies: 17 police, 112 European, 3919 violence against women."
+ },
+ "lesson.dd.obligations.keys.3": {
+  "fr": "Peine de mort abolie en 1981.",
+  "en": "Death penalty abolished in 1981."
+ },
+ "lesson.dd.obligations.keys.4": {
+  "fr": "IVG dans la Constitution depuis 2024 ; polygamie interdite.",
+  "en": "Abortion in the Constitution since 2024; polygamy forbidden."
+ },
+ "lesson.dd.obligations.v.0": {
+  "fr": "une infraction",
+  "en": "an offence"
+ },
+ "lesson.dd.obligations.v.1": {
+  "fr": "une amende",
+  "en": "a fine"
+ },
+ "lesson.dd.obligations.v.2": {
+  "fr": "porter secours",
+  "en": "to help someone in danger"
+ },
+ "lesson.dd.obligations.v.3": {
+  "fr": "les impôts",
+  "en": "taxes"
+ },
+ "lesson.dd.obligations.v.4": {
+  "fr": "trier ses déchets",
+  "en": "to sort your waste"
+ },
+ "lesson.dd.situation.intro": {
+  "fr": "Ces questions décrivent des situations de la vie quotidienne. Le bon réflexe : respecter la loi, protéger les personnes et passer par les bonnes institutions.",
+  "en": "These questions describe everyday situations. The right reflex: respect the law, protect people and go through the right institutions."
+ },
+ "lesson.dd.situation.parts.0.h": {
+  "fr": "Urgences et entraide",
+  "en": "Emergencies and mutual help"
+ },
+ "lesson.dd.situation.parts.0.p.0": {
+  "fr": "Une personne est en danger : on appelle le 15 (SAMU), le 18 (pompiers) ou le 112. Ne rien faire est un délit.",
+  "en": "A person is in danger: you call 15 (ambulance), 18 (fire brigade) or 112. Doing nothing is an offence."
+ },
+ "lesson.dd.situation.parts.0.p.1": {
+  "fr": "Les violences conjugales sont un délit grave. Le 3919 écoute les victimes (gratuit, anonyme). En danger immédiat : le 17. La fraternité, c'est aussi s'inquiéter d'un voisin fragile et alerter les secours ou la mairie.",
+  "en": "Domestic violence is a serious offence. 3919 listens to victims (free, anonymous). In immediate danger: 17. Fraternity also means worrying about a vulnerable neighbour and alerting emergency services or the town hall."
+ },
+ "lesson.dd.situation.parts.1.h": {
+  "fr": "La justice, pas la vengeance",
+  "en": "Justice, not revenge"
+ },
+ "lesson.dd.situation.parts.1.p.0": {
+  "fr": "Un témoin peut alerter et témoigner, mais on ne se fait pas justice soi-même. Toute personne est présumée innocente tant que la justice ne l'a pas jugée coupable.",
+  "en": "A witness can raise the alarm and testify, but you do not take justice into your own hands. Everyone is presumed innocent until a court finds them guilty."
+ },
+ "lesson.dd.situation.parts.1.p.1": {
+  "fr": "Garder un objet trouvé peut être un vol : on le rapporte à la police ou à la mairie. Acheter un objet qu'on sait volé, c'est du recel, un délit. Donner de l'argent à un policier, c'est de la corruption.",
+  "en": "Keeping a found object can be theft: you hand it in to the police or the town hall. Buying an object you know is stolen is receiving stolen goods, an offence. Giving money to a police officer is bribery."
+ },
+ "lesson.dd.situation.parts.1.p.2": {
+  "fr": "Une amende doit être payée. Si on n'est pas d'accord, on la conteste (site de l'ANTAI). Un avis d'impôt qui semble faux : on fait une réclamation, on ne l'ignore pas.",
+  "en": "A fine must be paid. If you disagree, you contest it (ANTAI website). A tax notice that looks wrong: you make a claim, you do not ignore it."
+ },
+ "lesson.dd.situation.parts.2.h": {
+  "fr": "Vie privée et respect",
+  "en": "Privacy and respect"
+ },
+ "lesson.dd.situation.parts.2.p.0": {
+  "fr": "Le domicile est inviolable : même le propriétaire ne peut pas entrer chez son locataire sans accord. Chacun a droit au respect de son image ; un employeur ne peut pas lire les messages personnels d'un salarié.",
+  "en": "The home is inviolable: even the landlord cannot enter the tenant's home without consent. Everyone has the right to respect for their image; an employer cannot read an employee's personal messages."
+ },
+ "lesson.dd.situation.parts.2.p.1": {
+  "fr": "Le tapage nocturne est interdit. On parle d'abord calmement ; si ça continue, on fait appel à un conciliateur ou à la police (17).",
+  "en": "Night-time noise is forbidden. First you talk calmly; if it continues, you call a mediator or the police (17)."
+ },
+ "lesson.dd.situation.parts.2.p.2": {
+  "fr": "Le patient peut consulter son propre dossier médical. Le harcèlement sexuel est un délit : la victime peut alerter son employeur, l'inspection du travail, le Défenseur des droits ou porter plainte.",
+  "en": "Patients can see their own medical file. Sexual harassment is an offence: the victim can alert their employer, the labour inspectorate, the Defender of Rights, or file a complaint."
+ },
+ "lesson.dd.situation.parts.3.h": {
+  "fr": "Papiers, travail, famille",
+  "en": "Papers, work, family"
+ },
+ "lesson.dd.situation.parts.3.p.0": {
+  "fr": "Un étranger doit pouvoir montrer son titre de séjour lors d'un contrôle, et déclarer un changement d'adresse dans les 3 mois (site de l'ANEF). Personne n'a le droit de garder votre passeport : c'est un signe de traite des êtres humains.",
+  "en": "A foreigner must be able to show their residence permit during a check, and declare a change of address within 3 months (ANEF website). Nobody has the right to keep your passport: it is a sign of human trafficking."
+ },
+ "lesson.dd.situation.parts.3.p.1": {
+  "fr": "Le travail non déclaré est interdit et ne protège pas (maladie, retraite, chômage). Utiliser de faux papiers est un délit grave. Conduire sans permis valable aussi ; un permis étranger doit parfois être échangé.",
+  "en": "Undeclared work is forbidden and gives no protection (illness, pension, unemployment). Using false papers is a serious offence. So is driving without a valid licence; a foreign licence sometimes has to be exchanged."
+ },
+ "lesson.dd.situation.parts.3.p.2": {
+  "fr": "Les gifles et fessées sont interdites depuis 2019. Pour les enfants nés depuis 2018, 11 vaccins sont obligatoires. L'école est obligatoire jusqu'à 16 ans, puis la formation jusqu'à 18 ans. Les absences doivent être justifiées.",
+  "en": "Slapping and spanking have been forbidden since 2019. For children born since 2018, 11 vaccines are compulsory. School is compulsory until 16, then training until 18. Absences must be justified."
+ },
+ "lesson.dd.situation.keys.0": {
+  "fr": "Personne en danger : 15, 18 ou 112 ; ne rien faire est un délit.",
+  "en": "Person in danger: 15, 18 or 112; doing nothing is an offence."
+ },
+ "lesson.dd.situation.keys.1": {
+  "fr": "On ne se fait jamais justice soi-même ; présomption d'innocence.",
+  "en": "Never take justice into your own hands; presumption of innocence."
+ },
+ "lesson.dd.situation.keys.2": {
+  "fr": "Objet trouvé : on le rapporte (police, mairie).",
+  "en": "Found object: hand it in (police, town hall)."
+ },
+ "lesson.dd.situation.keys.3": {
+  "fr": "Pas d'accord avec une amende ou un impôt : on conteste, on n'ignore pas.",
+  "en": "Disagree with a fine or tax: contest it, do not ignore it."
+ },
+ "lesson.dd.situation.keys.4": {
+  "fr": "Changement d'adresse : à déclarer dans les 3 mois (ANEF).",
+  "en": "Change of address: declare it within 3 months (ANEF)."
+ },
+ "lesson.dd.situation.keys.5": {
+  "fr": "Aucune violence sur les enfants (loi de 2019).",
+  "en": "No violence against children (2019 law)."
+ },
+ "lesson.dd.situation.v.0": {
+  "fr": "un témoin",
+  "en": "a witness"
+ },
+ "lesson.dd.situation.v.1": {
+  "fr": "le recel",
+  "en": "receiving stolen goods"
+ },
+ "lesson.dd.situation.v.2": {
+  "fr": "contester",
+  "en": "to contest"
+ },
+ "lesson.dd.situation.v.3": {
+  "fr": "le domicile",
+  "en": "the home"
+ },
+ "lesson.dd.situation.v.4": {
+  "fr": "le travail non déclaré",
+  "en": "undeclared work"
+ },
+ "lesson.hgc.histoire.intro": {
+  "fr": "Quelques grandes dates suffisent pour comprendre l'histoire de France : la Révolution, les deux guerres mondiales et la naissance de la Ve République.",
+  "en": "A few key dates are enough to understand French history: the Revolution, the two world wars and the birth of the Fifth Republic."
+ },
+ "lesson.hgc.histoire.parts.0.h": {
+  "fr": "Avant la Révolution",
+  "en": "Before the Revolution"
+ },
+ "lesson.hgc.histoire.parts.0.p.0": {
+  "fr": "Jeanne d'Arc est une héroïne du XVe siècle : pendant la guerre de Cent Ans, elle a combattu les Anglais. Louis XIV, le « Roi-Soleil », a fait construire le château de Versailles.",
+  "en": "Joan of Arc is a 15th-century heroine: during the Hundred Years' War, she fought the English. Louis XIV, the “Sun King”, had the Palace of Versailles built."
+ },
+ "lesson.hgc.histoire.parts.1.h": {
+  "fr": "La Révolution et Napoléon",
+  "en": "The Revolution and Napoleon"
+ },
+ "lesson.hgc.histoire.parts.1.p.0": {
+  "fr": "La Révolution commence en 1789. Le 14 juillet 1789, le peuple de Paris prend la Bastille ; le 26 août, la Déclaration des droits de l'homme est adoptée. La monarchie est abolie en 1792 et le roi Louis XVI est exécuté en 1793.",
+  "en": "The Revolution began in 1789. On 14 July 1789, the people of Paris stormed the Bastille; on 26 August, the Declaration of the Rights of Man was adopted. The monarchy was abolished in 1792 and King Louis XVI was executed in 1793."
+ },
+ "lesson.hgc.histoire.parts.1.p.1": {
+  "fr": "Napoléon Bonaparte devient empereur en 1804. Il crée le Code civil, les lycées et la Légion d'honneur.",
+  "en": "Napoleon Bonaparte became emperor in 1804. He created the Civil Code, the lycées (high schools) and the Legion of Honour."
+ },
+ "lesson.hgc.histoire.parts.2.h": {
+  "fr": "Le XIXe siècle : République, esclavage, école",
+  "en": "The 19th century: Republic, slavery, school"
+ },
+ "lesson.hgc.histoire.parts.2.p.0": {
+  "fr": "La France a eu 5 Républiques : 1792, 1848, 1870, 1946 et 1958 (la Ve, actuelle).",
+  "en": "France has had 5 Republics: 1792, 1848, 1870, 1946 and 1958 (the current Fifth)."
+ },
+ "lesson.hgc.histoire.parts.2.p.1": {
+  "fr": "L'esclavage est aboli en 1794, rétabli par Napoléon en 1802, puis aboli définitivement en 1848 grâce à Victor Schœlcher.",
+  "en": "Slavery was abolished in 1794, brought back by Napoleon in 1802, then abolished for good in 1848 thanks to Victor Schœlcher."
+ },
+ "lesson.hgc.histoire.parts.2.p.2": {
+  "fr": "Avec Jules Ferry, l'école primaire publique devient gratuite (1881), puis laïque et obligatoire (1882).",
+  "en": "With Jules Ferry, state primary school became free (1881), then secular and compulsory (1882)."
+ },
+ "lesson.hgc.histoire.parts.3.h": {
+  "fr": "Les deux guerres mondiales",
+  "en": "The two world wars"
+ },
+ "lesson.hgc.histoire.parts.3.p.0": {
+  "fr": "Première Guerre mondiale (la « Grande Guerre ») : 1914-1918. Environ 1,4 million de soldats français meurent. L'armistice du 11 novembre 1918 met fin aux combats.",
+  "en": "First World War (the “Great War”): 1914-1918. About 1.4 million French soldiers died. The armistice of 11 November 1918 ended the fighting."
+ },
+ "lesson.hgc.histoire.parts.3.p.1": {
+  "fr": "Seconde Guerre mondiale : 1939-1945. La France est occupée par l'Allemagne nazie de 1940 à 1944. Le régime de Vichy collabore et participe à la déportation de près de 76 000 Juifs. Le 8 mai 1945 marque la victoire.",
+  "en": "Second World War: 1939-1945. France was occupied by Nazi Germany from 1940 to 1944. The Vichy regime collaborated and took part in the deportation of nearly 76,000 Jews. 8 May 1945 marks victory."
+ },
+ "lesson.hgc.histoire.parts.4.h": {
+  "fr": "Après 1945",
+  "en": "After 1945"
+ },
+ "lesson.hgc.histoire.parts.4.p.0": {
+  "fr": "La France avait un grand empire colonial (Afrique, Asie). L'Algérie devient indépendante en 1962. En 1957, la France fonde la CEE, future Union européenne.",
+  "en": "France had a large colonial empire (Africa, Asia). Algeria became independent in 1962. In 1957, France founded the EEC, the future European Union."
+ },
+ "lesson.hgc.histoire.parts.4.p.1": {
+  "fr": "En 1958, le général de Gaulle revient au pouvoir. La Constitution du 4 octobre 1958 crée la Ve République. De Gaulle en est le premier président (1959-1969).",
+  "en": "In 1958, General de Gaulle returned to power. The Constitution of 4 October 1958 created the Fifth Republic. De Gaulle was its first president (1959-1969)."
+ },
+ "lesson.hgc.histoire.keys.0": {
+  "fr": "1789 : Révolution, prise de la Bastille (14 juillet).",
+  "en": "1789: Revolution, storming of the Bastille (14 July)."
+ },
+ "lesson.hgc.histoire.keys.1": {
+  "fr": "1804 : Napoléon empereur, Code civil.",
+  "en": "1804: Napoleon emperor, Civil Code."
+ },
+ "lesson.hgc.histoire.keys.2": {
+  "fr": "1848 : abolition définitive de l'esclavage (Schœlcher).",
+  "en": "1848: final abolition of slavery (Schœlcher)."
+ },
+ "lesson.hgc.histoire.keys.3": {
+  "fr": "1881-1882 : école gratuite, laïque, obligatoire (Jules Ferry).",
+  "en": "1881-1882: free, secular, compulsory school (Jules Ferry)."
+ },
+ "lesson.hgc.histoire.keys.4": {
+  "fr": "1914-1918 et 1939-1945 : les deux guerres mondiales.",
+  "en": "1914-1918 and 1939-1945: the two world wars."
+ },
+ "lesson.hgc.histoire.keys.5": {
+  "fr": "1958 : Ve République, de Gaulle.",
+  "en": "1958: Fifth Republic, de Gaulle."
+ },
+ "lesson.hgc.histoire.v.0": {
+  "fr": "la Révolution",
+  "en": "the Revolution"
+ },
+ "lesson.hgc.histoire.v.1": {
+  "fr": "la monarchie",
+  "en": "the monarchy"
+ },
+ "lesson.hgc.histoire.v.2": {
+  "fr": "l'esclavage",
+  "en": "slavery"
+ },
+ "lesson.hgc.histoire.v.3": {
+  "fr": "l'armistice",
+  "en": "the armistice"
+ },
+ "lesson.hgc.histoire.v.4": {
+  "fr": "l'Occupation",
+  "en": "the Occupation"
+ },
+ "lesson.hgc.geo.intro": {
+  "fr": "La France métropolitaine est en Europe de l'Ouest. Elle a aussi des territoires sur d'autres continents : c'est l'outre-mer.",
+  "en": "Metropolitan France is in Western Europe. It also has territories on other continents: overseas France."
+ },
+ "lesson.hgc.geo.parts.0.h": {
+  "fr": "Mers et montagnes",
+  "en": "Seas and mountains"
+ },
+ "lesson.hgc.geo.parts.0.p.0": {
+  "fr": "La France est bordée par la Manche au nord, l'océan Atlantique à l'ouest et la mer Méditerranée au sud (Marseille, Nice, Montpellier). Brest est sur l'Atlantique.",
+  "en": "France is bordered by the English Channel to the north, the Atlantic Ocean to the west and the Mediterranean Sea to the south (Marseille, Nice, Montpellier). Brest is on the Atlantic."
+ },
+ "lesson.hgc.geo.parts.0.p.1": {
+  "fr": "Les Alpes séparent la France de l'Italie ; le mont Blanc (4 805 m) est le plus haut sommet. Les Pyrénées sont entre la France et l'Espagne.",
+  "en": "The Alps separate France from Italy; Mont Blanc (4,805 m) is the highest peak. The Pyrenees lie between France and Spain."
+ },
+ "lesson.hgc.geo.parts.1.h": {
+  "fr": "Fleuves et villes",
+  "en": "Rivers and cities"
+ },
+ "lesson.hgc.geo.parts.1.p.0": {
+  "fr": "Les grands fleuves : la Loire (le plus long), la Seine (qui traverse Paris), la Garonne et le Rhône. Le Rhin marque une partie de la frontière avec l'Allemagne.",
+  "en": "The major rivers: the Loire (the longest), the Seine (which flows through Paris), the Garonne and the Rhône. The Rhine forms part of the border with Germany."
+ },
+ "lesson.hgc.geo.parts.1.p.1": {
+  "fr": "Paris est la capitale et la plus grande ville. Lyon est la 3e ville. Marseille est le premier port, Le Havre un très grand port sur la Manche. Strasbourg, à l'est, accueille le Parlement européen ; Lille est au nord.",
+  "en": "Paris is the capital and the largest city. Lyon is the 3rd city. Marseille is the largest port, Le Havre a very large port on the Channel. Strasbourg, in the east, hosts the European Parliament; Lille is in the north."
+ },
+ "lesson.hgc.geo.parts.2.h": {
+  "fr": "Régions, départements et outre-mer",
+  "en": "Regions, departments and overseas"
+ },
+ "lesson.hgc.geo.parts.2.p.0": {
+  "fr": "Depuis 2016, il y a 13 régions en métropole (18 avec l'outre-mer), par exemple l'Île-de-France ou la Bretagne. La Corse est une île de la Méditerranée ; Napoléon est né à Ajaccio.",
+  "en": "Since 2016, there have been 13 regions in mainland France (18 with overseas), for example Île-de-France or Brittany. Corsica is an island in the Mediterranean; Napoleon was born in Ajaccio."
+ },
+ "lesson.hgc.geo.parts.2.p.1": {
+  "fr": "Les 5 départements d'outre-mer : la Guadeloupe, la Martinique, la Guyane, La Réunion (île de l'océan Indien) et Mayotte.",
+  "en": "The 5 overseas departments: Guadeloupe, Martinique, French Guiana, La Réunion (an island in the Indian Ocean) and Mayotte."
+ },
+ "lesson.hgc.geo.keys.0": {
+  "fr": "Nord : Manche ; ouest : Atlantique ; sud : Méditerranée.",
+  "en": "North: Channel; west: Atlantic; south: Mediterranean."
+ },
+ "lesson.hgc.geo.keys.1": {
+  "fr": "Mont Blanc : 4 805 m, dans les Alpes.",
+  "en": "Mont Blanc: 4,805 m, in the Alps."
+ },
+ "lesson.hgc.geo.keys.2": {
+  "fr": "La Loire est le plus long fleuve ; la Seine traverse Paris.",
+  "en": "The Loire is the longest river; the Seine flows through Paris."
+ },
+ "lesson.hgc.geo.keys.3": {
+  "fr": "13 régions en métropole, 101 départements.",
+  "en": "13 mainland regions, 101 departments."
+ },
+ "lesson.hgc.geo.keys.4": {
+  "fr": "Outre-mer : Guadeloupe, Martinique, Guyane, La Réunion, Mayotte.",
+  "en": "Overseas: Guadeloupe, Martinique, French Guiana, La Réunion, Mayotte."
+ },
+ "lesson.hgc.geo.v.0": {
+  "fr": "un fleuve",
+  "en": "a river"
+ },
+ "lesson.hgc.geo.v.1": {
+  "fr": "la frontière",
+  "en": "the border"
+ },
+ "lesson.hgc.geo.v.2": {
+  "fr": "la capitale",
+  "en": "the capital"
+ },
+ "lesson.hgc.geo.v.3": {
+  "fr": "l'outre-mer",
+  "en": "overseas France"
+ },
+ "lesson.hgc.patrimoine.intro": {
+  "fr": "Le patrimoine, c'est ce que la France a de plus précieux : ses monuments, ses écrivains, ses artistes et ses traditions.",
+  "en": "Heritage is what France holds most precious: its monuments, writers, artists and traditions."
+ },
+ "lesson.hgc.patrimoine.parts.0.h": {
+  "fr": "Monuments",
+  "en": "Monuments"
+ },
+ "lesson.hgc.patrimoine.parts.0.p.0": {
+  "fr": "La tour Eiffel, à Paris, a été construite par Gustave Eiffel pour l'Exposition universelle de 1889. Le Louvre, ancien palais des rois, est le musée le plus visité du monde : on y voit « La Joconde » de Léonard de Vinci.",
+  "en": "The Eiffel Tower, in Paris, was built by Gustave Eiffel for the 1889 World's Fair. The Louvre, a former royal palace, is the most visited museum in the world: it houses Leonardo da Vinci's “Mona Lisa”."
+ },
+ "lesson.hgc.patrimoine.parts.1.h": {
+  "fr": "Écrivains",
+  "en": "Writers"
+ },
+ "lesson.hgc.patrimoine.parts.1.p.0": {
+  "fr": "XVIIe siècle : Molière, auteur de comédies (on dit « la langue de Molière » pour le français), et Jean de La Fontaine, auteur des fables (« Le Corbeau et le Renard »).",
+  "en": "17th century: Molière, author of comedies (French is called “the language of Molière”), and Jean de La Fontaine, author of the fables (“The Crow and the Fox”)."
+ },
+ "lesson.hgc.patrimoine.parts.1.p.1": {
+  "fr": "XIXe siècle : Victor Hugo (« Les Misérables », « Notre-Dame de Paris »), le poète Charles Baudelaire (« Les Fleurs du mal ») et George Sand, qui a pris un nom d'homme pour publier.",
+  "en": "19th century: Victor Hugo (“Les Misérables”, “The Hunchback of Notre-Dame”), the poet Charles Baudelaire (“The Flowers of Evil”) and George Sand, who took a man's name to publish."
+ },
+ "lesson.hgc.patrimoine.parts.1.p.2": {
+  "fr": "XXe siècle : Simone de Beauvoir (« Le Deuxième Sexe », 1949, pour les droits des femmes) et Albert Camus, né en Algérie (« L'Étranger », prix Nobel 1957).",
+  "en": "20th century: Simone de Beauvoir (“The Second Sex”, 1949, for women's rights) and Albert Camus, born in Algeria (“The Stranger”, Nobel Prize 1957)."
+ },
+ "lesson.hgc.patrimoine.parts.2.h": {
+  "fr": "Artistes",
+  "en": "Artists"
+ },
+ "lesson.hgc.patrimoine.parts.2.p.0": {
+  "fr": "Paul Cézanne a peint la montagne Sainte-Victoire en Provence. Marc Chagall, d'origine russe, a peint le plafond de l'Opéra Garnier.",
+  "en": "Paul Cézanne painted the Sainte-Victoire mountain in Provence. Marc Chagall, of Russian origin, painted the ceiling of the Opéra Garnier."
+ },
+ "lesson.hgc.patrimoine.parts.2.p.1": {
+  "fr": "Édith Piaf est une chanteuse très célèbre (« La Vie en rose »). Joséphine Baker, née aux États-Unis puis française, a aidé la Résistance et lutté contre le racisme ; elle est entrée au Panthéon en 2021.",
+  "en": "Édith Piaf is a very famous singer (“La Vie en rose”). Joséphine Baker, born in the United States and later French, helped the Resistance and fought racism; she entered the Panthéon in 2021."
+ },
+ "lesson.hgc.patrimoine.parts.3.h": {
+  "fr": "Traditions",
+  "en": "Traditions"
+ },
+ "lesson.hgc.patrimoine.parts.3.p.0": {
+  "fr": "Noël, le 25 décembre, est une fête d'origine chrétienne devenue une fête familiale pour beaucoup de Français. C'est un jour férié, comme le 14 juillet.",
+  "en": "Christmas, on 25 December, is a festival of Christian origin that has become a family celebration for many French people. It is a public holiday, like 14 July."
+ },
+ "lesson.hgc.patrimoine.keys.0": {
+  "fr": "Tour Eiffel : 1889 ; Louvre : « La Joconde ».",
+  "en": "Eiffel Tower: 1889; Louvre: “Mona Lisa”."
+ },
+ "lesson.hgc.patrimoine.keys.1": {
+  "fr": "Molière et La Fontaine : XVIIe siècle.",
+  "en": "Molière and La Fontaine: 17th century."
+ },
+ "lesson.hgc.patrimoine.keys.2": {
+  "fr": "Victor Hugo : « Les Misérables ».",
+  "en": "Victor Hugo: “Les Misérables”."
+ },
+ "lesson.hgc.patrimoine.keys.3": {
+  "fr": "Simone de Beauvoir et George Sand : droits des femmes.",
+  "en": "Simone de Beauvoir and George Sand: women's rights."
+ },
+ "lesson.hgc.patrimoine.keys.4": {
+  "fr": "Joséphine Baker : Résistance, Panthéon en 2021.",
+  "en": "Joséphine Baker: Resistance, Panthéon in 2021."
+ },
+ "lesson.hgc.patrimoine.v.0": {
+  "fr": "le patrimoine",
+  "en": "heritage"
+ },
+ "lesson.hgc.patrimoine.v.1": {
+  "fr": "un écrivain",
+  "en": "a writer"
+ },
+ "lesson.hgc.patrimoine.v.2": {
+  "fr": "un peintre",
+  "en": "a painter"
+ },
+ "lesson.hgc.patrimoine.v.3": {
+  "fr": "un jour férié",
+  "en": "a public holiday"
+ },
+ "lesson.vsf.installer.intro": {
+  "fr": "Quelques règles et numéros utiles pour bien vivre au quotidien en France.",
+  "en": "A few rules and useful numbers for everyday life in France."
+ },
+ "lesson.vsf.installer.parts.0.h": {
+  "fr": "Les numéros d'urgence",
+  "en": "Emergency numbers"
+ },
+ "lesson.vsf.installer.parts.0.p.0": {
+  "fr": "15 : SAMU (urgence médicale). 17 : police. 18 : pompiers (incendie, accident, blessés). 112 : numéro d'urgence européen. 114 : par SMS, pour les personnes sourdes ou qui ne peuvent pas parler.",
+  "en": "15: SAMU (medical emergency). 17: police. 18: fire brigade (fire, accident, injured people). 112: European emergency number. 114: by text message, for people who are deaf or cannot speak."
+ },
+ "lesson.vsf.installer.parts.0.p.1": {
+  "fr": "Ces numéros sont gratuits et répondent jour et nuit, même sans crédit sur le téléphone.",
+  "en": "These numbers are free and answer day and night, even with no credit on the phone."
+ },
+ "lesson.vsf.installer.parts.1.h": {
+  "fr": "L'état civil à la mairie",
+  "en": "Civil status at the town hall"
+ },
+ "lesson.vsf.installer.parts.1.p.0": {
+  "fr": "Seul le mariage civil, à la mairie, est reconnu par la loi. Les deux époux doivent avoir 18 ans et être d'accord librement. Le mariage religieux ne peut avoir lieu qu'après.",
+  "en": "Only civil marriage, at the town hall, is recognised by law. Both spouses must be 18 and freely agree. A religious wedding can only take place afterwards."
+ },
+ "lesson.vsf.installer.parts.1.p.1": {
+  "fr": "La naissance d'un enfant doit être déclarée à la mairie du lieu de naissance dans les 5 jours.",
+  "en": "A child's birth must be declared at the town hall of the place of birth within 5 days."
+ },
+ "lesson.vsf.installer.parts.2.h": {
+  "fr": "Voiture et adresse",
+  "en": "Car and address"
+ },
+ "lesson.vsf.installer.parts.2.p.0": {
+  "fr": "L'assurance auto est obligatoire pour toute voiture qui roule. Conduire sans assurance est un délit.",
+  "en": "Car insurance is compulsory for every car on the road. Driving without insurance is an offence."
+ },
+ "lesson.vsf.installer.parts.2.p.1": {
+  "fr": "Un étranger qui déménage doit déclarer sa nouvelle adresse dans les 3 mois, en ligne sur le site de l'ANEF.",
+  "en": "A foreigner who moves must declare the new address within 3 months, online on the ANEF website."
+ },
+ "lesson.vsf.installer.keys.0": {
+  "fr": "15 SAMU, 17 police, 18 pompiers, 112 européen, 114 par SMS.",
+  "en": "15 ambulance, 17 police, 18 fire brigade, 112 European, 114 by text."
+ },
+ "lesson.vsf.installer.keys.1": {
+  "fr": "Mariage civil à la mairie d'abord, à 18 ans, librement.",
+  "en": "Civil marriage at the town hall first, at 18, freely."
+ },
+ "lesson.vsf.installer.keys.2": {
+  "fr": "Naissance : déclarée dans les 5 jours.",
+  "en": "Birth: declared within 5 days."
+ },
+ "lesson.vsf.installer.keys.3": {
+  "fr": "Assurance auto obligatoire.",
+  "en": "Car insurance compulsory."
+ },
+ "lesson.vsf.installer.v.0": {
+  "fr": "les pompiers",
+  "en": "the fire brigade"
+ },
+ "lesson.vsf.installer.v.1": {
+  "fr": "l'état civil",
+  "en": "civil status"
+ },
+ "lesson.vsf.installer.v.2": {
+  "fr": "un époux, une épouse",
+  "en": "a spouse"
+ },
+ "lesson.vsf.installer.v.3": {
+  "fr": "l'assurance",
+  "en": "insurance"
+ },
+ "lesson.vsf.soins.intro": {
+  "fr": "En France, toute personne qui vit ou travaille de façon stable et régulière peut se faire soigner et être remboursée.",
+  "en": "In France, anyone who lives or works there on a stable and regular basis can get medical care and be reimbursed."
+ },
+ "lesson.vsf.soins.parts.0.h": {
+  "fr": "L'Assurance maladie et la mutuelle",
+  "en": "Health insurance and top-up insurance"
+ },
+ "lesson.vsf.soins.parts.0.p.0": {
+  "fr": "L'Assurance maladie (la « Sécu », la CPAM) rembourse une partie des frais de santé. C'est la protection universelle maladie (PUMa).",
+  "en": "Health insurance (the “Sécu”, the CPAM) reimburses part of healthcare costs. This is universal health protection (PUMa)."
+ },
+ "lesson.vsf.soins.parts.0.p.1": {
+  "fr": "La mutuelle (complémentaire santé) paie une partie ou tout le reste. Elle n'est pas obligatoire, mais recommandée.",
+  "en": "The mutuelle (top-up health insurance) pays part or all of the rest. It is not compulsory, but recommended."
+ },
+ "lesson.vsf.soins.parts.0.p.2": {
+  "fr": "La carte Vitale est la carte verte de l'Assurance maladie. On la donne au médecin ou au pharmacien : le remboursement est automatique.",
+  "en": "The carte Vitale is the green health insurance card. You give it to the doctor or pharmacist: reimbursement is automatic."
+ },
+ "lesson.vsf.soins.parts.1.h": {
+  "fr": "Le médecin traitant",
+  "en": "The regular doctor"
+ },
+ "lesson.vsf.soins.parts.1.p.0": {
+  "fr": "Pour un problème courant, on va d'abord chez son médecin traitant (un généraliste). Il suit la santé, les vaccins, et envoie vers un spécialiste si nécessaire. On le déclare à l'Assurance maladie pour être mieux remboursé.",
+  "en": "For an everyday problem, you first see your regular doctor (a GP). They follow your health and vaccines, and refer you to a specialist if needed. You register them with health insurance to be better reimbursed."
+ },
+ "lesson.vsf.soins.parts.2.h": {
+  "fr": "Urgences et vaccins",
+  "en": "Emergencies and vaccines"
+ },
+ "lesson.vsf.soins.parts.2.p.0": {
+  "fr": "Les urgences de l'hôpital sont pour les cas graves. Pour une urgence vitale, on appelle le 15. Pour un petit problème : le médecin ou la pharmacie.",
+  "en": "Hospital emergency departments are for serious cases. For a life-threatening emergency, you call 15. For a small problem: the doctor or the pharmacy."
+ },
+ "lesson.vsf.soins.parts.2.p.1": {
+  "fr": "Les vaccins protègent la personne et les autres. Certains sont obligatoires pour les enfants, par exemple pour aller à la crèche ou à l'école.",
+  "en": "Vaccines protect the person and others. Some are compulsory for children, for example to attend nursery or school."
+ },
+ "lesson.vsf.soins.keys.0": {
+  "fr": "Assurance maladie (Sécu) + mutuelle = remboursement.",
+  "en": "Health insurance (Sécu) + mutuelle = reimbursement."
+ },
+ "lesson.vsf.soins.keys.1": {
+  "fr": "Carte Vitale : la carte verte, à donner au médecin.",
+  "en": "Carte Vitale: the green card you give to the doctor."
+ },
+ "lesson.vsf.soins.keys.2": {
+  "fr": "D'abord le médecin traitant ; les urgences pour les cas graves.",
+  "en": "First the regular doctor; emergencies for serious cases."
+ },
+ "lesson.vsf.soins.keys.3": {
+  "fr": "Urgence vitale : 15.",
+  "en": "Life-threatening emergency: 15."
+ },
+ "lesson.vsf.soins.v.0": {
+  "fr": "le médecin traitant",
+  "en": "the regular doctor"
+ },
+ "lesson.vsf.soins.v.1": {
+  "fr": "la mutuelle",
+  "en": "top-up health insurance"
+ },
+ "lesson.vsf.soins.v.2": {
+  "fr": "rembourser",
+  "en": "to reimburse"
+ },
+ "lesson.vsf.soins.v.3": {
+  "fr": "un vaccin",
+  "en": "a vaccine"
+ },
+ "lesson.vsf.travail.intro": {
+  "fr": "Travailler en France, c'est avoir des droits protégés par la loi : un salaire minimum, une durée de travail et l'égalité.",
+  "en": "Working in France means having rights protected by law: a minimum wage, working hours and equality."
+ },
+ "lesson.vsf.travail.parts.0.h": {
+  "fr": "Salaire et durée du travail",
+  "en": "Pay and working hours"
+ },
+ "lesson.vsf.travail.parts.0.p.0": {
+  "fr": "Le SMIC est le salaire minimum légal : aucun salarié ne peut être payé moins. Les femmes et les hommes doivent avoir le même salaire pour le même travail.",
+  "en": "The SMIC is the legal minimum wage: no employee can be paid less. Women and men must get the same pay for the same work."
+ },
+ "lesson.vsf.travail.parts.0.p.1": {
+  "fr": "La durée légale du travail à temps plein est de 35 heures par semaine. Au-delà, ce sont des heures supplémentaires, payées en plus.",
+  "en": "The legal full-time working week is 35 hours. Beyond that, it is overtime, paid extra."
+ },
+ "lesson.vsf.travail.parts.1.h": {
+  "fr": "Le travail déclaré",
+  "en": "Declared work"
+ },
+ "lesson.vsf.travail.parts.1.p.0": {
+  "fr": "Le travail « au noir » (non déclaré) est interdit. Le salarié n'a alors aucune protection : pas de maladie, de retraite ni de chômage. L'inspection du travail peut l'aider.",
+  "en": "Undeclared (“off the books”) work is forbidden. The employee then has no protection: no sick pay, pension or unemployment benefit. The labour inspectorate can help."
+ },
+ "lesson.vsf.travail.parts.2.h": {
+  "fr": "Chercher un emploi",
+  "en": "Looking for a job"
+ },
+ "lesson.vsf.travail.parts.2.p.0": {
+  "fr": "On s'inscrit à France Travail (ex-Pôle emploi). Un conseiller aide à trouver un emploi ou une formation, et verse les allocations chômage.",
+  "en": "You register with France Travail (formerly Pôle emploi). An adviser helps you find a job or training, and pays unemployment benefits."
+ },
+ "lesson.vsf.travail.parts.2.p.1": {
+  "fr": "On peut créer une entreprise sans être français, si son titre de séjour le permet. On peut travailler dès 16 ans avec l'accord des parents.",
+  "en": "You can start a business without being French, if your residence permit allows it. You can work from 16 with your parents' consent."
+ },
+ "lesson.vsf.travail.parts.2.p.2": {
+  "fr": "Depuis 1965, une femme mariée peut travailler et ouvrir un compte bancaire sans l'accord de son mari.",
+  "en": "Since 1965, a married woman can work and open a bank account without her husband's consent."
+ },
+ "lesson.vsf.travail.keys.0": {
+  "fr": "SMIC = salaire minimum légal.",
+  "en": "SMIC = legal minimum wage."
+ },
+ "lesson.vsf.travail.keys.1": {
+  "fr": "35 heures par semaine ; au-delà, heures supplémentaires.",
+  "en": "35 hours a week; beyond that, overtime."
+ },
+ "lesson.vsf.travail.keys.2": {
+  "fr": "Travail au noir interdit, sans protection.",
+  "en": "Undeclared work forbidden, no protection."
+ },
+ "lesson.vsf.travail.keys.3": {
+  "fr": "Chercher un emploi : France Travail.",
+  "en": "Job search: France Travail."
+ },
+ "lesson.vsf.travail.v.0": {
+  "fr": "le salaire",
+  "en": "pay"
+ },
+ "lesson.vsf.travail.v.1": {
+  "fr": "un salarié",
+  "en": "an employee"
+ },
+ "lesson.vsf.travail.v.2": {
+  "fr": "le chômage",
+  "en": "unemployment"
+ },
+ "lesson.vsf.travail.v.3": {
+  "fr": "les heures supplémentaires",
+  "en": "overtime"
+ },
+ "lesson.vsf.ecole.intro": {
+  "fr": "En France, l'école est un droit et une obligation pour tous les enfants, quelle que soit leur nationalité.",
+  "en": "In France, school is a right and an obligation for all children, whatever their nationality."
+ },
+ "lesson.vsf.ecole.parts.0.h": {
+  "fr": "L'instruction obligatoire",
+  "en": "Compulsory education"
+ },
+ "lesson.vsf.ecole.parts.0.p.0": {
+  "fr": "L'instruction est obligatoire de 3 à 16 ans pour tous les enfants qui habitent en France. De 16 à 18 ans, les jeunes doivent continuer une formation : études, apprentissage, service civique ou emploi.",
+  "en": "Education is compulsory from 3 to 16 for all children living in France. From 16 to 18, young people must continue some training: studies, apprenticeship, civic service or a job."
+ },
+ "lesson.vsf.ecole.parts.0.p.1": {
+  "fr": "L'élève doit aller à tous les cours. Les parents justifient chaque absence (maladie, par exemple). Les enfants qui parlent une autre langue ont des cours de français adaptés (UPE2A).",
+  "en": "Pupils must attend all lessons. Parents justify every absence (illness, for example). Children who speak another language get adapted French lessons (UPE2A)."
+ },
+ "lesson.vsf.ecole.parts.1.h": {
+  "fr": "Le parcours scolaire",
+  "en": "The school path"
+ },
+ "lesson.vsf.ecole.parts.1.p.0": {
+  "fr": "École maternelle (3-6 ans), école élémentaire (6-11 ans), collège (11-15 ans), puis lycée (15-18 ans). À la fin du collège, on passe le brevet ; à la fin du lycée, le baccalauréat (le « bac »), qui permet d'aller à l'université.",
+  "en": "Nursery school (3-6), primary school (6-11), collège/middle school (11-15), then lycée/high school (15-18). At the end of collège you take the brevet; at the end of lycée, the baccalauréat (the “bac”), which gives access to university."
+ },
+ "lesson.vsf.ecole.parts.2.h": {
+  "fr": "L'autorité parentale",
+  "en": "Parental authority"
+ },
+ "lesson.vsf.ecole.parts.2.p.0": {
+  "fr": "Les deux parents ont l'autorité parentale : ils protègent l'enfant (sécurité, santé), l'éduquent et l'envoient à l'école. Toute violence, même « éducative », est interdite.",
+  "en": "Both parents have parental authority: they protect the child (safety, health), raise them and send them to school. All violence, even “for discipline”, is forbidden."
+ },
+ "lesson.vsf.ecole.keys.0": {
+  "fr": "Instruction obligatoire de 3 à 16 ans ; formation jusqu'à 18 ans.",
+  "en": "Compulsory education from 3 to 16; training until 18."
+ },
+ "lesson.vsf.ecole.keys.1": {
+  "fr": "Maternelle, élémentaire, collège, lycée.",
+  "en": "Nursery, primary, collège, lycée."
+ },
+ "lesson.vsf.ecole.keys.2": {
+  "fr": "Brevet (fin du collège), bac (fin du lycée).",
+  "en": "Brevet (end of collège), bac (end of lycée)."
+ },
+ "lesson.vsf.ecole.keys.3": {
+  "fr": "Les deux parents ont l'autorité parentale, sans violence.",
+  "en": "Both parents have parental authority, without violence."
+ },
+ "lesson.vsf.ecole.v.0": {
+  "fr": "l'école maternelle",
+  "en": "nursery school"
+ },
+ "lesson.vsf.ecole.v.1": {
+  "fr": "le collège",
+  "en": "middle school"
+ },
+ "lesson.vsf.ecole.v.2": {
+  "fr": "le lycée",
+  "en": "high school"
+ },
+ "lesson.vsf.ecole.v.3": {
+  "fr": "l'autorité parentale",
+  "en": "parental authority"
  }
 }
